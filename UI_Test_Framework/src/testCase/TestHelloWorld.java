@@ -3,12 +3,15 @@ package testCase;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
+import core.WebTestListener;
 
+@Listeners(WebTestListener.class)
 public class TestHelloWorld {
 	@Test
 	public void Test() throws InterruptedException {
-		System.out.println("test0");
+		System.out.println("软件测试软件测试");
 	}
 
 	@Test

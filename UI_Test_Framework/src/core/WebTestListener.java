@@ -22,7 +22,6 @@ public class WebTestListener extends TestListenerAdapter {
 	public WebTestListener() {
 		super();
 	}
-	
 	private String writeResultToMailTemplate()
 	{
 		ITestNGMethod method[]=this.getAllTestMethods();
@@ -98,11 +97,11 @@ public class WebTestListener extends TestListenerAdapter {
 			//return;
 		}
 		try {
-			if(pro.getPropertyValue("enable_email").equals("true"))
+			if(pro.getFreeMarkerPropertyValue("enable_email").equals("true"))
 			{
 				String emailContent=this.writeResultToMailTemplate();
-				String emailTitle=pro.getPropertyValue("mail_title")+"----"+this.getTime();
-				String toMail=pro.getPropertyValue("to_mail");
+				String emailTitle=pro.getFreeMarkerPropertyValue("mail_title")+"----"+this.getTime();
+				String toMail=pro.getFreeMarkerPropertyValue("to_mail");
 				try {
 					if(this.getFailedTests()!=null&&this.getFailedTests().size()>0)
 					{
@@ -110,8 +109,8 @@ public class WebTestListener extends TestListenerAdapter {
 						Log.info("email send to "+toMail+" success");
 					}else
 					{
-						MailUtil.sendEmail(pro.getPropertyValue("success_to_mail"),emailTitle, emailContent);
-						Log.info("email send to "+pro.getPropertyValue("success_to_mail")+" success");
+						MailUtil.sendEmail(pro.getFreeMarkerPropertyValue("success_to_mail"),emailTitle, emailContent);
+						Log.info("email send to "+pro.getFreeMarkerPropertyValue("success_to_mail")+" success");
 					}
 				} catch (UnsupportedEncodingException e) {
 					// TODO Auto-generated catch block

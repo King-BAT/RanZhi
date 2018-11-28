@@ -12,12 +12,14 @@ import javax.mail.Transport;
 import javax.mail.internet.InternetAddress;
 import javax.mail.internet.MimeMessage;
 
+import org.testng.annotations.Test;
+
 public class MailUtil {
 	static int port = 25;
 
     static String server = "smtp.yeah.net";
 
-    static String from = "李焕贞";
+    static String from = "sunliying666";
 
     static String user = "sunliying666@yeah.net";
     static String password = "sunliying666";
@@ -60,8 +62,8 @@ public class MailUtil {
             e.printStackTrace();
         }
     }
-    public static void main(String args[]) throws UnsupportedEncodingException
-    {
+    @Test
+    public void testMailUtil() throws UnsupportedEncodingException{
     	
     	MailUtil.sendEmail("736624557@qq.com", "ceshi", "ce");
 //		if(System.getProperty("os.name").contains("w"))
