@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="testFB"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="46.705">
+  <properties />
+  
+  
+            <testcase name="AouncementDelete" time="46.705" classname="fengBin.AnnouncementTest" />
+      
+</testsuite>

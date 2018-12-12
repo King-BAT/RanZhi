@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="testZFY"
+           tests="6"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="486.074">
+  <properties />
+  
+  
+            <testcase name="testOA_public_notice" time="39.459" classname="testCase.ZfyRanZhiTest" />
+                <testcase name="testOA_PN_click" time="106.742" classname="testCase.ZfyRanZhiTest" />
+                <testcase name="testOA_dayoff_overtime" time="42.154" classname="testCase.ZfyRanZhiTest" />
+                <testcase name="testOA_apply_reimbursement" time="82.166" classname="testCase.ZfyRanZhiTest" />
+                <testcase name="testOA_add_block" time="24.984" classname="testCase.ZfyRanZhiTest" />
+                <testcase name="testOA_add_blocks" time="190.569" classname="testCase.ZfyRanZhiTest" />
+      
+</testsuite>

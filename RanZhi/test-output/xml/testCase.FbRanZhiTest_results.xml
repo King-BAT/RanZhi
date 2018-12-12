@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="testFB"
+           tests="9"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="376.738">
+  <properties />
+  
+  
+            <testcase name="ReturnCard" time="40.668" classname="testCase.FbRanZhiTest" />
+                <testcase name="SearchBk" time="42.987" classname="testCase.FbRanZhiTest" />
+                <testcase name="LoginRanZhi" time="46.914" classname="testCase.FbRanZhiTest" />
+                <testcase name="CustomDo" time="80.163" classname="testCase.FbRanZhiTest" />
+                <testcase name="ContactTry" time="42.220" classname="testCase.FbRanZhiTest" />
+                <testcase name="Top" time="40.681" classname="testCase.FbRanZhiTest" />
+                <testcase name="AddDepartment" time="32.642" classname="testCase.FbRanZhiTest" />
+                <testcase name="AouncementDelete" time="28.958" classname="testCase.FbRanZhiTest" />
+                <testcase name="SwitchThemeTest" time="21.505" classname="testCase.FbRanZhiTest" />
+      
+</testsuite>

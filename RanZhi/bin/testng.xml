@@ -1,0 +1,41 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="ranzhi" verbose="1">
+	<listeners>
+		<!-- testng的XML配置文件中添加这些内容 -->
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener
+			class-name="org.uncommons.reportng.JUnitXMLReporter" />
+		<listener class-name="core.WebTestListener"></listener>
+	</listeners>
+	<test name="testSLY">
+		<classes>
+			<class name="testCase.SlyRanZhiTest"></class>
+		</classes>
+	</test>
+	<test name="testYKJ">
+		<classes>
+			<class name="testCase.YkjRanZhiTest"></class>
+		</classes>
+	</test>
+	<test name="testFB">
+		<classes>
+			<class name="testCase.FbRanZhiTest"></class>
+		</classes>
+	</test>
+	<test name="testZFY">
+		<classes>
+			<class name="testCase.ZfyRanZhiTest"></class>
+		</classes>
+	</test>
+	<test name="testDLY">
+		<classes>
+			<class name="testCase.DlxRanZhiTest"></class>
+		</classes>
+	</test>
+	<test name="sendMail">
+		<classes>
+			<class name="sendMail.SendRecentReportMail"></class>
+		</classes>
+	</test>
+</suite>

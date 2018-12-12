@@ -1,0 +1,1283 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 4 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-ranzhi" class="navigator-link">
+              <span class="suite-name border-failed">ranzhi</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-ranzhi" class="navigator-link ">
+                    <span>F:\JavaEE-Program\RanZhi\src\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-ranzhi" class="navigator-link ">
+                    <span class="test-stats">6 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-ranzhi" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-ranzhi" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-ranzhi" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-ranzhi" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-ranzhi" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">40 methods, 4 failed,   36 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-ranzhi" class="hide-methods failed suite-ranzhi"> (hide)</a> <!-- hide-methods failed suite-ranzhi -->
+                      <a href="#" panel-name="suite-ranzhi" class="show-methods failed suite-ranzhi"> (show)</a> <!-- show-methods failed suite-ranzhi -->
+                    </span>
+                    <div class="method-list-content failed suite-ranzhi">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ranzhi" title="testCase.DlxRanZhiTest" class="method navigator-link" hash-for-method="ceshi8">ceshi8</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ranzhi" title="testCase.YkjRanZhiTest" class="method navigator-link" hash-for-method="changeTheme">changeTheme</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ranzhi" title="testCase.YkjRanZhiTest" class="method navigator-link" hash-for-method="signBackFunction">signBackFunction</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ranzhi" title="testCase.YkjRanZhiTest" class="method navigator-link" hash-for-method="uploadPhoto">uploadPhoto</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-ranzhi -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-ranzhi" class="hide-methods passed suite-ranzhi"> (hide)</a> <!-- hide-methods passed suite-ranzhi -->
+                      <a href="#" panel-name="suite-ranzhi" class="show-methods passed suite-ranzhi"> (show)</a> <!-- show-methods passed suite-ranzhi -->
+                    </span>
+                    <div class="method-list-content passed suite-ranzhi">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ranzhi" title="testCase.FbRanZhiTest" class="method navigator-link" hash-for-method="AddDepartment">AddDepartment</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ranzhi" title="testCase.FbRanZhiTest" class="method navigator-link" hash-for-method="AouncementDelete">AouncementDelete</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ranzhi" title="testCase.FbRanZhiTest" class="method navigator-link" hash-for-method="ContactTry">ContactTry</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ranzhi" title="testCase.FbRanZhiTest" class="method navigator-link" hash-for-method="CustomDo">CustomDo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ranzhi" title="testCase.FbRanZhiTest" class="method navigator-link" hash-for-method="LoginRanZhi">LoginRanZhi</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ranzhi" title="testCase.FbRanZhiTest" class="method navigator-link" hash-for-method="ReturnCard">ReturnCard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ranzhi" title="testCase.FbRanZhiTest" class="method navigator-link" hash-for-method="SearchBk">SearchBk</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ranzhi" title="sendMail.SendRecentReportMail" class="method navigator-link" hash-for-method="SendReport">SendReport</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ranzhi" title="testCase.FbRanZhiTest" class="method navigator-link" hash-for-method="SwitchThemeTest">SwitchThemeTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ranzhi" title="testCase.FbRanZhiTest" class="method navigator-link" hash-for-method="Top">Top</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ranzhi" title="testCase.DlxRanZhiTest" class="method navigator-link" hash-for-method="ceshi1">ceshi1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ranzhi" title="testCase.DlxRanZhiTest" class="method navigator-link" hash-for-method="ceshi2">ceshi2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ranzhi" title="testCase.DlxRanZhiTest" class="method navigator-link" hash-for-method="ceshi4">ceshi4</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ranzhi" title="testCase.DlxRanZhiTest" class="method navigator-link" hash-for-method="ceshi5">ceshi5</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ranzhi" title="testCase.DlxRanZhiTest" class="method navigator-link" hash-for-method="ceshi6">ceshi6</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ranzhi" title="testCase.DlxRanZhiTest" class="method navigator-link" hash-for-method="ceshi7">ceshi7</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ranzhi" title="testCase.YkjRanZhiTest" class="method navigator-link" hash-for-method="changeFontFunction">changeFontFunction</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ranzhi" title="testCase.SlyRanZhiTest" class="method navigator-link" hash-for-method="chongzhi">chongzhi</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ranzhi" title="testCase.YkjRanZhiTest" class="method navigator-link" hash-for-method="exitFunction">exitFunction</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ranzhi" title="testCase.YkjRanZhiTest" class="method navigator-link" hash-for-method="functionJumpFunction">functionJumpFunction</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ranzhi" title="testCase.DlxRanZhiTest" class="method navigator-link" hash-for-method="qianTui">qianTui</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ranzhi" title="testCase.SlyRanZhiTest" class="method navigator-link" hash-for-method="returnDesk">returnDesk</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ranzhi" title="testCase.YkjRanZhiTest" class="method navigator-link" hash-for-method="showDeskFunction">showDeskFunction</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ranzhi" title="testCase.YkjRanZhiTest" class="method navigator-link" hash-for-method="successLogin">successLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ranzhi" title="testCase.SlyRanZhiTest" class="method navigator-link" hash-for-method="testAddGroup">testAddGroup</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ranzhi" title="testCase.SlyRanZhiTest" class="method navigator-link" hash-for-method="testAllApps">testAllApps</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ranzhi" title="testCase.SlyRanZhiTest" class="method navigator-link" hash-for-method="testDisLeftShow">testDisLeftShow</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ranzhi" title="testCase.ZfyRanZhiTest" class="method navigator-link" hash-for-method="testOA_PN_click">testOA_PN_click</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ranzhi" title="testCase.ZfyRanZhiTest" class="method navigator-link" hash-for-method="testOA_add_block">testOA_add_block</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ranzhi" title="testCase.ZfyRanZhiTest" class="method navigator-link" hash-for-method="testOA_add_blocks">testOA_add_blocks</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ranzhi" title="testCase.ZfyRanZhiTest" class="method navigator-link" hash-for-method="testOA_apply_reimbursement">testOA_apply_reimbursement</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ranzhi" title="testCase.ZfyRanZhiTest" class="method navigator-link" hash-for-method="testOA_dayoff_overtime">testOA_dayoff_overtime</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ranzhi" title="testCase.ZfyRanZhiTest" class="method navigator-link" hash-for-method="testOA_public_notice">testOA_public_notice</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ranzhi" title="testCase.SlyRanZhiTest" class="method navigator-link" hash-for-method="testTurnTo">testTurnTo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ranzhi" title="testCase.SlyRanZhiTest" class="method navigator-link" hash-for-method="testsave">testsave</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ranzhi" title="testCase.SlyRanZhiTest" class="method navigator-link" hash-for-method="testsearch">testsearch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-ranzhi -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-ranzhi" class="panel ranzhi">
+          <div class="suite-ranzhi-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testCase.YkjRanZhiTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="changeTheme">
+                  </a> <!-- changeTheme -->
+                  <span class="method-name">changeTheme</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: #start
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T16:15:40.131Z&apos;
+System info: host: &apos;DESKTOP-MQRFOO8&apos;, ip: &apos;10.7.90.210&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;9.0.4&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\孙立莹\AppData\Local\Temp\rust_mozprofile.25OT5PSSE3GH, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0, platformVersion=10.0, moz:processID=13344, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: e9e6f336-5c75-4a42-bd43-8fd2f39c93c9
+*** Element info: {Using=id, value=start}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:402)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
+	at pageObject.YkjExitaPage.getAdmin(YkjExitaPage.java:18)
+	at appModules.YkjExit_Action.themeChosen(YkjExit_Action.java:42)
+	at testCase.YkjRanZhiTest.changeTheme(YkjRanZhiTest.java:80)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="signBackFunction">
+                  </a> <!-- signBackFunction -->
+                  <span class="method-name">signBackFunction</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: 签退
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T16:15:40.131Z&apos;
+System info: host: &apos;DESKTOP-MQRFOO8&apos;, ip: &apos;10.7.90.210&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;9.0.4&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\孙立莹\AppData\Local\Temp\rust_mozprofile.25OT5PSSE3GH, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0, platformVersion=10.0, moz:processID=13344, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: e9e6f336-5c75-4a42-bd43-8fd2f39c93c9
+*** Element info: {Using=link text, value=签退}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:410)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:246)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
+	at pageObject.YkjExitaPage.getAddExit(YkjExitaPage.java:28)
+	at appModules.YkjExit_Action.addexit(YkjExit_Action.java:22)
+	at testCase.YkjRanZhiTest.signBackFunction(YkjRanZhiTest.java:86)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="uploadPhoto">
+                  </a> <!-- uploadPhoto -->
+                  <span class="method-name">uploadPhoto</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: #start
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T16:15:40.131Z&apos;
+System info: host: &apos;DESKTOP-MQRFOO8&apos;, ip: &apos;10.7.90.210&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;9.0.4&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\孙立莹\AppData\Local\Temp\rust_mozprofile.25OT5PSSE3GH, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0, platformVersion=10.0, moz:processID=13344, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: e9e6f336-5c75-4a42-bd43-8fd2f39c93c9
+*** Element info: {Using=id, value=start}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:402)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
+	at pageObject.YkjExitaPage.getAdmin(YkjExitaPage.java:18)
+	at appModules.YkjExit_Action.EditPhoto(YkjExit_Action.java:100)
+	at testCase.YkjRanZhiTest.uploadPhoto(YkjRanZhiTest.java:73)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ranzhi-class-failed -->
+          <div class="suite-ranzhi-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testCase.DlxRanZhiTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ceshi8">
+                  </a> <!-- ceshi8 -->
+                  <span class="method-name">ceshi8</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementNotInteractableException: 
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T16:15:40.131Z&apos;
+System info: host: &apos;DESKTOP-MQRFOO8&apos;, ip: &apos;10.7.90.210&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;9.0.4&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\孙立莹\AppData\Local\Temp\rust_mozprofile.xlSt5eNw9Ejd, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0, platformVersion=10.0, moz:processID=5212, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: bc1c46eb-a8d7-4946-a37d-b509eea13047
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at testCase.DlxRanZhiTest.ceshi8(DlxRanZhiTest.java:128)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ranzhi-class-failed -->
+          <div class="suite-ranzhi-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCase.SlyRanZhiTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="chongzhi">
+                  </a> <!-- chongzhi -->
+                  <span class="method-name">chongzhi</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="returnDesk">
+                  </a> <!-- returnDesk -->
+                  <span class="method-name">returnDesk</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddGroup">
+                  </a> <!-- testAddGroup -->
+                  <span class="method-name">testAddGroup</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAllApps">
+                  </a> <!-- testAllApps -->
+                  <span class="method-name">testAllApps</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDisLeftShow">
+                  </a> <!-- testDisLeftShow -->
+                  <span class="method-name">testDisLeftShow</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTurnTo">
+                  </a> <!-- testTurnTo -->
+                  <span class="method-name">testTurnTo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testsave">
+                  </a> <!-- testsave -->
+                  <span class="method-name">testsave</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testsearch">
+                  </a> <!-- testsearch -->
+                  <span class="method-name">testsearch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ranzhi-class-passed -->
+          <div class="suite-ranzhi-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCase.FbRanZhiTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddDepartment">
+                  </a> <!-- AddDepartment -->
+                  <span class="method-name">AddDepartment</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="AouncementDelete">
+                  </a> <!-- AouncementDelete -->
+                  <span class="method-name">AouncementDelete</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ContactTry">
+                  </a> <!-- ContactTry -->
+                  <span class="method-name">ContactTry</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CustomDo">
+                  </a> <!-- CustomDo -->
+                  <span class="method-name">CustomDo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginRanZhi">
+                  </a> <!-- LoginRanZhi -->
+                  <span class="method-name">LoginRanZhi</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ReturnCard">
+                  </a> <!-- ReturnCard -->
+                  <span class="method-name">ReturnCard</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SearchBk">
+                  </a> <!-- SearchBk -->
+                  <span class="method-name">SearchBk</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SwitchThemeTest">
+                  </a> <!-- SwitchThemeTest -->
+                  <span class="method-name">SwitchThemeTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Top">
+                  </a> <!-- Top -->
+                  <span class="method-name">Top</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ranzhi-class-passed -->
+          <div class="suite-ranzhi-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCase.ZfyRanZhiTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testOA_PN_click">
+                  </a> <!-- testOA_PN_click -->
+                  <span class="method-name">testOA_PN_click</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testOA_add_block">
+                  </a> <!-- testOA_add_block -->
+                  <span class="method-name">testOA_add_block</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testOA_add_blocks">
+                  </a> <!-- testOA_add_blocks -->
+                  <span class="method-name">testOA_add_blocks</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testOA_apply_reimbursement">
+                  </a> <!-- testOA_apply_reimbursement -->
+                  <span class="method-name">testOA_apply_reimbursement</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testOA_dayoff_overtime">
+                  </a> <!-- testOA_dayoff_overtime -->
+                  <span class="method-name">testOA_dayoff_overtime</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testOA_public_notice">
+                  </a> <!-- testOA_public_notice -->
+                  <span class="method-name">testOA_public_notice</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ranzhi-class-passed -->
+          <div class="suite-ranzhi-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCase.YkjRanZhiTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="changeFontFunction">
+                  </a> <!-- changeFontFunction -->
+                  <span class="method-name">changeFontFunction</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="exitFunction">
+                  </a> <!-- exitFunction -->
+                  <span class="method-name">exitFunction</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="functionJumpFunction">
+                  </a> <!-- functionJumpFunction -->
+                  <span class="method-name">functionJumpFunction</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="showDeskFunction">
+                  </a> <!-- showDeskFunction -->
+                  <span class="method-name">showDeskFunction</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="successLogin">
+                  </a> <!-- successLogin -->
+                  <span class="method-name">successLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ranzhi-class-passed -->
+          <div class="suite-ranzhi-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCase.DlxRanZhiTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ceshi1">
+                  </a> <!-- ceshi1 -->
+                  <span class="method-name">ceshi1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ceshi2">
+                  </a> <!-- ceshi2 -->
+                  <span class="method-name">ceshi2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ceshi4">
+                  </a> <!-- ceshi4 -->
+                  <span class="method-name">ceshi4</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ceshi5">
+                  </a> <!-- ceshi5 -->
+                  <span class="method-name">ceshi5</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ceshi6">
+                  </a> <!-- ceshi6 -->
+                  <span class="method-name">ceshi6</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ceshi7">
+                  </a> <!-- ceshi7 -->
+                  <span class="method-name">ceshi7</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="qianTui">
+                  </a> <!-- qianTui -->
+                  <span class="method-name">qianTui</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ranzhi-class-passed -->
+          <div class="suite-ranzhi-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">sendMail.SendRecentReportMail</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="SendReport">
+                  </a> <!-- SendReport -->
+                  <span class="method-name">SendReport</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ranzhi-class-passed -->
+        </div> <!-- panel ranzhi -->
+        <div panel-name="test-xml-ranzhi" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">F:\JavaEE-Program\RanZhi\src\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;ranzhi&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.HTMLReporter&quot;/&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.JUnitXMLReporter&quot;/&gt;
+    &lt;listener class-name=&quot;core.WebTestListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;testSLY&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testCase.SlyRanZhiTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- testSLY --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;testYKJ&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testCase.YkjRanZhiTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- testYKJ --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;testFB&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testCase.FbRanZhiTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- testFB --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;testZFY&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testCase.ZfyRanZhiTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- testZFY --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;testDLY&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testCase.DlxRanZhiTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- testDLY --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;sendMail&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;sendMail.SendRecentReportMail&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- sendMail --&gt;
+&lt;/suite&gt; &lt;!-- ranzhi --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-ranzhi" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for ranzhi</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">testSLY (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">testYKJ (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">testFB (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">testZFY (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">testDLY (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">sendMail (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-ranzhi" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for ranzhi</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-ranzhi" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for ranzhi</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_ranzhi');
+function tableData_ranzhi() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(40);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testOA_add_blocks')
+data.setCell(0, 2, 'testCase.ZfyRanZhiTest')
+data.setCell(0, 3, 190569);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testOA_PN_click')
+data.setCell(1, 2, 'testCase.ZfyRanZhiTest')
+data.setCell(1, 3, 106742);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testOA_apply_reimbursement')
+data.setCell(2, 2, 'testCase.ZfyRanZhiTest')
+data.setCell(2, 3, 82166);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'CustomDo')
+data.setCell(3, 2, 'testCase.FbRanZhiTest')
+data.setCell(3, 3, 80163);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'LoginRanZhi')
+data.setCell(4, 2, 'testCase.FbRanZhiTest')
+data.setCell(4, 3, 46914);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'SearchBk')
+data.setCell(5, 2, 'testCase.FbRanZhiTest')
+data.setCell(5, 3, 42987);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'ContactTry')
+data.setCell(6, 2, 'testCase.FbRanZhiTest')
+data.setCell(6, 3, 42220);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testOA_dayoff_overtime')
+data.setCell(7, 2, 'testCase.ZfyRanZhiTest')
+data.setCell(7, 3, 42154);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'Top')
+data.setCell(8, 2, 'testCase.FbRanZhiTest')
+data.setCell(8, 3, 40681);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'ReturnCard')
+data.setCell(9, 2, 'testCase.FbRanZhiTest')
+data.setCell(9, 3, 40668);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testOA_public_notice')
+data.setCell(10, 2, 'testCase.ZfyRanZhiTest')
+data.setCell(10, 3, 39459);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'AddDepartment')
+data.setCell(11, 2, 'testCase.FbRanZhiTest')
+data.setCell(11, 3, 32642);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'AouncementDelete')
+data.setCell(12, 2, 'testCase.FbRanZhiTest')
+data.setCell(12, 3, 28958);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'functionJumpFunction')
+data.setCell(13, 2, 'testCase.YkjRanZhiTest')
+data.setCell(13, 3, 26722);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testOA_add_block')
+data.setCell(14, 2, 'testCase.ZfyRanZhiTest')
+data.setCell(14, 3, 24984);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'changeFontFunction')
+data.setCell(15, 2, 'testCase.YkjRanZhiTest')
+data.setCell(15, 3, 24278);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'SwitchThemeTest')
+data.setCell(16, 2, 'testCase.FbRanZhiTest')
+data.setCell(16, 3, 21505);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'ceshi1')
+data.setCell(17, 2, 'testCase.DlxRanZhiTest')
+data.setCell(17, 3, 15582);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'exitFunction')
+data.setCell(18, 2, 'testCase.YkjRanZhiTest')
+data.setCell(18, 3, 15549);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'ceshi2')
+data.setCell(19, 2, 'testCase.DlxRanZhiTest')
+data.setCell(19, 3, 14935);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'qianTui')
+data.setCell(20, 2, 'testCase.DlxRanZhiTest')
+data.setCell(20, 3, 13724);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'ceshi5')
+data.setCell(21, 2, 'testCase.DlxRanZhiTest')
+data.setCell(21, 3, 12052);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'testsearch')
+data.setCell(22, 2, 'testCase.SlyRanZhiTest')
+data.setCell(22, 3, 11296);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'successLogin')
+data.setCell(23, 2, 'testCase.YkjRanZhiTest')
+data.setCell(23, 3, 10619);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'testAllApps')
+data.setCell(24, 2, 'testCase.SlyRanZhiTest')
+data.setCell(24, 3, 10276);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'testsave')
+data.setCell(25, 2, 'testCase.SlyRanZhiTest')
+data.setCell(25, 3, 9549);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'testAddGroup')
+data.setCell(26, 2, 'testCase.SlyRanZhiTest')
+data.setCell(26, 3, 9337);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'showDeskFunction')
+data.setCell(27, 2, 'testCase.YkjRanZhiTest')
+data.setCell(27, 3, 8699);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'chongzhi')
+data.setCell(28, 2, 'testCase.SlyRanZhiTest')
+data.setCell(28, 3, 7920);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'ceshi8')
+data.setCell(29, 2, 'testCase.DlxRanZhiTest')
+data.setCell(29, 3, 7091);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'returnDesk')
+data.setCell(30, 2, 'testCase.SlyRanZhiTest')
+data.setCell(30, 3, 6635);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'ceshi6')
+data.setCell(31, 2, 'testCase.DlxRanZhiTest')
+data.setCell(31, 3, 6605);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'testTurnTo')
+data.setCell(32, 2, 'testCase.SlyRanZhiTest')
+data.setCell(32, 3, 5495);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'uploadPhoto')
+data.setCell(33, 2, 'testCase.YkjRanZhiTest')
+data.setCell(33, 3, 5108);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'signBackFunction')
+data.setCell(34, 2, 'testCase.YkjRanZhiTest')
+data.setCell(34, 3, 5022);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'changeTheme')
+data.setCell(35, 2, 'testCase.YkjRanZhiTest')
+data.setCell(35, 3, 5018);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'ceshi4')
+data.setCell(36, 2, 'testCase.DlxRanZhiTest')
+data.setCell(36, 3, 4597);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'testDisLeftShow')
+data.setCell(37, 2, 'testCase.SlyRanZhiTest')
+data.setCell(37, 3, 2538);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'ceshi7')
+data.setCell(38, 2, 'testCase.DlxRanZhiTest')
+data.setCell(38, 3, 2352);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'SendReport')
+data.setCell(39, 2, 'sendMail.SendRecentReportMail')
+data.setCell(39, 3, 832);
+window.suiteTableData['ranzhi']= { tableData: data, tableDiv: 'times-div-ranzhi'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 18 minutes</span>
+              <div id="times-div-ranzhi">
+              </div> <!-- times-div-ranzhi -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-ranzhi" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for ranzhi</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-ranzhi" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-ranzhi" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCase.SlyRanZhiTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">loginSuccess</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">returnDesk</span>
+                <span class="method-start">7179 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">chongzhi</span>
+                <span class="method-start">13821 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testsave</span>
+                <span class="method-start">21743 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testsearch</span>
+                <span class="method-start">31294 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testAllApps</span>
+                <span class="method-start">42593 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testTurnTo</span>
+                <span class="method-start">52872 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testDisLeftShow</span>
+                <span class="method-start">58371 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testAddGroup</span>
+                <span class="method-start">60910 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCase.YkjRanZhiTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">openbrowser</span>
+                <span class="method-start">71470 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">successLogin</span>
+                <span class="method-start">76804 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">openbrowser</span>
+                <span class="method-start">87427 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">functionJumpFunction</span>
+                <span class="method-start">102220 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">openbrowser</span>
+                <span class="method-start">128947 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">showDeskFunction</span>
+                <span class="method-start">142668 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">openbrowser</span>
+                <span class="method-start">151369 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">exitFunction</span>
+                <span class="method-start">162931 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">openbrowser</span>
+                <span class="method-start">178486 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">uploadPhoto</span>
+                <span class="method-start">184607 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">openbrowser</span>
+                <span class="method-start">189749 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">changeTheme</span>
+                <span class="method-start">194970 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">openbrowser</span>
+                <span class="method-start">199991 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">signBackFunction</span>
+                <span class="method-start">205113 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">openbrowser</span>
+                <span class="method-start">210138 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">changeFontFunction</span>
+                <span class="method-start">215077 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCase.FbRanZhiTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">doBeforeClass</span>
+                <span class="method-start">239898 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">AouncementDelete</span>
+                <span class="method-start">250344 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">LoginRanZhi</span>
+                <span class="method-start">279304 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ContactTry</span>
+                <span class="method-start">326219 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CustomDo</span>
+                <span class="method-start">368446 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">AddDepartment</span>
+                <span class="method-start">448612 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ReturnCard</span>
+                <span class="method-start">481255 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">SearchBk</span>
+                <span class="method-start">521925 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">SwitchThemeTest</span>
+                <span class="method-start">564913 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Top</span>
+                <span class="method-start">586420 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCase.ZfyRanZhiTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">loginSuccess</span>
+                <span class="method-start">628540 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testOA_add_block</span>
+                <span class="method-start">643986 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testOA_add_blocks</span>
+                <span class="method-start">668980 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testOA_public_notice</span>
+                <span class="method-start">859553 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testOA_dayoff_overtime</span>
+                <span class="method-start">899015 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testOA_PN_click</span>
+                <span class="method-start">941172 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testOA_apply_reimbursement</span>
+                <span class="method-start">1047918 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">close</span>
+                <span class="method-start">1130097 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCase.DlxRanZhiTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">doBeforeClass</span>
+                <span class="method-start">1132057 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">ceshi1</span>
+                <span class="method-start">1144655 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ceshi2</span>
+                <span class="method-start">1160238 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ceshi4</span>
+                <span class="method-start">1175175 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ceshi5</span>
+                <span class="method-start">1179773 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ceshi6</span>
+                <span class="method-start">1191826 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ceshi7</span>
+                <span class="method-start">1198432 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ceshi8</span>
+                <span class="method-start">1200786 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">qianTui</span>
+                <span class="method-start">1207890 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">sendMail.SendRecentReportMail</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">SendReport</span>
+                <span class="method-start">1222916 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="40" passed="36" failed="4" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2018-12-12T06:08:55Z" name="ranzhi" finished-at="2018-12-12T06:29:19Z" duration-ms="1223795">
+    <groups>
+    </groups>
+    <test started-at="2018-12-12T06:08:55Z" name="testSLY" finished-at="2018-12-12T06:10:06Z" duration-ms="70296">
+      <class name="testCase.SlyRanZhiTest">
+        <test-method is-config="true" signature="loginSuccess()[pri:0, instance:testCase.SlyRanZhiTest@363f0ba0]" started-at="2018-12-12T06:08:55Z" name="loginSuccess" finished-at="2018-12-12T06:09:03Z" duration-ms="7173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSuccess -->
+        <test-method signature="returnDesk()[pri:0, instance:testCase.SlyRanZhiTest@363f0ba0]" started-at="2018-12-12T06:09:03Z" name="returnDesk" finished-at="2018-12-12T06:09:09Z" duration-ms="6635" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- returnDesk -->
+        <test-method signature="chongzhi()[pri:1, instance:testCase.SlyRanZhiTest@363f0ba0]" started-at="2018-12-12T06:09:09Z" name="chongzhi" finished-at="2018-12-12T06:09:17Z" duration-ms="7920" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chongzhi -->
+        <test-method signature="testsave()[pri:2, instance:testCase.SlyRanZhiTest@363f0ba0]" started-at="2018-12-12T06:09:17Z" name="testsave" finished-at="2018-12-12T06:09:27Z" duration-ms="9549" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testsave -->
+        <test-method signature="testsearch()[pri:3, instance:testCase.SlyRanZhiTest@363f0ba0]" started-at="2018-12-12T06:09:27Z" name="testsearch" finished-at="2018-12-12T06:09:38Z" duration-ms="11296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testsearch -->
+        <test-method signature="testAllApps()[pri:4, instance:testCase.SlyRanZhiTest@363f0ba0]" started-at="2018-12-12T06:09:38Z" name="testAllApps" finished-at="2018-12-12T06:09:48Z" duration-ms="10276" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAllApps -->
+        <test-method signature="testTurnTo()[pri:5, instance:testCase.SlyRanZhiTest@363f0ba0]" started-at="2018-12-12T06:09:48Z" name="testTurnTo" finished-at="2018-12-12T06:09:54Z" duration-ms="5495" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTurnTo -->
+        <test-method signature="testDisLeftShow()[pri:6, instance:testCase.SlyRanZhiTest@363f0ba0]" started-at="2018-12-12T06:09:54Z" name="testDisLeftShow" finished-at="2018-12-12T06:09:56Z" duration-ms="2538" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDisLeftShow -->
+        <test-method signature="testAddGroup()[pri:7, instance:testCase.SlyRanZhiTest@363f0ba0]" started-at="2018-12-12T06:09:56Z" name="testAddGroup" finished-at="2018-12-12T06:10:06Z" duration-ms="9337" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddGroup -->
+      </class> <!-- testCase.SlyRanZhiTest -->
+    </test> <!-- testSLY -->
+    <test started-at="2018-12-12T06:10:07Z" name="testYKJ" finished-at="2018-12-12T06:12:55Z" duration-ms="167891">
+      <class name="testCase.YkjRanZhiTest">
+        <test-method is-config="true" signature="openbrowser()[pri:0, instance:testCase.YkjRanZhiTest@4f4c789f]" started-at="2018-12-12T06:10:07Z" name="openbrowser" finished-at="2018-12-12T06:10:12Z" duration-ms="5334" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbrowser -->
+        <test-method signature="successLogin()[pri:1, instance:testCase.YkjRanZhiTest@4f4c789f]" started-at="2018-12-12T06:10:12Z" name="successLogin" finished-at="2018-12-12T06:10:23Z" duration-ms="10619" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- successLogin -->
+        <test-method is-config="true" signature="openbrowser()[pri:0, instance:testCase.YkjRanZhiTest@4f4c789f]" started-at="2018-12-12T06:10:23Z" name="openbrowser" finished-at="2018-12-12T06:10:38Z" duration-ms="14793" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbrowser -->
+        <test-method signature="functionJumpFunction()[pri:2, instance:testCase.YkjRanZhiTest@4f4c789f]" started-at="2018-12-12T06:10:38Z" name="functionJumpFunction" finished-at="2018-12-12T06:11:04Z" duration-ms="26722" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- functionJumpFunction -->
+        <test-method is-config="true" signature="openbrowser()[pri:0, instance:testCase.YkjRanZhiTest@4f4c789f]" started-at="2018-12-12T06:11:04Z" name="openbrowser" finished-at="2018-12-12T06:11:18Z" duration-ms="13720" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbrowser -->
+        <test-method signature="showDeskFunction()[pri:3, instance:testCase.YkjRanZhiTest@4f4c789f]" started-at="2018-12-12T06:11:18Z" name="showDeskFunction" finished-at="2018-12-12T06:11:27Z" duration-ms="8699" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- showDeskFunction -->
+        <test-method is-config="true" signature="openbrowser()[pri:0, instance:testCase.YkjRanZhiTest@4f4c789f]" started-at="2018-12-12T06:11:27Z" name="openbrowser" finished-at="2018-12-12T06:11:38Z" duration-ms="11562" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbrowser -->
+        <test-method signature="exitFunction()[pri:4, instance:testCase.YkjRanZhiTest@4f4c789f]" started-at="2018-12-12T06:11:38Z" name="exitFunction" finished-at="2018-12-12T06:11:54Z" duration-ms="15549" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exitFunction -->
+        <test-method is-config="true" signature="openbrowser()[pri:0, instance:testCase.YkjRanZhiTest@4f4c789f]" started-at="2018-12-12T06:11:54Z" name="openbrowser" finished-at="2018-12-12T06:12:00Z" duration-ms="6121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbrowser -->
+        <test-method signature="uploadPhoto()[pri:5, instance:testCase.YkjRanZhiTest@4f4c789f]" started-at="2018-12-12T06:12:00Z" name="uploadPhoto" finished-at="2018-12-12T06:12:05Z" duration-ms="5108" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: #start
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: 'DESKTOP-MQRFOO8', ip: '10.7.90.210', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\孙立莹\AppData\Local\Temp\rust_mozprofile.25OT5PSSE3GH, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0, platformVersion=10.0, moz:processID=13344, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: e9e6f336-5c75-4a42-bd43-8fd2f39c93c9
+*** Element info: {Using=id, value=start}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: #start
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: 'DESKTOP-MQRFOO8', ip: '10.7.90.210', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\孙立莹\AppData\Local\Temp\rust_mozprofile.25OT5PSSE3GH, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0, platformVersion=10.0, moz:processID=13344, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: e9e6f336-5c75-4a42-bd43-8fd2f39c93c9
+*** Element info: {Using=id, value=start}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:488)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:402)
+at org.openqa.selenium.By$ById.findElement(By.java:218)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
+at pageObject.YkjExitaPage.getAdmin(YkjExitaPage.java:18)
+at appModules.YkjExit_Action.EditPhoto(YkjExit_Action.java:100)
+at testCase.YkjRanZhiTest.uploadPhoto(YkjRanZhiTest.java:73)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- uploadPhoto -->
+        <test-method is-config="true" signature="openbrowser()[pri:0, instance:testCase.YkjRanZhiTest@4f4c789f]" started-at="2018-12-12T06:12:05Z" name="openbrowser" finished-at="2018-12-12T06:12:10Z" duration-ms="5221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbrowser -->
+        <test-method signature="changeTheme()[pri:6, instance:testCase.YkjRanZhiTest@4f4c789f]" started-at="2018-12-12T06:12:10Z" name="changeTheme" finished-at="2018-12-12T06:12:15Z" duration-ms="5018" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: #start
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: 'DESKTOP-MQRFOO8', ip: '10.7.90.210', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\孙立莹\AppData\Local\Temp\rust_mozprofile.25OT5PSSE3GH, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0, platformVersion=10.0, moz:processID=13344, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: e9e6f336-5c75-4a42-bd43-8fd2f39c93c9
+*** Element info: {Using=id, value=start}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: #start
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: 'DESKTOP-MQRFOO8', ip: '10.7.90.210', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\孙立莹\AppData\Local\Temp\rust_mozprofile.25OT5PSSE3GH, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0, platformVersion=10.0, moz:processID=13344, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: e9e6f336-5c75-4a42-bd43-8fd2f39c93c9
+*** Element info: {Using=id, value=start}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:488)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:402)
+at org.openqa.selenium.By$ById.findElement(By.java:218)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
+at pageObject.YkjExitaPage.getAdmin(YkjExitaPage.java:18)
+at appModules.YkjExit_Action.themeChosen(YkjExit_Action.java:42)
+at testCase.YkjRanZhiTest.changeTheme(YkjRanZhiTest.java:80)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changeTheme -->
+        <test-method is-config="true" signature="openbrowser()[pri:0, instance:testCase.YkjRanZhiTest@4f4c789f]" started-at="2018-12-12T06:12:15Z" name="openbrowser" finished-at="2018-12-12T06:12:21Z" duration-ms="5122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbrowser -->
+        <test-method signature="signBackFunction()[pri:7, instance:testCase.YkjRanZhiTest@4f4c789f]" started-at="2018-12-12T06:12:21Z" name="signBackFunction" finished-at="2018-12-12T06:12:26Z" duration-ms="5022" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: 签退
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: 'DESKTOP-MQRFOO8', ip: '10.7.90.210', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\孙立莹\AppData\Local\Temp\rust_mozprofile.25OT5PSSE3GH, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0, platformVersion=10.0, moz:processID=13344, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: e9e6f336-5c75-4a42-bd43-8fd2f39c93c9
+*** Element info: {Using=link text, value=签退}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: 签退
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: 'DESKTOP-MQRFOO8', ip: '10.7.90.210', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\孙立莹\AppData\Local\Temp\rust_mozprofile.25OT5PSSE3GH, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0, platformVersion=10.0, moz:processID=13344, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: e9e6f336-5c75-4a42-bd43-8fd2f39c93c9
+*** Element info: {Using=link text, value=签退}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:488)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:410)
+at org.openqa.selenium.By$ByLinkText.findElement(By.java:246)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
+at pageObject.YkjExitaPage.getAddExit(YkjExitaPage.java:28)
+at appModules.YkjExit_Action.addexit(YkjExit_Action.java:22)
+at testCase.YkjRanZhiTest.signBackFunction(YkjRanZhiTest.java:86)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signBackFunction -->
+        <test-method is-config="true" signature="openbrowser()[pri:0, instance:testCase.YkjRanZhiTest@4f4c789f]" started-at="2018-12-12T06:12:26Z" name="openbrowser" finished-at="2018-12-12T06:12:31Z" duration-ms="4939" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbrowser -->
+        <test-method signature="changeFontFunction()[pri:8, instance:testCase.YkjRanZhiTest@4f4c789f]" started-at="2018-12-12T06:12:31Z" name="changeFontFunction" finished-at="2018-12-12T06:12:55Z" duration-ms="24278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changeFontFunction -->
+      </class> <!-- testCase.YkjRanZhiTest -->
+    </test> <!-- testYKJ -->
+    <test started-at="2018-12-12T06:12:55Z" name="testFB" finished-at="2018-12-12T06:19:23Z" duration-ms="387206">
+      <class name="testCase.FbRanZhiTest">
+        <test-method is-config="true" signature="doBeforeClass()[pri:0, instance:testCase.FbRanZhiTest@2f1ea80d]" started-at="2018-12-12T06:12:55Z" name="doBeforeClass" finished-at="2018-12-12T06:13:06Z" duration-ms="10446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeClass -->
+        <test-method signature="AouncementDelete()[pri:0, instance:testCase.FbRanZhiTest@2f1ea80d]" started-at="2018-12-12T06:13:06Z" name="AouncementDelete" finished-at="2018-12-12T06:13:35Z" duration-ms="28958" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AouncementDelete -->
+        <test-method signature="LoginRanZhi()[pri:1, instance:testCase.FbRanZhiTest@2f1ea80d]" started-at="2018-12-12T06:13:35Z" name="LoginRanZhi" finished-at="2018-12-12T06:14:22Z" duration-ms="46914" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginRanZhi -->
+        <test-method signature="ContactTry()[pri:2, instance:testCase.FbRanZhiTest@2f1ea80d]" started-at="2018-12-12T06:14:22Z" name="ContactTry" finished-at="2018-12-12T06:15:04Z" duration-ms="42220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ContactTry -->
+        <test-method signature="CustomDo()[pri:3, instance:testCase.FbRanZhiTest@2f1ea80d]" started-at="2018-12-12T06:15:04Z" name="CustomDo" finished-at="2018-12-12T06:16:24Z" duration-ms="80163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomDo -->
+        <test-method signature="AddDepartment()[pri:4, instance:testCase.FbRanZhiTest@2f1ea80d]" started-at="2018-12-12T06:16:24Z" name="AddDepartment" finished-at="2018-12-12T06:16:57Z" duration-ms="32642" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddDepartment -->
+        <test-method signature="ReturnCard()[pri:5, instance:testCase.FbRanZhiTest@2f1ea80d]" started-at="2018-12-12T06:16:57Z" name="ReturnCard" finished-at="2018-12-12T06:17:37Z" duration-ms="40668" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReturnCard -->
+        <test-method signature="SearchBk()[pri:6, instance:testCase.FbRanZhiTest@2f1ea80d]" started-at="2018-12-12T06:17:37Z" name="SearchBk" finished-at="2018-12-12T06:18:20Z" duration-ms="42987" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchBk -->
+        <test-method signature="SwitchThemeTest()[pri:7, instance:testCase.FbRanZhiTest@2f1ea80d]" started-at="2018-12-12T06:18:20Z" name="SwitchThemeTest" finished-at="2018-12-12T06:18:42Z" duration-ms="21505" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SwitchThemeTest -->
+        <test-method signature="Top()[pri:8, instance:testCase.FbRanZhiTest@2f1ea80d]" started-at="2018-12-12T06:18:42Z" name="Top" finished-at="2018-12-12T06:19:23Z" duration-ms="40681" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Top -->
+      </class> <!-- testCase.FbRanZhiTest -->
+    </test> <!-- testFB -->
+    <test started-at="2018-12-12T06:19:24Z" name="testZFY" finished-at="2018-12-12T06:27:47Z" duration-ms="502747">
+      <class name="testCase.ZfyRanZhiTest">
+        <test-method is-config="true" signature="loginSuccess()[pri:0, instance:testCase.ZfyRanZhiTest@2e2f720]" started-at="2018-12-12T06:19:24Z" name="loginSuccess" finished-at="2018-12-12T06:19:39Z" duration-ms="15446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSuccess -->
+        <test-method signature="testOA_add_block()[pri:0, instance:testCase.ZfyRanZhiTest@2e2f720]" started-at="2018-12-12T06:19:39Z" name="testOA_add_block" finished-at="2018-12-12T06:20:04Z" duration-ms="24984" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOA_add_block -->
+        <test-method signature="testOA_add_blocks()[pri:1, instance:testCase.ZfyRanZhiTest@2e2f720]" started-at="2018-12-12T06:20:04Z" name="testOA_add_blocks" finished-at="2018-12-12T06:23:15Z" duration-ms="190569" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOA_add_blocks -->
+        <test-method signature="testOA_public_notice()[pri:2, instance:testCase.ZfyRanZhiTest@2e2f720]" started-at="2018-12-12T06:23:15Z" name="testOA_public_notice" finished-at="2018-12-12T06:23:54Z" duration-ms="39459" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOA_public_notice -->
+        <test-method signature="testOA_dayoff_overtime()[pri:3, instance:testCase.ZfyRanZhiTest@2e2f720]" started-at="2018-12-12T06:23:54Z" name="testOA_dayoff_overtime" finished-at="2018-12-12T06:24:37Z" duration-ms="42154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOA_dayoff_overtime -->
+        <test-method signature="testOA_PN_click()[pri:4, instance:testCase.ZfyRanZhiTest@2e2f720]" started-at="2018-12-12T06:24:37Z" name="testOA_PN_click" finished-at="2018-12-12T06:26:23Z" duration-ms="106742" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOA_PN_click -->
+        <test-method signature="testOA_apply_reimbursement()[pri:5, instance:testCase.ZfyRanZhiTest@2e2f720]" started-at="2018-12-12T06:26:23Z" name="testOA_apply_reimbursement" finished-at="2018-12-12T06:27:46Z" duration-ms="82166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOA_apply_reimbursement -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testCase.ZfyRanZhiTest@2e2f720]" started-at="2018-12-12T06:27:46Z" name="close" finished-at="2018-12-12T06:27:47Z" duration-ms="1187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- testCase.ZfyRanZhiTest -->
+    </test> <!-- testZFY -->
+    <test started-at="2018-12-12T06:27:48Z" name="testDLY" finished-at="2018-12-12T06:29:17Z" duration-ms="89589">
+      <class name="testCase.DlxRanZhiTest">
+        <test-method is-config="true" signature="doBeforeClass()[pri:0, instance:testCase.DlxRanZhiTest@44841b43]" started-at="2018-12-12T06:27:48Z" name="doBeforeClass" finished-at="2018-12-12T06:28:00Z" duration-ms="12597" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeClass -->
+        <test-method signature="ceshi1()[pri:0, instance:testCase.DlxRanZhiTest@44841b43]" started-at="2018-12-12T06:28:00Z" name="ceshi1" finished-at="2018-12-12T06:28:16Z" duration-ms="15582" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ceshi1 -->
+        <test-method signature="ceshi2()[pri:0, instance:testCase.DlxRanZhiTest@44841b43]" started-at="2018-12-12T06:28:16Z" name="ceshi2" finished-at="2018-12-12T06:28:31Z" duration-ms="14935" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ceshi2 -->
+        <test-method signature="ceshi4()[pri:0, instance:testCase.DlxRanZhiTest@44841b43]" started-at="2018-12-12T06:28:31Z" name="ceshi4" finished-at="2018-12-12T06:28:35Z" duration-ms="4597" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ceshi4 -->
+        <test-method signature="ceshi5()[pri:0, instance:testCase.DlxRanZhiTest@44841b43]" started-at="2018-12-12T06:28:35Z" name="ceshi5" finished-at="2018-12-12T06:28:47Z" duration-ms="12052" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ceshi5 -->
+        <test-method signature="ceshi6()[pri:0, instance:testCase.DlxRanZhiTest@44841b43]" started-at="2018-12-12T06:28:47Z" name="ceshi6" finished-at="2018-12-12T06:28:54Z" duration-ms="6605" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ceshi6 -->
+        <test-method signature="ceshi7()[pri:0, instance:testCase.DlxRanZhiTest@44841b43]" started-at="2018-12-12T06:28:54Z" name="ceshi7" finished-at="2018-12-12T06:28:56Z" duration-ms="2352" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ceshi7 -->
+        <test-method signature="ceshi8()[pri:0, instance:testCase.DlxRanZhiTest@44841b43]" started-at="2018-12-12T06:28:56Z" name="ceshi8" finished-at="2018-12-12T06:29:03Z" duration-ms="7091" status="FAIL">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: 'DESKTOP-MQRFOO8', ip: '10.7.90.210', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\孙立莹\AppData\Local\Temp\rust_mozprofile.xlSt5eNw9Ejd, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0, platformVersion=10.0, moz:processID=5212, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: bc1c46eb-a8d7-4946-a37d-b509eea13047]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: 
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: 'DESKTOP-MQRFOO8', ip: '10.7.90.210', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\孙立莹\AppData\Local\Temp\rust_mozprofile.xlSt5eNw9Ejd, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0, platformVersion=10.0, moz:processID=5212, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: bc1c46eb-a8d7-4946-a37d-b509eea13047
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:488)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+at testCase.DlxRanZhiTest.ceshi8(DlxRanZhiTest.java:128)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ceshi8 -->
+        <test-method signature="qianTui()[pri:0, instance:testCase.DlxRanZhiTest@44841b43]" started-at="2018-12-12T06:29:03Z" name="qianTui" finished-at="2018-12-12T06:29:17Z" duration-ms="13724" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- qianTui -->
+      </class> <!-- testCase.DlxRanZhiTest -->
+    </test> <!-- testDLY -->
+    <test started-at="2018-12-12T06:29:18Z" name="sendMail" finished-at="2018-12-12T06:29:19Z" duration-ms="835">
+      <class name="sendMail.SendRecentReportMail">
+        <test-method signature="SendReport()[pri:0, instance:sendMail.SendRecentReportMail@4df39a88]" started-at="2018-12-12T06:29:18Z" name="SendReport" finished-at="2018-12-12T06:29:19Z" duration-ms="832" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SendReport -->
+      </class> <!-- sendMail.SendRecentReportMail -->
+    </test> <!-- sendMail -->
+  </suite> <!-- ranzhi -->
+</testng-results>

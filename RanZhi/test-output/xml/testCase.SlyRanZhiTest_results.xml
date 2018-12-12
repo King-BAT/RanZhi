@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="testSLY"
+           tests="8"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="63.046">
+  <properties />
+  
+  
+            <testcase name="chongzhi" time="7.920" classname="testCase.SlyRanZhiTest" />
+                <testcase name="testTurnTo" time="5.495" classname="testCase.SlyRanZhiTest" />
+                <testcase name="testAddGroup" time="9.337" classname="testCase.SlyRanZhiTest" />
+                <testcase name="testDisLeftShow" time="2.538" classname="testCase.SlyRanZhiTest" />
+                <testcase name="testsave" time="9.549" classname="testCase.SlyRanZhiTest" />
+                <testcase name="testAllApps" time="10.276" classname="testCase.SlyRanZhiTest" />
+                <testcase name="testsearch" time="11.296" classname="testCase.SlyRanZhiTest" />
+                <testcase name="returnDesk" time="6.635" classname="testCase.SlyRanZhiTest" />
+      
+</testsuite>

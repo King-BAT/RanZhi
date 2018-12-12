@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ranzhi]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    <listener class-name="core.WebTestListener"/>
+  </listeners>
+  <test thread-count="5" name="testYKJ(failed)">
+    <classes>
+      <class name="testCase.YkjRanZhiTest">
+        <methods>
+          <include name="changeTheme"/>
+          <include name="signBackFunction"/>
+          <include name="openbrowser"/>
+          <include name="uploadPhoto"/>
+        </methods>
+      </class> <!-- testCase.YkjRanZhiTest -->
+    </classes>
+  </test> <!-- testYKJ(failed) -->
+  <test thread-count="5" name="testDLY(failed)">
+    <classes>
+      <class name="testCase.DlxRanZhiTest">
+        <methods>
+          <include name="doBeforeClass"/>
+          <include name="ceshi8"/>
+        </methods>
+      </class> <!-- testCase.DlxRanZhiTest -->
+    </classes>
+  </test> <!-- testDLY(failed) -->
+</suite> <!-- Failed suite [ranzhi] -->
