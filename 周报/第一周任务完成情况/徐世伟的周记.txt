@@ -1,6 +1,0 @@
-周记：
-周一：写数据驱动的python文件，实现了mysqldataprovider，txtdaprovider,excelprovider。
-周二：在未整合框架的基础上，对数据驱动的类进行测试，
-周三：写配置文件，让数据驱动部分可以成为框架的一部分，整合python框架
-周四：修改之前存在问题的测试用例，整合python框架
-周五：写javamail+FreeMarker发送测试报告。但是还没写出来。
