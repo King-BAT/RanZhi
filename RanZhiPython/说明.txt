@@ -1,0 +1,2 @@
+运行run_all.py即可
+最后的测试报告已经命名为ranzhiPython.html
