@@ -1,0 +1,33 @@
+1542979158488	geckodriver	INFO	geckodriver 0.19.0
+1542979158495	geckodriver	INFO	Listening on 127.0.0.1:6898
+1542979161589	mozrunner::runner	INFO	Running command: "D:\\FireFox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\shiwei徐\\AppData\\Local\\Temp\\rust_mozprofile.vs4J55nryKVr"
+[GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+1542979165601	Marionette	INFO	Listening on port 6907
+1542979165768	Marionette	WARN	TLS certificate errors will be ignored for this session
+1542979165799	Marionette	DEBUG	[6442450945] Frame script loaded
+1542979165800	Marionette	DEBUG	[6442450945] Frame script registered
+1542979165815	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1542979165989	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1542979166117	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:8032/MyMovie/admin.php/Login/index.html
+1542979166152	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:8032/MyMovie/admin.php/Login/index.html
+[Parent 5708, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 5708, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6976, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6976, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/i[Parent 5708, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 2668, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 2668, Chrome_ChildThread] W1542979170412	Marionette	INFO	Stopped listening on port 6907
+[GPU 10184, Chrom
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1543027065977	geckodriver	INFO	geckodriver 0.19.0
+1543027066008	geckodriver	INFO	Listening on 127.0.0.1:2217
+1543027069175	mozrunner::runner	INFO	Running command: "D:\\FireFox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\shiwei徐\\AppData\\Local\\Temp\\rust_mozprofile.nawkHxnbz95c"
+1543027077997	Marionette	INFO	Listening on port 2225
+1543027078949	Marionette	WARN	TLS certificate errors will be ignored for this session
+1543027078977	Marionette	DEBUG	[4294967297] Frame script loaded
+1543027078997	Marionette	DEBUG	[4294967297] Frame script registered
+[Child 5432, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 54321543027085527	Marionette	INFO	Stopped listening on port 2225
+[GPU 4236, Chrome_Ch
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+

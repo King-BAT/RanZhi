@@ -1,0 +1,851 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="01874ac1-bfd8-4834-8c2f-34e5c236f368" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/RobortFrameWork$Unittests_for_alltest_run.coverage" NAME="Unittests for alltest.run Coverage Results" MODIFIED="1543145010162" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/UITestFrame$Unittests_for_money_moneyAll_test_MoneyBrowseTest_test_zindex.coverage" NAME="Unittests for money_moneyAll_test.MoneyBrowseTest.test_zindex Coverage Results" MODIFIED="1544600113881" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/RobortFrameWork$BrowserStartUp.coverage" NAME="BrowserStartUp Coverage Results" MODIFIED="1543058243250" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/commom" />
+    <SUITE FILE_PATH="coverage/UITestFrame$SendHttp.coverage" NAME="SendHttp Coverage Results" MODIFIED="1544142779156" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
+    <SUITE FILE_PATH="coverage/UITestFrame$Unittests_for_money_moneyAll_test_MoneyBrowseTest_test_browse.coverage" NAME="Unittests for money_moneyAll_test.MoneyBrowseTest.test_browse Coverage Results" MODIFIED="1544752835578" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/RobortFrameWork$getURL.coverage" NAME="getURL Coverage Results" MODIFIED="1543029533427" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/UITestFrame$Unittests_for_ranZhi_MoneyBrowseTest_test_2_editCall.coverage" NAME="Unittests for ranZhi.MoneyBrowseTest.test_2_editCall Coverage Results" MODIFIED="1545031725414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/RobortFrameWork$TxtDataProvider.coverage" NAME="TxtDataProvider Coverage Results" MODIFIED="1543148160974" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dataprovider" />
+    <SUITE FILE_PATH="coverage/UITestFrame$Unittests_in_money_moneyAll_test_py.coverage" NAME="Unittests in money_moneyAll_test.py Coverage Results" MODIFIED="1544748995163" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/RobortFrameWork$Unittests_in_alltest_py.coverage" NAME="Unittests in alltest.py Coverage Results" MODIFIED="1543135410350" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/UITestFrame$Unittests_for_money_moneyAll_test_MoneyBrowseTest_test_check.coverage" NAME="Unittests for money_moneyAll_test.MoneyBrowseTest.test_check Coverage Results" MODIFIED="1544599873726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/UITestFrame$Unittests_for_money_moneyAll_test_MoneyBrowseTest_test_out.coverage" NAME="Unittests for money_moneyAll_test.MoneyBrowseTest.test_out Coverage Results" MODIFIED="1544603807912" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/RobortFrameWork$a_test__1_.coverage" NAME="a_test (1) Coverage Results" MODIFIED="1543153166570" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/RobortFrameWork$Unittests_for_alltest_run_test.coverage" NAME="Unittests for alltest.run.test Coverage Results" MODIFIED="1543135557260" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/UITestFrame$ranzhi_test.coverage" NAME="ranzhi_test Coverage Results" MODIFIED="1545031517085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/UITestFrame$run_all.coverage" NAME="run_all Coverage Results" MODIFIED="1545031974667" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/UITestFrame$Unittests_for_money_moneyAll_test_MoneyBrowseTest_test_invest.coverage" NAME="Unittests for money_moneyAll_test.MoneyBrowseTest.test_invest Coverage Results" MODIFIED="1544606334428" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/RobortFrameWork$ReadConfig.coverage" NAME="ReadConfig Coverage Results" MODIFIED="1542978105685" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/commom" />
+    <SUITE FILE_PATH="coverage/RobortFrameWork$a_test.coverage" NAME="a_test Coverage Results" MODIFIED="1543134854130" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/UITestFrame$Unittests_for_money_moneyAll_test_MoneyBrowseTest_test_transfer.coverage" NAME="Unittests for money_moneyAll_test.MoneyBrowseTest.test_transfer Coverage Results" MODIFIED="1544606424639" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/RobortFrameWork$zwEmailSend.coverage" NAME="zwEmailSend Coverage Results" MODIFIED="1543138262510" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
+    <SUITE FILE_PATH="coverage/RobortFrameWork$Log.coverage" NAME="Log Coverage Results" MODIFIED="1543028648844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/commom" />
+    <SUITE FILE_PATH="coverage/RobortFrameWork$fjEmailSend.coverage" NAME="fjEmailSend Coverage Results" MODIFIED="1543143586334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
+    <SUITE FILE_PATH="coverage/RobortFrameWork$kj_run_all_test_sendmail.coverage" NAME="kj_run_all_test_sendmail Coverage Results" MODIFIED="1543144916696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
+    <SUITE FILE_PATH="coverage/UITestFrame$login_test.coverage" NAME="login_test Coverage Results" MODIFIED="1544148555961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/RobortFrameWork$a_test1.coverage" NAME="a_test1 Coverage Results" MODIFIED="1543136272833" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="201604892">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="44" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.21" value="4" />
+          <entry key="project.open.time.22" value="3" />
+          <entry key="project.open.time.23" value="1" />
+          <entry key="project.open.time.24" value="1" />
+          <entry key="project.open.time.25" value="1" />
+          <entry key="project.open.time.27" value="2" />
+          <entry key="project.open.time.29" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.33" value="1" />
+          <entry key="project.open.time.34" value="1" />
+          <entry key="project.open.time.39" value="1" />
+          <entry key="project.open.time.45" value="1" />
+          <entry key="project.open.time.5" value="5" />
+          <entry key="project.open.time.6" value="13" />
+          <entry key="project.open.time.63" value="1" />
+          <entry key="project.open.time.7" value="7" />
+          <entry key="project.opened" value="45" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="html" value="131" />
+          <entry key="ini" value="21" />
+          <entry key="log" value="10" />
+          <entry key="png" value="11" />
+          <entry key="py" value="349" />
+          <entry key="txt" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="131" />
+          <entry key="Image" value="11" />
+          <entry key="Ini" value="21" />
+          <entry key="PLAIN_TEXT" value="11" />
+          <entry key="Python" value="349" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="84" />
+          <entry key="ini" value="303" />
+          <entry key="py" value="19811" />
+          <entry key="txt" value="37" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Ini" value="303" />
+          <entry key="PLAIN_TEXT" value="121" />
+          <entry key="Python" value="19811" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-540529178">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="11" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.25" value="1" />
+          <entry key="project.open.time.35" value="1" />
+          <entry key="project.open.time.58" value="1" />
+          <entry key="project.open.time.6" value="3" />
+          <entry key="project.open.time.8" value="2" />
+          <entry key="project.opened" value="12" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="2" />
+          <entry key="ini" value="37" />
+          <entry key="py" value="1434" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Ini" value="37" />
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="Python" value="1434" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="html" value="8" />
+          <entry key="ini" value="5" />
+          <entry key="py" value="31" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="8" />
+          <entry key="Ini" value="5" />
+          <entry key="Python" value="31" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-968171792">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="6" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.20" value="1" />
+          <entry key="project.opened" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Ini" value="136" />
+          <entry key="PLAIN_TEXT" value="6" />
+          <entry key="Python" value="624" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="19" />
+          <entry key="Ini" value="7" />
+          <entry key="Log" value="1" />
+          <entry key="PLAIN_TEXT" value="4" />
+          <entry key="Python" value="48" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="RobortFrameWork" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../RanZhiPython/testcase/ranZhi.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="521" column="13" selection-start-line="521" selection-start-column="13" selection-end-line="521" selection-end-column="13" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../RanZhiPython/testcase/run_all.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>password</find>
+      <find>getA</find>
+      <find>type</find>
+      <find>righ</find>
+      <find>getT</find>
+      <find>Action</find>
+      <find>Select</find>
+      <find>tab</find>
+      <find>By.XPATH</find>
+      <find>By.ID</find>
+      <find>driver.close()</find>
+      <find>close</find>
+      <find>test_browse</find>
+      <find>self.</find>
+      <find>zinde</find>
+      <find>driver</find>
+      <find>cls</find>
+      <find>self.driver</find>
+      <find>sleep(5)</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>'xpath'</replace>
+      <replace>'id'</replace>
+      <replace>pass</replace>
+      <replace>cls.</replace>
+      <replace>cls.driver</replace>
+      <replace>self.driver</replace>
+      <replace>self</replace>
+      <replace>driver</replace>
+      <replace>sleep(1)</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>D:\RobortFrameWork\utils</dir>
+      <dir>D:\RobortFrameWork\testcase</dir>
+    </dirStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/testcase/b_testing.py" />
+        <option value="$PROJECT_DIR$/testcase/a_testing.py" />
+        <option value="$PROJECT_DIR$/testcase/money_browse_test.py" />
+        <option value="$PROJECT_DIR$/testcase/money_browse_testing.py" />
+        <option value="$PROJECT_DIR$/testcase/logintest.py" />
+        <option value="$PROJECT_DIR$/testcase/test_AAA.py" />
+        <option value="$PROJECT_DIR$/testcase/money_check_testing.py" />
+        <option value="$PROJECT_DIR$/testcase/money_index_test.py" />
+        <option value="$PROJECT_DIR$/testcase/money_invest02_test.py" />
+        <option value="$PROJECT_DIR$/testcase/money_out01_test.py" />
+        <option value="$PROJECT_DIR$/testcase/money_report_test.py" />
+        <option value="$PROJECT_DIR$/testcase/money_settings_test.py" />
+        <option value="$PROJECT_DIR$/testcase/money_trade01_test.py" />
+        <option value="$PROJECT_DIR$/testcase/money_trade02_test.py" />
+        <option value="$PROJECT_DIR$/testcase/money_transfer01_test.py" />
+        <option value="$PROJECT_DIR$/testcase/money_transfer_test.py" />
+        <option value="$PROJECT_DIR$/testcase/money_check_test.py" />
+        <option value="$PROJECT_DIR$/testcase/money_check_testa.py" />
+        <option value="$PROJECT_DIR$/testcase/money_index_testa.py" />
+        <option value="$PROJECT_DIR$/testcase/money_dbrowse_testa.py" />
+        <option value="$PROJECT_DIR$/testcase/b_testinga.py" />
+        <option value="$PROJECT_DIR$/testcase/a_testinga.py" />
+        <option value="$PROJECT_DIR$/utils/circleSendEmail.py" />
+        <option value="$PROJECT_DIR$/testcase/money_dbrowse_testing.py" />
+        <option value="$PROJECT_DIR$/testcase/money_check_testinga.py" />
+        <option value="$PROJECT_DIR$/testcase/money_out_test.py" />
+        <option value="$PROJECT_DIR$/testcase/money_dbrowse_testinga.py" />
+        <option value="$PROJECT_DIR$/testcase/a_test.py" />
+        <option value="$PROJECT_DIR$/testcase/money_invest_test.py" />
+        <option value="$PROJECT_DIR$/testcase/money_moneyAll_testinga.py" />
+        <option value="$PROJECT_DIR$/testcase/guest_test.py" />
+        <option value="$PROJECT_DIR$/testcase/money_moneyAll_testa.py" />
+        <option value="$PROJECT_DIR$/testcase/guest_testa.py" />
+        <option value="$PROJECT_DIR$/utils/SendHttp.py" />
+        <option value="$PROJECT_DIR$/dataprovider/NsDataProvider.py" />
+        <option value="$PROJECT_DIR$/testcase/login_test.py" />
+        <option value="$PROJECT_DIR$/Jktestcase/addresslist_test.py" />
+        <option value="$PROJECT_DIR$/Jktestcase/run_all.py" />
+        <option value="$PROJECT_DIR$/commom/SendHttp.py" />
+        <option value="$PROJECT_DIR$/Jktestcase/login_test.py" />
+        <option value="$PROJECT_DIR$/commom/BrowserStartUp.py" />
+        <option value="$PROJECT_DIR$/utils/descriptEmailSend.py" />
+        <option value="$PROJECT_DIR$/commom/BaseTest.py" />
+        <option value="$PROJECT_DIR$/commom/ElementFinder.py" />
+        <option value="$PROJECT_DIR$/utils/fjEmailSend.py" />
+        <option value="$PROJECT_DIR$/commom/WebDriverEngine.py" />
+        <option value="$PROJECT_DIR$/testcase/run_all.py" />
+        <option value="$PROJECT_DIR$/testcase/money_moneyAll_test.py" />
+        <option value="$PROJECT_DIR$/testcase/ranzhi_test.py" />
+        <option value="$PROJECT_DIR$/config/config.ini" />
+        <option value="$PROJECT_DIR$/testcase/ranZhi.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="476" />
+    <option name="y" value="21" />
+    <option name="width" value="736" />
+    <option name="height" value="734" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>Python</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>PyPep8Inspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
+      <autoscrollFromSource Scope="true" ProjectPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="UITestFrame" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UITestFrame" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UITestFrame" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UITestFrame" type="462c0819:PsiDirectoryNode" />
+              <item name="commom" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UITestFrame" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UITestFrame" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UITestFrame" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UITestFrame" type="462c0819:PsiDirectoryNode" />
+              <item name="dataprovider" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UITestFrame" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UITestFrame" type="462c0819:PsiDirectoryNode" />
+              <item name="report" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UITestFrame" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UITestFrame" type="462c0819:PsiDirectoryNode" />
+              <item name="testcase" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="UITestFrame" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="F:\PycharmProjects\RanZhiPython" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\PycharmProjects\UITestFrame\testcase" />
+      <recent name="F:\PycharmProjects\UITestFrame\commom" />
+      <recent name="F:\PycharmProjects" />
+      <recent name="F:\PycharmProjects\UITestFrame\data" />
+      <recent name="D:\UITestFrame\commom" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\RobortFrameWork" />
+      <recent name="D:\RobortFrameWork\testcase" />
+      <recent name="D:\RobortFrameWork\data" />
+      <recent name="D:\RobortFrameWork\utils" />
+      <recent name="D:\RobortFrameWork\commom" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.run_all">
+    <configuration name="ranzhi_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="RobortFrameWork" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcase" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testcase/ranzhi_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="run_all" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="RobortFrameWork" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcase" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testcase/run_all.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for testcase.ranZhi.MoneyBrowseTest.test_2_editCall" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="RobortFrameWork" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../RanZhiPython/testcase" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;testcase.ranZhi.MoneyBrowseTest.test_2_editCall&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for testcase.ranZhi.MoneyBrowseTest.test_browse" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="RobortFrameWork" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../RanZhiPython/testcase" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;testcase.ranZhi.MoneyBrowseTest.test_browse&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in ranZhi.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="RobortFrameWork" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../RanZhiPython/testcase" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/../RanZhiPython/testcase/ranZhi.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python tests.Unittests in ranZhi.py" />
+      <item itemvalue="Python.run_all" />
+      <item itemvalue="Python.ranzhi_test" />
+      <item itemvalue="Python tests.Unittests for testcase.ranZhi.MoneyBrowseTest.test_browse" />
+      <item itemvalue="Python tests.Unittests for testcase.ranZhi.MoneyBrowseTest.test_2_editCall" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.run_all" />
+        <item itemvalue="Python tests.Unittests for testcase.ranZhi.MoneyBrowseTest.test_2_editCall" />
+        <item itemvalue="Python.ranzhi_test" />
+        <item itemvalue="Python tests.Unittests for testcase.ranZhi.MoneyBrowseTest.test_browse" />
+        <item itemvalue="Python tests.Unittests in ranZhi.py" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="01874ac1-bfd8-4834-8c2f-34e5c236f368" name="Default Changelist" comment="" />
+      <created>1542977287512</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1542977287512</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Unittests_in_money_moneyAll_test_py - 2018.12.14 at 08h 56m 14s.xml">
+      <configuration name="Unittests in money_moneyAll_test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_money_moneyAll_test_py - 2018.12.14 at 08h 56m 52s.xml">
+      <configuration name="Unittests in money_moneyAll_test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_money_moneyAll_test_MoneyBrowseTest_test_browse - 2018.12.14 at 10h 00m 40s.xml">
+      <configuration name="Unittests for money_moneyAll_test.MoneyBrowseTest.test_browse" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_money_moneyAll_test_MoneyBrowseTest_test_browse - 2018.12.14 at 10h 00m 59s.xml">
+      <configuration name="Unittests for money_moneyAll_test.MoneyBrowseTest.test_browse" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_ranZhi_MoneyBrowseTest_test_2_editCall - 2018.12.17 at 15h 20m 25s.xml">
+      <configuration name="Unittests for ranZhi.MoneyBrowseTest.test_2_editCall" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_ranZhi_MoneyBrowseTest_test_2_editCall - 2018.12.17 at 15h 23m 22s.xml">
+      <configuration name="Unittests for ranZhi.MoneyBrowseTest.test_2_editCall" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_ranZhi_MoneyBrowseTest_test_2_editCall - 2018.12.17 at 15h 26m 26s.xml">
+      <configuration name="Unittests for ranZhi.MoneyBrowseTest.test_2_editCall" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_ranZhi_MoneyBrowseTest_test_2_editCall - 2018.12.17 at 15h 27m 18s.xml">
+      <configuration name="Unittests for ranZhi.MoneyBrowseTest.test_2_editCall" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_ranZhi_MoneyBrowseTest_test_2_editCall - 2018.12.17 at 15h 28m 03s.xml">
+      <configuration name="Unittests for ranZhi.MoneyBrowseTest.test_2_editCall" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_ranZhi_MoneyBrowseTest_test_2_editCall - 2018.12.17 at 15h 28m 46s.xml">
+      <configuration name="Unittests for ranZhi.MoneyBrowseTest.test_2_editCall" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49868765" visible="true" weight="0.22692889" />
+      <window_info id="Structure" order="1" sideWeight="0.5013123" side_tool="true" weight="0.20535715" />
+      <window_info id="Favorites" order="2" sideWeight="0.50180507" side_tool="true" weight="0.20535715" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.39934534" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.40536013" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32569557" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32733223" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32733223" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32980332" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.csv" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../RanZhiPython/dataprovider/NsDataProvider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="3" column="48" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/python/Lib/site-packages/requests/__init__.py" />
+    <entry file="file://F:/python/Lib/site-packages/requests/models.py" />
+    <entry file="file://F:/python/Lib/site-packages/requests/api.py" />
+    <entry file="file://$PROJECT_DIR$/../RanZhiPython/report/20181211192919result.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Jktestcase/run_all.py" />
+    <entry file="file://$PROJECT_DIR$/Jktestcase/addresslist_test.py" />
+    <entry file="file://F:/python/Lib/unittest/case.py" />
+    <entry file="file://$PROJECT_DIR$/../RanZhiPython/commom/SendHttp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Jktestcase/login_test.py" />
+    <entry file="file://$PROJECT_DIR$/../RanZhiPython/report/20181211200729result.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../RanZhiPython/report/20181211201227result.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../RanZhiPython/report/20181211200819result.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../RanZhiPython/report/20181211201531result.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../RanZhiPython/report/20181211202354result.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../RanZhiPython/data/config.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../RanZhiPython/data/RanZhi.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../RanZhiPython/report/20181211203333result.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../RanZhiPython/utils/ReadProperties.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python3.7.1/Lib/configparser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="790" selection-start-line="790" selection-end-line="790" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../RanZhiPython/commom/Log.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-360">
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../RanZhiPython/commom/ElementFinder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="760">
+          <caret line="38" column="37" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../RanZhiPython/commom/BaseTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../RanZhiPython/utils/fjEmailSend.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="31" lean-forward="true" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/guest_tests.py" />
+    <entry file="file://$PROJECT_DIR$/../RanZhiPython/testcase/login_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="14" column="61" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/money_invest02_tests.py" />
+    <entry file="file://$PROJECT_DIR$/testcase/money_out01_tests.py" />
+    <entry file="file://$PROJECT_DIR$/testcase/money_trade01_tests.py" />
+    <entry file="file://$PROJECT_DIR$/testcase/money_trade02_tests.py" />
+    <entry file="file://$PROJECT_DIR$/testcase/money_transfer01_tests.py" />
+    <entry file="file://$PROJECT_DIR$/../RanZhiPython/testcase/geckodriver.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../RanZhiPython/utils/HTMLTestRunner.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../RanZhiPython/commom/WebDriverEngine.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="44" column="23" lean-forward="true" selection-start-line="44" selection-start-column="23" selection-end-line="44" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../RanZhiPython/report/xushiwei.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../RanZhiPython/report/20181217144316result.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../RanZhiPython/report/20181212172149result.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../RanZhiPython/utils/descriptEmailSend.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="37" column="15" selection-start-line="37" selection-start-column="15" selection-end-line="37" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../RanZhiPython/testcase/ranzhi_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="30" column="87" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="87" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../RanZhiPython/commom/BrowserStartUp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../RanZhiPython/config/config.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/20181217153305result.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/20181217153140result.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/20181217152955result.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/20181217152525result.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/20181217151654result.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/20181217151447result.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/20181217151135result.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../RanZhiPython/report/ranzhiPython.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../RanZhiPython/testcase/ranZhi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="521" column="13" selection-start-line="521" selection-start-column="13" selection-end-line="521" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../RanZhiPython/testcase/run_all.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
