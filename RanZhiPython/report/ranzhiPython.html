@@ -115,19 +115,19 @@ function html_escape(s) {
 </script>
 <div class='heading'>
 <h1>测试报告</h1>
-<p class='attribute'><strong>Tester : </strong> QA</p>
+<p class='attribute'><strong>Tester : </strong> 孙立莹</p>
 <p class='attribute'><strong>Start Time : </strong> 2018-12-17 14:58:32</p>
 <p class='attribute'><strong>Duration : </strong> 0:09:06.880197</p>
-<p class='attribute'><strong>Status : </strong> ALL 13 Pass 11 Error 2, Passing rate: 84.62%</p>
+<p class='attribute'><strong>Status : </strong> ALL 13 Pass 13 Error 0, Passing rate: 100.0%</p>
 
 <p class='description'>运行环境:firefox</p>
 </div>
 
 
 <p id='show_detail_line'>
-<a class="btn btn-primary" href='javascript:showCase(0)'>Summary{ 84.62% }</a>
+<a class="btn btn-primary" href='javascript:showCase(0)'>Summary{ 100.0% }</a>
 <a class="btn btn-danger" href='javascript:showCase(1)'>Failed{ 0 }</a>
-<a class="btn btn-success" href='javascript:showCase(2)'>Passed{ 11 }</a>
+<a class="btn btn-success" href='javascript:showCase(2)'>Passed{ 13 }</a>
 <a class="btn btn-info" href='javascript:showCase(3)'>ALL{ 13 }</a>
 </p>
 <table id='result_table' class="table table-condensed table-bordered table-hover">
@@ -151,102 +151,21 @@ function html_escape(s) {
 <tr class='errorClass warning'>
     <td>ranZhi.MoneyBrowseTest</td>
     <td class="text-center">13</td>
-    <td class="text-center">11</td>
+    <td class="text-center">13</td>
     <td class="text-center">0</td>
-    <td class="text-center">2</td>
+    <td class="text-center">0</td>
     <td class="text-center"><a href="javascript:showClassDetail('c1',13)" class="detail" id='c1'>Detail</a></td>
 </tr>
 
-<tr id='ft1_1' class='none'>
-    <td class='errorCase'><div class='testcase'>test_2_editCall</div></td>
-    <td colspan='5' align='center'>
-    <!--默认收起错误信息 -Findyou
-    <button id='btn_ft1_1' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_ft1_1'>error</button>
-    <div id='div_ft1_1' class="collapse">  -->
-    <!-- 默认展开错误信息 -Findyou -->
-    <button id='btn_ft1_1' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_ft1_1'>error</button>
-    <div id='div_ft1_1' class="collapse in">
-    <pre>
-    
-ft1_1: Traceback (most recent call last):
-  File "D:\Python3.7.1\lib\site-packages\selenium\webdriver\remote\switch_to.py", line 82, in frame
-    frame_reference = self._driver.find_element(By.ID, frame_reference)
-  File "D:\Python3.7.1\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
-    'value': value})['value']
-  File "D:\Python3.7.1\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
-    self.error_handler.check_response(response)
-  File "D:\Python3.7.1\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
-    raise exception_class(message, screen, stacktrace)
-selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: [id="iframe-dashboard"]
-
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "D:\Python3.7.1\lib\site-packages\selenium\webdriver\remote\switch_to.py", line 85, in frame
-    frame_reference = self._driver.find_element(By.NAME, frame_reference)
-  File "D:\Python3.7.1\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
-    'value': value})['value']
-  File "D:\Python3.7.1\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
-    self.error_handler.check_response(response)
-  File "D:\Python3.7.1\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
-    raise exception_class(message, screen, stacktrace)
-selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: [name="iframe-dashboard"]
-
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "F:\PycharmProjects\UITestFrame\testcase\ranZhi.py", line 524, in test_2_editCall
-    WebDriverEngine().enterFrame("iframe-dashboard")
-  File "F:\PycharmProjects\UITestFrame\commom\WebDriverEngine.py", line 65, in enterFrame
-    driver.switch_to.frame(frameID)
-  File "D:\Python3.7.1\lib\site-packages\selenium\webdriver\remote\switch_to.py", line 87, in frame
-    raise NoSuchFrameException(frame_reference)
-selenium.common.exceptions.NoSuchFrameException: Message: iframe-dashboard
-
-
-
-    </pre>
-    </div>
+<tr id='pt1_1' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_2_editCall</div></td>
+    <td colspan='5' align='center'><span class="label label-success success">pass</span></div>
     </td>
 </tr>
 
-<tr id='ft1_2' class='none'>
-    <td class='errorCase'><div class='testcase'>test_3_protect</div></td>
-    <td colspan='5' align='center'>
-    <!--默认收起错误信息 -Findyou
-    <button id='btn_ft1_2' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_ft1_2'>error</button>
-    <div id='div_ft1_2' class="collapse">  -->
-    <!-- 默认展开错误信息 -Findyou -->
-    <button id='btn_ft1_2' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_ft1_2'>error</button>
-    <div id='div_ft1_2' class="collapse in">
-    <pre>
-    
-ft1_2: Traceback (most recent call last):
-  File "F:\PycharmProjects\UITestFrame\testcase\ranZhi.py", line 531, in test_3_protect
-    WebDriverEngine().click_scy("xpath=/html/body/div/div/table/tbody/tr[1]/td[9]/a[4]")
-  File "F:\PycharmProjects\UITestFrame\commom\WebDriverEngine.py", line 23, in click_scy
-    element = finder.findElement(locator)
-  File "F:\PycharmProjects\UITestFrame\commom\ElementFinder.py", line 14, in findElement
-    element = ElementFinder().findElementByPrefix(locator)
-  File "F:\PycharmProjects\UITestFrame\commom\ElementFinder.py", line 36, in findElementByPrefix
-    return self.driver.find_element_by_xpath(locator)
-  File "D:\Python3.7.1\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
-    return self.find_element(by=By.XPATH, value=xpath)
-  File "D:\Python3.7.1\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
-    'value': value})['value']
-  File "D:\Python3.7.1\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
-    self.error_handler.check_response(response)
-  File "D:\Python3.7.1\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
-    raise exception_class(message, screen, stacktrace)
-selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: /html/body/div/div/table/tbody/tr[1]/td[9]/a[4]
-
-
-
-    </pre>
-    </div>
-    </td>
+<tr id='pt1_2' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_3_protect</div></td>
+    <td colspan='5' align='center'><span class="label label-success success">pass</span></td>
 </tr>
 
 <tr id='pt1_3' class='hiddenRow'>
@@ -307,10 +226,10 @@ selenium.common.exceptions.NoSuchElementException: Message: Unable to locate ele
 <tr id='total_row' class="text-center active">
     <td>Total</td>
     <td>13</td>
-    <td>11</td>
+    <td>13</td>
     <td>0</td>
-    <td>2</td>
-    <td>Passing rate: 84.62%</td>
+    <td>0</td>
+    <td>Passing rate: 100.0%</td>
 </tr>
 </table>
 
