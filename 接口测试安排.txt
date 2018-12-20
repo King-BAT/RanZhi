@@ -10,8 +10,8 @@ delete			杨凯静
 青果商城执行单接口测试用例
 login     		刁立翔
 skuList   		冯滨
-list 	  		生春月
+list 	  		孙立莹
 getTransportFee		徐世伟
-submit 			孙立莹
+submit 			生春月
 new 			杨凯静
 delete    		张飞宇
