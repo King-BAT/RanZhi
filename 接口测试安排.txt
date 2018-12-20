@@ -1,0 +1,17 @@
+青果商城接口编写测试用例
+login     		张飞宇
+skuList   		刁立翔
+list			生春月
+getTransportFee		孙立莹
+submit			冯滨
+new 			徐世伟
+delete			杨凯静
+
+青果商城执行单接口测试用例
+login     		刁立翔
+skuList   		冯滨
+list 	  		生春月
+getTransportFee		徐世伟
+submit 			孙立莹
+new 			杨凯静
+delete    		张飞宇
