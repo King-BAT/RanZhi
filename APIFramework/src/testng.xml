@@ -10,6 +10,7 @@
 	<test name="testMultiAPI">
 		<classes>
 			<class name="com.edu.qgMultiAPI.FengBinTest"></class>
+			<class name="sendMail.SendRecentReportMail"></class>
 		</classes>
 	</test>
 </suite>

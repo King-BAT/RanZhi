@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="testMultiAPI"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="1.595">
+  <properties />
+  
+  
+            <testcase name="SendReport" time="1.595" classname="sendMail.SendRecentReportMail" />
+      
+</testsuite>

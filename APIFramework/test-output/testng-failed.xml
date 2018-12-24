@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Default test(failed)">
+<suite name="Failed suite [ranzhi]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test thread-count="5" name="testMultiAPI(failed)">
     <classes>
-      <class name="com.edu.qgMultiAPI.ZhangFeiyu">
+      <class name="sendMail.SendRecentReportMail">
         <methods>
-          <include name="scene01_login_success"/>
+          <include name="SendReport"/>
         </methods>
-      </class> <!-- com.edu.qgMultiAPI.ZhangFeiyu -->
+      </class> <!-- sendMail.SendRecentReportMail -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- testMultiAPI(failed) -->
+</suite> <!-- Failed suite [ranzhi] -->

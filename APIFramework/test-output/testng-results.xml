@@ -1,61 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2018-12-24T08:34:28Z" name="Default suite" finished-at="2018-12-24T08:34:30Z" duration-ms="2443">
+  <suite started-at="2018-12-24T09:34:18Z" name="ranzhi" finished-at="2018-12-24T09:34:27Z" duration-ms="8645">
     <groups>
     </groups>
-    <test started-at="2018-12-24T08:34:28Z" name="Default test" finished-at="2018-12-24T08:34:30Z" duration-ms="2443">
-      <class name="com.edu.qgSingleAPI.ListTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.edu.qgSingleAPI.ListTest@437da279]" started-at="2018-12-24T08:34:28Z" name="setUp" finished-at="2018-12-24T08:34:29Z" duration-ms="1224" status="PASS">
+    <test started-at="2018-12-24T09:34:18Z" name="testMultiAPI" finished-at="2018-12-24T09:34:27Z" duration-ms="8645">
+      <class name="com.edu.qgMultiAPI.FengBinTest">
+        <test-method signature="scene1()[pri:0, instance:com.edu.qgMultiAPI.FengBinTest@723ca036]" started-at="2018-12-24T09:34:18Z" name="scene1" description="登录成功-获取商品列表-添加收货地址-提交订单" finished-at="2018-12-24T09:34:23Z" duration-ms="5027" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="testListFailDueToNoLogin()[pri:0, instance:com.edu.qgSingleAPI.ListTest@437da279]" started-at="2018-12-24T08:34:29Z" name="testListFailDueToNoLogin" finished-at="2018-12-24T08:34:29Z" duration-ms="503" status="PASS">
+        </test-method> <!-- scene1 -->
+        <test-method signature="scene2()[pri:0, instance:com.edu.qgMultiAPI.FengBinTest@723ca036]" started-at="2018-12-24T09:34:23Z" name="scene2" description="查看商品信息-计算运费-提交订单" finished-at="2018-12-24T09:34:24Z" duration-ms="431" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testListFailDueToNoLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.edu.qgSingleAPI.ListTest@437da279]" started-at="2018-12-24T08:34:29Z" name="tearDown" finished-at="2018-12-24T08:34:29Z" duration-ms="1" status="PASS">
+        </test-method> <!-- scene2 -->
+        <test-method signature="scene3()[pri:0, instance:com.edu.qgMultiAPI.FengBinTest@723ca036]" started-at="2018-12-24T09:34:24Z" name="scene3" description="登录成功-查看商品信息-删除指定收货地址" finished-at="2018-12-24T09:34:24Z" duration-ms="595" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.edu.qgSingleAPI.ListTest@437da279]" started-at="2018-12-24T08:34:29Z" name="setUp" finished-at="2018-12-24T08:34:29Z" duration-ms="12" status="PASS">
+        </test-method> <!-- scene3 -->
+        <test-method signature="scene4()[pri:0, instance:com.edu.qgMultiAPI.FengBinTest@723ca036]" started-at="2018-12-24T09:34:24Z" name="scene4" description="登录成功-获取指定商品信息-删除指定收货地址（想要的地址不能再添加）" finished-at="2018-12-24T09:34:25Z" duration-ms="372" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="testListFailDueToWringPwd()[pri:0, instance:com.edu.qgSingleAPI.ListTest@437da279]" started-at="2018-12-24T08:34:29Z" name="testListFailDueToWringPwd" finished-at="2018-12-24T08:34:30Z" duration-ms="188" status="PASS">
+        </test-method> <!-- scene4 -->
+        <test-method signature="scene5()[pri:0, instance:com.edu.qgMultiAPI.FengBinTest@723ca036]" started-at="2018-12-24T09:34:25Z" name="scene5" description="登陆成功-获取指定商品信息-获取运费-提交订单" finished-at="2018-12-24T09:34:25Z" duration-ms="562" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testListFailDueToWringPwd -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.edu.qgSingleAPI.ListTest@437da279]" started-at="2018-12-24T08:34:30Z" name="tearDown" finished-at="2018-12-24T08:34:30Z" duration-ms="1" status="PASS">
+        </test-method> <!-- scene5 -->
+      </class> <!-- com.edu.qgMultiAPI.FengBinTest -->
+      <class name="sendMail.SendRecentReportMail">
+        <test-method signature="SendReport()[pri:0, instance:sendMail.SendRecentReportMail@52f27fbd]" started-at="2018-12-24T09:34:25Z" name="SendReport" finished-at="2018-12-24T09:34:27Z" duration-ms="1595" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.edu.qgSingleAPI.ListTest@437da279]" started-at="2018-12-24T08:34:30Z" name="setUp" finished-at="2018-12-24T08:34:30Z" duration-ms="28" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="testListFailDueToWrongUser()[pri:0, instance:com.edu.qgSingleAPI.ListTest@437da279]" started-at="2018-12-24T08:34:30Z" name="testListFailDueToWrongUser" finished-at="2018-12-24T08:34:30Z" duration-ms="163" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testListFailDueToWrongUser -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.edu.qgSingleAPI.ListTest@437da279]" started-at="2018-12-24T08:34:30Z" name="tearDown" finished-at="2018-12-24T08:34:30Z" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.edu.qgSingleAPI.ListTest@437da279]" started-at="2018-12-24T08:34:30Z" name="setUp" finished-at="2018-12-24T08:34:30Z" duration-ms="20" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="testListSuccess()[pri:0, instance:com.edu.qgSingleAPI.ListTest@437da279]" started-at="2018-12-24T08:34:30Z" name="testListSuccess" finished-at="2018-12-24T08:34:30Z" duration-ms="255" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testListSuccess -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.edu.qgSingleAPI.ListTest@437da279]" started-at="2018-12-24T08:34:30Z" name="tearDown" finished-at="2018-12-24T08:34:30Z" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.edu.qgSingleAPI.ListTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- SendReport -->
+      </class> <!-- sendMail.SendRecentReportMail -->
+    </test> <!-- testMultiAPI -->
+  </suite> <!-- ranzhi -->
 </testng-results>
