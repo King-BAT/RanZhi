@@ -1,0 +1,19 @@
+[FATAL] 2018-10-30 16:43:48,659 com.edu.utils.Checker - the Text: 'mesage' is not Present!
+[FATAL] 2018-12-19 14:36:48,275 com.edu.utils.Checker - the Text: 'mesage' is not Present!
+[FATAL] 2018-12-21 11:15:02,300 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :请重新登录; expected Value is :success
+[FATAL] 2018-12-22 21:38:08,640 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :success; expected Value is :请重新登录
+[FATAL] 2018-12-22 21:38:08,907 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :请重新登录; expected Value is :success
+[FATAL] 2018-12-22 21:39:31,243 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :请重新登录; expected Value is :success
+[FATAL] 2018-12-22 21:41:00,446 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :请重新登录; expected Value is :success
+[FATAL] 2018-12-22 21:41:15,290 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :请重新登录; expected Value is :success
+[FATAL] 2018-12-23 12:50:17,554 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :请求失败; expected Value is :success
+[FATAL] 2018-12-23 12:57:17,441 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :请求失败; expected Value is :success
+[FATAL] 2018-12-23 12:58:17,215 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :must be null; expected Value is :success
+[FATAL] 2018-12-23 13:08:48,417 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :may not be null; expected Value is :success
+[FATAL] 2018-12-23 13:12:44,070 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :may not be null; expected Value is :success
+[FATAL] 2018-12-23 13:13:04,469 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :may not be null; expected Value is :success
+[FATAL] 2018-12-23 13:16:03,991 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :may not be null; expected Value is :success
+[FATAL] 2018-12-23 13:44:03,326 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :success; expected Value is : 用户名或者密码错误
+[FATAL] 2018-12-23 13:44:43,927 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :用户名或者密码错误; expected Value is : 用户名或者密码错误
+[FATAL] 2018-12-23 13:46:10,215 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :200; expected Value is :400
+[FATAL] 2018-12-23 13:47:05,507 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :403; expected Value is :400

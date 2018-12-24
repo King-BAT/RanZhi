@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="ranzhi" verbose="1">
+	<listeners>
+		<!-- testng的XML配置文件中添加这些内容 -->
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener
+			class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+	<test name="testMultiAPI">
+		<classes>
+			<class name="com.edu.qgMultiAPI.FengBinTest"></class>
+		</classes>
+	</test>
+</suite>
