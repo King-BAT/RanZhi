@@ -1,0 +1,785 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6b69363a-3a8a-4fa5-91f7-1129fd88bc27" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Request$Unittests_for_sunliying_qgSenceTest_test_scene1.coverage" NAME="Unittests for sunliying.qgSenceTest.test_scene1 Coverage Results" MODIFIED="1545485329080" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/QingGuo/MultiAPI" />
+    <SUITE FILE_PATH="coverage/Request$Unittests_in_qingguologin_test_py.coverage" NAME="Unittests in qingguologin_test.py Coverage Results" MODIFIED="1545204703879" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/Request$Unittests_for_temp_skuList_test_skuList.coverage" NAME="Unittests for temp.skuList.test_skuList Coverage Results" MODIFIED="1545479632929" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/qgdata" />
+    <SUITE FILE_PATH="coverage/Request$Unittests_for_qingguoscene3_qgLoginTest_test_login_by_param.coverage" NAME="Unittests for qingguoscene3.qgLoginTest.test_login_by_param Coverage Results" MODIFIED="1542099820734" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/Request$Unittests_for_sunliying_qgSenceTest_test_scene4.coverage" NAME="Unittests for sunliying.qgSenceTest.test_scene4 Coverage Results" MODIFIED="1545479991743" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/QingGuo/MultiAPI" />
+    <SUITE FILE_PATH="coverage/Request$Unittests_for_sunliying_test_qgSenceTest_test_scene1.coverage" NAME="Unittests for sunliying_test.qgSenceTest.test_scene1 Coverage Results" MODIFIED="1545697399774" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/QingGuo/MultiAPI" />
+    <SUITE FILE_PATH="coverage/Request$Unittests_for_new_test_addressNew_test_addressnew21.coverage" NAME="Unittests for new_test.addressNew.test_addressnew21 Coverage Results" MODIFIED="1545697540395" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/QingGuo/SingleAPI" />
+    <SUITE FILE_PATH="coverage/Request$Unittests_in_skulist_test_py.coverage" NAME="Unittests in skulist_test.py Coverage Results" MODIFIED="1545572136264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/QingGuo/SingleAPI" />
+    <SUITE FILE_PATH="coverage/Request$Unittests_for_qingguologin_test_qgLoginTest_test_login_success.coverage" NAME="Unittests for qingguologin_test.qgLoginTest.test_login_success Coverage Results" MODIFIED="1542075400783" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/Request$Unittests_for_shengchunyue_qgSceneTest_test_scene1.coverage" NAME="Unittests for shengchunyue.qgSceneTest.test_scene1 Coverage Results" MODIFIED="1545559986911" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/QingGuo/MultiAPI" />
+    <SUITE FILE_PATH="coverage/Request$cookies.coverage" NAME="cookies Coverage Results" MODIFIED="1542018572153" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Request$Unittests_for_xushiwei_JIEKOU_test_fifth.coverage" NAME="Unittests for xushiwei.JIEKOU.test_fifth Coverage Results" MODIFIED="1545545090045" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/QingGuo/MultiAPI" />
+    <SUITE FILE_PATH="coverage/Request$qingGuoLoginTest.coverage" NAME="qingGuoLoginTest Coverage Results" MODIFIED="1545214090533" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Request$Unittests_for_shengchunyue_test_qgSceneTest_test_scene4.coverage" NAME="Unittests for shengchunyue_test.qgSceneTest.test_scene4 Coverage Results" MODIFIED="1545561522602" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/QingGuo/MultiAPI" />
+    <SUITE FILE_PATH="coverage/Request$Unittests_for_shengchunyue_qgSceneTest_test_scene4.coverage" NAME="Unittests for shengchunyue.qgSceneTest.test_scene4 Coverage Results" MODIFIED="1545560709571" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/QingGuo/MultiAPI" />
+    <SUITE FILE_PATH="coverage/Request$getDemo.coverage" NAME="getDemo Coverage Results" MODIFIED="1542073828365" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Request$Unittests_in_delete_test_py.coverage" NAME="Unittests in delete_test.py Coverage Results" MODIFIED="1545695823461" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/QingGuo/SingleAPI" />
+    <SUITE FILE_PATH="coverage/Request$Unittests_for_shengchunyue_test_qgSceneTest_test_scene1.coverage" NAME="Unittests for shengchunyue_test.qgSceneTest.test_scene1 Coverage Results" MODIFIED="1545561466384" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/QingGuo/MultiAPI" />
+    <SUITE FILE_PATH="coverage/Request$Unittests_in_FengBin_Test_py.coverage" NAME="Unittests in FengBin_Test.py Coverage Results" MODIFIED="1545569931452" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/QingGuo/MultiAPI" />
+    <SUITE FILE_PATH="coverage/Request$Unittests_for_qGlist_test_List_test_listFail_by_NoLogin.coverage" NAME="Unittests for qGlist_test.List.test_listFail_by_NoLogin Coverage Results" MODIFIED="1545465518511" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/Request$Unittests_for_qingguoscene3_qgLoginTest_test_login.coverage" NAME="Unittests for qingguoscene3.qgLoginTest.test_login Coverage Results" MODIFIED="1542099546467" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/Request$Unittests_in_qingguoscene3_py.coverage" NAME="Unittests in qingguoscene3.py Coverage Results" MODIFIED="1545463674870" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/Request$Unittests_in_fengBin_Test_py.coverage" NAME="Unittests in fengBin_Test.py Coverage Results" MODIFIED="1545569252722" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/QingGuo/MultiAPI" />
+    <SUITE FILE_PATH="coverage/Request$Unittests_for_sunliying_test_qgSenceTest_test_scene5.coverage" NAME="Unittests for sunliying_test.qgSenceTest.test_scene5 Coverage Results" MODIFIED="1545697390003" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/QingGuo/MultiAPI" />
+    <SUITE FILE_PATH="coverage/Request$DataProvider.coverage" NAME="DataProvider Coverage Results" MODIFIED="1542099485943" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/api2018" />
+    <SUITE FILE_PATH="coverage/Request$temp.coverage" NAME="temp Coverage Results" MODIFIED="1542008502181" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Request$EmailUtils.coverage" NAME="EmailUtils Coverage Results" MODIFIED="1545211564078" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/api2018" />
+    <SUITE FILE_PATH="coverage/Request$Unittests_in_submit_test_py.coverage" NAME="Unittests in submit_test.py Coverage Results" MODIFIED="1545645489769" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/QingGuo/SingleAPI" />
+    <SUITE FILE_PATH="coverage/Request$postDemo.coverage" NAME="postDemo Coverage Results" MODIFIED="1542075819478" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Request$Unittests_in_new_test_py.coverage" NAME="Unittests in new_test.py Coverage Results" MODIFIED="1545698053486" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/QingGuo/SingleAPI" />
+    <SUITE FILE_PATH="coverage/Request$Unittests_in_sunliying_test_py.coverage" NAME="Unittests in sunliying_test.py Coverage Results" MODIFIED="1545697304632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/QingGuo/MultiAPI" />
+    <SUITE FILE_PATH="coverage/Request$Unittests_for_qingguoscene3_qgLoginTest_test_transport_fee.coverage" NAME="Unittests for qingguoscene3.qgLoginTest.test_transport_fee Coverage Results" MODIFIED="1542097119789" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/Request$Unittests_in_xushiwei_py.coverage" NAME="Unittests in xushiwei.py Coverage Results" MODIFIED="1545546004165" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/QingGuo/MultiAPI" />
+    <SUITE FILE_PATH="coverage/Request$Unittests_in_getFee_test_py.coverage" NAME="Unittests in getFee_test.py Coverage Results" MODIFIED="1545569386559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/QingGuo/SingleAPI" />
+    <SUITE FILE_PATH="coverage/Request$Unittests_in_shengchunyue_test_py.coverage" NAME="Unittests in shengchunyue_test.py Coverage Results" MODIFIED="1545561608052" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/QingGuo/MultiAPI" />
+    <SUITE FILE_PATH="coverage/Request$Unittests_for_qingguologin_test_qgLoginTest_test_login_fail.coverage" NAME="Unittests for qingguologin_test.qgLoginTest.test_login_fail Coverage Results" MODIFIED="1542075901984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/Request$Unittests_for_qGlist_test_List_test_listFail_by_WrongPwd.coverage" NAME="Unittests for qGlist_test.List.test_listFail_by_WrongPwd Coverage Results" MODIFIED="1545465786184" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/Request$Unittests_for_qGlist_test_List_test_listFail_by_WrongUser.coverage" NAME="Unittests for qGlist_test.List.test_listFail_by_WrongUser Coverage Results" MODIFIED="1545465684356" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/Request$Unittests_for_xushiwei_JIEKOU_test_second.coverage" NAME="Unittests for xushiwei.JIEKOU.test_second Coverage Results" MODIFIED="1545544526130" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/QingGuo/MultiAPI" />
+    <SUITE FILE_PATH="coverage/Request$Unittests_for_qingguologin_test_qgLoginTest_test_login_by_para.coverage" NAME="Unittests for qingguologin_test.qgLoginTest.test_login_by_para Coverage Results" MODIFIED="1542076706590" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/Request$Unittests_in_sunliying_py.coverage" NAME="Unittests in sunliying.py Coverage Results" MODIFIED="1545545510542" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/QingGuo/MultiAPI" />
+    <SUITE FILE_PATH="coverage/Request$Unittests_for_yangkaijing_test_scene.coverage" NAME="Unittests for yangkaijing_test.scene Coverage Results" MODIFIED="1545696102028" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/QingGuo/MultiAPI" />
+    <SUITE FILE_PATH="coverage/Request$Unittests_for_xushiwei_JIEKOU_test_first.coverage" NAME="Unittests for xushiwei.JIEKOU.test_first Coverage Results" MODIFIED="1545545822196" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/QingGuo/MultiAPI" />
+    <SUITE FILE_PATH="coverage/Request$Unittests_for_qingguoadress_test_addressList_test_address_by_Login.coverage" NAME="Unittests for qingguoadress_test.addressList.test_address_by_Login Coverage Results" MODIFIED="1545463621031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/Request$Unittests_for_shengchunyue_test_qgSceneTest_test_scene3.coverage" NAME="Unittests for shengchunyue_test.qgSceneTest.test_scene3 Coverage Results" MODIFIED="1545561512580" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/QingGuo/MultiAPI" />
+    <SUITE FILE_PATH="coverage/Request$Common.coverage" NAME="Common Coverage Results" MODIFIED="1542077554637" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/api2018" />
+    <SUITE FILE_PATH="coverage/Request$QGMultiAPI.coverage" NAME="QGMultiAPI Coverage Results" MODIFIED="1545697424559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Request$Unittests_in_shengchunyue_py.coverage" NAME="Unittests in shengchunyue_test.py Coverage Results" MODIFIED="1545560985841" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/QingGuo/MultiAPI" />
+    <SUITE FILE_PATH="coverage/Request$Unittests_for_sunliying_qgSenceTest_test_scene2.coverage" NAME="Unittests for sunliying.qgSenceTest.test_scene2 Coverage Results" MODIFIED="1545478225022" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/QingGuo/MultiAPI" />
+    <SUITE FILE_PATH="coverage/Request$Unittests_in_zhangfeiyu_py.coverage" NAME="Unittests in zhangfeiyu.py Coverage Results" MODIFIED="1545695971186" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/QingGuo/MultiAPI" />
+    <SUITE FILE_PATH="coverage/Request$QGSingleAPI.coverage" NAME="QGSingleAPI Coverage Results" MODIFIED="1545698737124" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Request$getDemo1.coverage" NAME="getDemo1 Coverage Results" MODIFIED="1542011688656" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-313593398">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="15" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.11" value="2" />
+          <entry key="project.open.time.12" value="4" />
+          <entry key="project.open.time.14" value="2" />
+          <entry key="project.open.time.23" value="1" />
+          <entry key="project.open.time.25" value="1" />
+          <entry key="project.open.time.26" value="1" />
+          <entry key="project.open.time.30" value="1" />
+          <entry key="project.open.time.35" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.opened" value="15" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="32" />
+          <entry key="txt" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="32" />
+          <entry key="Image" value="7" />
+          <entry key="Ini" value="3" />
+          <entry key="PLAIN_TEXT" value="5" />
+          <entry key="Python" value="123" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="Python Console" value="18" />
+          <entry key="py" value="3070" />
+          <entry key="txt" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Ini" value="238" />
+          <entry key="PLAIN_TEXT" value="65" />
+          <entry key="Python" value="5427" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages" />
+      <usages-collector id="statistics.js.language.service.starts" />
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/QingGuo/SingleAPI/new_test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="33" column="30" lean-forward="true" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/QingGuo/SingleAPI/getFee_test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="278">
+              <caret line="125" column="25" lean-forward="true" selection-start-line="125" selection-start-column="25" selection-end-line="125" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/temp.py" />
+        <option value="$PROJECT_DIR$/getDemo1.py" />
+        <option value="$PROJECT_DIR$/../api2018/Common.py" />
+        <option value="$PROJECT_DIR$/../testcase/qingguologin_test.py" />
+        <option value="$PROJECT_DIR$/testcase/qingguoaddressList_test.py" />
+        <option value="$PROJECT_DIR$/cookies.py" />
+        <option value="$PROJECT_DIR$/getDemo.py" />
+        <option value="$PROJECT_DIR$/postDemo.py" />
+        <option value="$PROJECT_DIR$/testcase/qingguologin_test.py" />
+        <option value="$PROJECT_DIR$/api2018/Common.py" />
+        <option value="$PROJECT_DIR$/testcase/qgdata/青果情景三说明.txt" />
+        <option value="$PROJECT_DIR$/testcase/qingguoadress_test.py" />
+        <option value="$PROJECT_DIR$/api2018/DataProvider.py" />
+        <option value="$PROJECT_DIR$/api2018/Sendhttp.py" />
+        <option value="$PROJECT_DIR$/testcase/qingguoscene3.py" />
+        <option value="$PROJECT_DIR$/utils/ReadProperties.py" />
+        <option value="$PROJECT_DIR$/test/qingGuoLoginTest.py" />
+        <option value="$PROJECT_DIR$/api2018/EmailUtils.py" />
+        <option value="$PROJECT_DIR$/testcase/qGlist_test.py" />
+        <option value="$PROJECT_DIR$/QingGuo/MultiAPI/qingguoscene3.py" />
+        <option value="$PROJECT_DIR$/testcase/qgdata/temp.py" />
+        <option value="$PROJECT_DIR$/QingGuo/MultiAPI/sunliying.py" />
+        <option value="$PROJECT_DIR$/QingGuo/MultiAPI/xushiwei.py" />
+        <option value="$PROJECT_DIR$/QingGuo/MultiAPI/xushiwei_test.py" />
+        <option value="$PROJECT_DIR$/QingGuo/MultiAPI/shengchunyue.py" />
+        <option value="$PROJECT_DIR$/QingGuo/MultiAPI/shengchunyue_test.py" />
+        <option value="$PROJECT_DIR$/QingGuo/MultiAPI/fengBin_Test.py" />
+        <option value="$PROJECT_DIR$/QingGuo/SingleAPI/submit_test.py" />
+        <option value="$PROJECT_DIR$/core/Sendhttp.py" />
+        <option value="$PROJECT_DIR$/QingGuo/MultiAPI/zhangfeiyu.py" />
+        <option value="$PROJECT_DIR$/QingGuo/MultiAPI/yangkaijing_test.py" />
+        <option value="$PROJECT_DIR$/test/QGMultiAPI.py" />
+        <option value="$PROJECT_DIR$/QingGuo/SingleAPI/delete_test.py" />
+        <option value="$PROJECT_DIR$/QingGuo/SingleAPI/new_test.py" />
+        <option value="$PROJECT_DIR$/config/config.ini" />
+        <option value="$PROJECT_DIR$/test/QGSingleAPI.py" />
+        <option value="$PROJECT_DIR$/QingGuo/SingleAPI/getFee_test.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="611" />
+    <option name="y" value="64" />
+    <option name="width" value="688" />
+    <option name="height" value="735" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>Python</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>PyPep8Inspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <autoscrollFromSource ProjectPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Request" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Request" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Request" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Request" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Request" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Request" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Request" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Request" type="462c0819:PsiDirectoryNode" />
+              <item name="QingGuo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Request" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Request" type="462c0819:PsiDirectoryNode" />
+              <item name="QingGuo" type="462c0819:PsiDirectoryNode" />
+              <item name="SingleAPI" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Request" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Request" type="462c0819:PsiDirectoryNode" />
+              <item name="report" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Request" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Request" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Request" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Request" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../RanZhiPython" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\PycharmProjects\Request\testcase\qg" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\PycharmProjects\Request\QingGuo\SingleAPI" />
+      <recent name="F:\PycharmProjects\Request\QingGuo\MultiAPI" />
+      <recent name="F:\PycharmProjects\Request\testcase" />
+      <recent name="F:\PycharmProjects\Request\api2018" />
+      <recent name="F:\PycharmProjects\api2018\api" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.QGSingleAPI">
+    <configuration name="QGMultiAPI" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Request" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/QGMultiAPI.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="QGSingleAPI" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Request" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/QGSingleAPI.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for new_test.addressNew.test_addressnew21" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Request" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/QingGuo/SingleAPI" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;new_test.addressNew.test_addressnew21&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for sunliying_test.qgSenceTest.test_scene1" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Request" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/QingGuo/MultiAPI" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;sunliying_test.qgSenceTest.test_scene1&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in fengbin_test.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Request" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/QingGuo/MultiAPI" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/QingGuo/MultiAPI/fengbin_test.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in new_test.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Request" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/QingGuo/SingleAPI" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/QingGuo/SingleAPI/new_test.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.QGMultiAPI" />
+      <item itemvalue="Python tests.Unittests for sunliying_test.qgSenceTest.test_scene1" />
+      <item itemvalue="Python tests.Unittests for new_test.addressNew.test_addressnew21" />
+      <item itemvalue="Python tests.Unittests in new_test.py" />
+      <item itemvalue="Python.QGSingleAPI" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.QGSingleAPI" />
+        <item itemvalue="Python tests.Unittests in new_test.py" />
+        <item itemvalue="Python tests.Unittests for new_test.addressNew.test_addressnew21" />
+        <item itemvalue="Python.QGMultiAPI" />
+        <item itemvalue="Python tests.Unittests for sunliying_test.qgSenceTest.test_scene1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6b69363a-3a8a-4fa5-91f7-1129fd88bc27" name="Default Changelist" comment="" />
+      <created>1542004375460</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1542004375460</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Unittests_in_delete_test_py - 2018.12.25 at 07h 57m 05s.xml">
+      <configuration name="Unittests in delete_test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_zhangfeiyu_py - 2018.12.25 at 07h 59m 34s.xml">
+      <configuration name="Unittests in zhangfeiyu.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_yangkaijing_test_scene - 2018.12.25 at 08h 01m 43s.xml">
+      <configuration name="Unittests for yangkaijing_test.scene" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_sunliying_test_py - 2018.12.25 at 08h 09m 46s.xml">
+      <configuration name="Unittests in sunliying_test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_new_test_py - 2018.12.25 at 08h 12m 35s.xml">
+      <configuration name="Unittests in new_test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_sunliying_test_py - 2018.12.25 at 08h 21m 48s.xml">
+      <configuration name="Unittests in sunliying_test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_sunliying_test_qgSenceTest_test_scene5 - 2018.12.25 at 08h 23m 11s.xml">
+      <configuration name="Unittests for sunliying_test.qgSenceTest.test_scene5" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_sunliying_test_qgSenceTest_test_scene1 - 2018.12.25 at 08h 23m 20s.xml">
+      <configuration name="Unittests for sunliying_test.qgSenceTest.test_scene1" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_new_test_addressNew_test_addressnew21 - 2018.12.25 at 08h 25m 40s.xml">
+      <configuration name="Unittests for new_test.addressNew.test_addressnew21" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_new_test_py - 2018.12.25 at 08h 34m 14s.xml">
+      <configuration name="Unittests in new_test.py" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16792738" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.36006546" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.22295082" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3295082" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.28150573" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.3295082" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/QingGuo/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/QingGuo/SingleAPI/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/testcase/qg/list_test.py" />
+    <entry file="file://$PROJECT_DIR$/QingGuo/MultiAPI/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/testcase/qingguoscene3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/qingguologin_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-40">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python3.7.1/Lib/unittest/case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="831" selection-start-line="831" selection-end-line="831" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/core/Common.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/20181219162748result.html" />
+    <entry file="file://$PROJECT_DIR$/testcase/qgdata/temp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/20181223142354result.html" />
+    <entry file="file://$PROJECT_DIR$/report/20181223182757result.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/20181223183037result.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/20181223184016result.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/EmailUtils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="30" column="15" lean-forward="true" selection-start-line="30" selection-start-column="15" selection-end-line="30" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/20181224175822result.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="6" lean-forward="true" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/QingGuo/MultiAPI/xushiwei_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/QingGuo/MultiAPI/shengchunyue_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="518">
+          <caret line="28" column="100" selection-start-line="28" selection-start-column="100" selection-end-line="28" selection-end-column="100" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/Sendhttp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/MultiAPIPythonReport1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/MultiAPIPythonReport3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/20181225080851result.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/MultiAPIPythonReport2.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/20181225081417result.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/MultiAPIPythonENReport.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/MultiAPIPythonRoundReport.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="48" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/QingGuo/MultiAPI/sunliying_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3000">
+          <caret line="159" column="61" lean-forward="true" selection-start-line="159" selection-start-column="61" selection-end-line="159" selection-end-column="61" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/20181225082211result.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/MultiAPIPythonNativeReport.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/20181225082110result.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/20181225082008result.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/QingGuo/MultiAPI/fengbin_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="718">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/20181223142509result.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/QingGuo/MultiAPI/zhangfeiyu_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-120">
+          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/QingGuo/MultiAPI/yangkaijing_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/QingGuo/SingleAPI/list_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-40">
+          <caret line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/QingGuo/SingleAPI/delete_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/QingGuo/SingleAPI/skulist_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/QingGuo/SingleAPI/submit_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4700">
+          <caret line="237" lean-forward="true" selection-start-line="237" selection-end-line="237" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/20181225084024result.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/20181225084409result.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/20181225084313result.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/SingleAPIPythonRoundReport.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/SingleAPIPythonNativeReport.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/SingleAPIPythonENReport.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="41" lean-forward="true" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/QGSingleAPI.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/QGMultiAPI.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/config.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" column="52" lean-forward="true" selection-start-line="1" selection-start-column="52" selection-end-line="1" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/QingGuo/SingleAPI/new_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="33" column="30" lean-forward="true" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/QingGuo/SingleAPI/getFee_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="125" column="25" lean-forward="true" selection-start-line="125" selection-start-column="25" selection-end-line="125" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

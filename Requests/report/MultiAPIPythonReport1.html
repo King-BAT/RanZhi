@@ -1,0 +1,3294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>测试报告</title>
+    <meta name="generator" content="HTMLTestRunner 0.8.2"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    
+<style type="text/css" media="screen">
+body        { font-family: verdana, arial, helvetica, sans-serif; font-size: 80%; }
+table       { font-size: 100%; }
+pre         { }
+
+/* -- heading ---------------------------------------------------------------------- */
+h1 {
+	font-size: 16pt;
+	color: gray;
+}
+.heading {
+    margin-top: 0ex;
+    margin-bottom: 1ex;
+}
+
+.heading .attribute {
+    margin-top: 1ex;
+    margin-bottom: 0;
+}
+
+.heading .description {
+    margin-top: 4ex;
+    margin-bottom: 6ex;
+}
+
+/* -- css div popup ------------------------------------------------------------------------ */
+a.popup_link {
+}
+
+a.popup_link:hover {
+    color: red;
+}
+
+.popup_window {
+    display: none;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    /*border: solid #627173 1px; */
+    padding: 10px;
+    background-color: #E6E6D6;
+    font-family: "Lucida Console", "Courier New", Courier, monospace;
+    text-align: left;
+    font-size: 8pt;
+    width: 500px;
+}
+
+}
+/* -- report ------------------------------------------------------------------------ */
+#show_detail_line {
+    margin-top: 3ex;
+    margin-bottom: 1ex;
+}
+#result_table {
+    width: 80%;
+    border-collapse: collapse;
+    border: 1px solid #777;
+}
+#header_row {
+    font-weight: bold;
+    color: white;
+    background-color: #777;
+}
+#result_table td {
+    border: 1px solid #777;
+    padding: 2px;
+}
+#total_row  { font-weight: bold; }
+.passClass  { background-color: #6c6; }
+.failClass  { background-color: #c60; }
+.errorClass { background-color: #c00; }
+.passCase   { color: #6c6; }
+.failCase   { color: #c60; font-weight: bold; }
+.errorCase  { color: #c00; font-weight: bold; }
+.hiddenRow  { display: none; }
+.testcase   { margin-left: 2em; }
+
+
+/* -- ending ---------------------------------------------------------------------- */
+#ending {
+}
+
+</style>
+
+</head>
+<body>
+<script language="javascript" type="text/javascript"><!--
+output_list = Array();
+
+/* level - 0:Summary; 1:Failed; 2:All */
+function showCase(level) {
+    trs = document.getElementsByTagName("tr");
+    for (var i = 0; i < trs.length; i++) {
+        tr = trs[i];
+        id = tr.id;
+        if (id.substr(0,2) == 'ft') {
+            if (level < 1) {
+                tr.className = 'hiddenRow';
+            }
+            else {
+                tr.className = '';
+            }
+        }
+        if (id.substr(0,2) == 'pt') {
+            if (level > 1) {
+                tr.className = '';
+            }
+            else {
+                tr.className = 'hiddenRow';
+            }
+        }
+    }
+}
+
+
+function showClassDetail(cid, count) {
+    var id_list = Array(count);
+    var toHide = 1;
+    for (var i = 0; i < count; i++) {
+        tid0 = 't' + cid.substr(1) + '.' + (i+1);
+        tid = 'f' + tid0;
+        tr = document.getElementById(tid);
+        if (!tr) {
+            tid = 'p' + tid0;
+            tr = document.getElementById(tid);
+        }
+        id_list[i] = tid;
+        if (tr.className) {
+            toHide = 0;
+        }
+    }
+    for (var i = 0; i < count; i++) {
+        tid = id_list[i];
+        if (toHide) {
+            document.getElementById('div_'+tid).style.display = 'none'
+            document.getElementById(tid).className = 'hiddenRow';
+        }
+        else {
+            document.getElementById(tid).className = '';
+        }
+    }
+}
+
+
+function showTestDetail(div_id){
+    var details_div = document.getElementById(div_id)
+    var displayState = details_div.style.display
+    // alert(displayState)
+    if (displayState != 'block' ) {
+        displayState = 'block'
+        details_div.style.display = 'block'
+    }
+    else {
+        details_div.style.display = 'none'
+    }
+}
+
+
+function html_escape(s) {
+    s = s.replace(/&/g,'&amp;');
+    s = s.replace(/</g,'&lt;');
+    s = s.replace(/>/g,'&gt;');
+    return s;
+}
+
+/* obsoleted by detail in <div>
+function showOutput(id, name) {
+    var w = window.open("", //url
+                    name,
+                    "resizable,scrollbars,status,width=800,height=450");
+    d = w.document;
+    d.write("<pre>");
+    d.write(html_escape(output_list[id]));
+    d.write("\n");
+    d.write("<a href='javascript:window.close()'>close</a>\n");
+    d.write("</pre>\n");
+    d.close();
+}
+*/
+--></script>
+
+<div class='heading'>
+<h1>测试报告</h1>
+<p class='attribute'><strong>Start Time:</strong> 2018-12-25 08:02:01</p>
+<p class='attribute'><strong>Duration:</strong> 0:00:11.912212</p>
+<p class='attribute'><strong>Status:</strong> Pass 21</p>
+
+<p class='description'>运行环境:firefox</p>
+</div>
+
+
+
+<p id='show_detail_line'>Show
+<a href='javascript:showCase(0)'>Summary</a>
+<a href='javascript:showCase(1)'>Failed</a>
+<a href='javascript:showCase(2)'>All</a>
+</p>
+<table id='result_table'>
+<colgroup>
+<col align='left' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+</colgroup>
+<tr id='header_row'>
+    <td>Test Group/Test case</td>
+    <td>Count</td>
+    <td>Pass</td>
+    <td>Fail</td>
+    <td>Error</td>
+    <td>View</td>
+</tr>
+
+<tr class='passClass'>
+    <td>fengbin_test.scene</td>
+    <td>5</td>
+    <td>5</td>
+    <td>0</td>
+    <td>0</td>
+    <td><a href="javascript:showClassDetail('c1',5)">Detail</a></td>
+</tr>
+
+<tr id='pt1.1' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_Scene1</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.1')" >
+        pass</a>
+
+    <div id='div_pt1.1' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.1: {
+  "code": 200,
+  "message": "success"
+}
+{
+  "code": 200,
+  "message": "success",
+  "result": [
+    {
+      "colour": 1,
+      "goods": {
+        "goodsName": "青果",
+        "id": 2,
+        "searchParamList": [],
+        "sellChannel": 2
+      },
+      "goodsId": 2,
+      "id": 5,
+      "picUrl": "https://nos.163.com/yixinpublic/pr_fqizpyyj3qoi7czau3yiig==_1439967375_16285",
+      "price": 199.0,
+      "searchParamList": [],
+      "skuName": "夜空黑",
+      "totalNumber": 200000
+    },
+    {
+      "colour": 0,
+      "goods": {
+        "goodsName": "青果",
+        "id": 2,
+        "searchParamList": [],
+        "sellChannel": 2
+      },
+      "goodsId": 2,
+      "id": 4,
+      "picUrl": "https://nos.163.com/yixinpublic/pr_lvlslq5untnm-kymzfhaea==_1439967379_16286",
+      "price": 199.0,
+      "searchParamList": [],
+      "skuName": "青果绿",
+      "totalNumber": 200000
+    },
+    {
+      "colour": 1,
+      "goods": {
+        "goodsName": "青果",
+        "id": 1,
+        "searchParamList": [],
+        "sellChannel": 1
+      },
+      "goodsId": 1,
+      "id": 3,
+      "picUrl": "https://nos.163.com/yixinpublic/pr_fqizpyyj3qoi7czau3yiig==_1439967375_16285",
+      "price": 199.0,
+      "searchParamList": [],
+      "skuName": "夜空黑",
+      "stockId": 74966313,
+      "totalNumber": 200000
+    },
+    {
+      "colour": 0,
+      "goods": {
+        "goodsName": "青果",
+        "id": 1,
+        "searchParamList": [],
+        "sellChannel": 1
+      },
+      "goodsId": 1,
+      "id": 2,
+      "picUrl": "https://nos.163.com/yixinpublic/pr_lvlslq5untnm-\n\nkymzfhaea==_1439967379_16286",
+      "price": 199.0,
+      "searchParamList": [],
+      "skuName": "青果绿",
+      "stockId": 74966312,
+      "totalNumber": 200000
+    }
+  ]
+}
+{
+  "code": 200,
+  "message": "success"
+}
+&lt;RequestsCookieJar[&lt;Cookie smartcamera_buy_pc_fg_sessionid=smartcamera_buy_pc_fg_sessionid_74966347_ed7c127f-0125-4467-bd74-14ff86c9d686 for .study-perf.qa.netease.com/&gt;, &lt;Cookie smartcamera_buy_pc_fg_short_sessonid=smartcamera_buy_pc_fg_short_sessonid_74966347_fa2f54e1-e4d7-43a1-bade-b662d1eb7b9d for .study-perf.qa.netease.com/&gt;]&gt;
+{
+  "code": 200,
+  "message": "success"
+}
+{
+  "code": 200,
+  "message": "success"
+}
+&lt;RequestsCookieJar[&lt;Cookie smartcamera_buy_pc_fg_sessionid=smartcamera_buy_pc_fg_sessionid_74966347_6baf4ef5-a808-4bbe-afdc-12196939234a for .study-perf.qa.netease.com/&gt;, &lt;Cookie smartcamera_buy_pc_fg_short_sessonid=smartcamera_buy_pc_fg_short_sessonid_74966347_d36907d7-3cdc-4176-9943-005dccc6a0cc for .study-perf.qa.netease.com/&gt;]&gt;
+{
+  "code": 200,
+  "message": "success",
+  "result": {
+    "accessDevice": 0,
+    "accessSource": "noSource",
+    "addressDetail": "新校区",
+    "area": "裕华区",
+    "cancel": 0,
+    "cellPhone": "15226541128",
+    "city": "石家庄市",
+    "createTime": 1545696123579,
+    "fgUserId": 74966347,
+    "finish": 0,
+    "id": 82320415,
+    "invoiceHead": "",
+    "logisticsCompanyId": 1,
+    "needInvoice": 0,
+    "province": "河北省",
+    "receiverName": "小飞龙",
+    "status": 0,
+    "totalFee": 199.0,
+    "transportFee": 0.0
+  }
+}
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt1.2' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_scene2</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.2')" >
+        pass</a>
+
+    <div id='div_pt1.2' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.2').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.2: {
+  "code": 200,
+  "message": "success",
+  "result": [
+    {
+      "colour": 1,
+      "goods": {
+        "goodsName": "青果",
+        "id": 2,
+        "searchParamList": [],
+        "sellChannel": 2
+      },
+      "goodsId": 2,
+      "id": 5,
+      "picUrl": "https://nos.163.com/yixinpublic/pr_fqizpyyj3qoi7czau3yiig==_1439967375_16285",
+      "price": 199.0,
+      "searchParamList": [],
+      "skuName": "夜空黑",
+      "totalNumber": 200000
+    },
+    {
+      "colour": 0,
+      "goods": {
+        "goodsName": "青果",
+        "id": 2,
+        "searchParamList": [],
+        "sellChannel": 2
+      },
+      "goodsId": 2,
+      "id": 4,
+      "picUrl": "https://nos.163.com/yixinpublic/pr_lvlslq5untnm-kymzfhaea==_1439967379_16286",
+      "price": 199.0,
+      "searchParamList": [],
+      "skuName": "青果绿",
+      "totalNumber": 200000
+    },
+    {
+      "colour": 1,
+      "goods": {
+        "goodsName": "青果",
+        "id": 1,
+        "searchParamList": [],
+        "sellChannel": 1
+      },
+      "goodsId": 1,
+      "id": 3,
+      "picUrl": "https://nos.163.com/yixinpublic/pr_fqizpyyj3qoi7czau3yiig==_1439967375_16285",
+      "price": 199.0,
+      "searchParamList": [],
+      "skuName": "夜空黑",
+      "stockId": 74966313,
+      "totalNumber": 200000
+    },
+    {
+      "colour": 0,
+      "goods": {
+        "goodsName": "青果",
+        "id": 1,
+        "searchParamList": [],
+        "sellChannel": 1
+      },
+      "goodsId": 1,
+      "id": 2,
+      "picUrl": "https://nos.163.com/yixinpublic/pr_lvlslq5untnm-\n\nkymzfhaea==_1439967379_16286",
+      "price": 199.0,
+      "searchParamList": [],
+      "skuName": "青果绿",
+      "stockId": 74966312,
+      "totalNumber": 200000
+    }
+  ]
+}
+{
+  "code": 200,
+  "message": "success",
+  "result": 6.0
+}
+{
+  "code": 200,
+  "message": "success"
+}
+&lt;RequestsCookieJar[&lt;Cookie smartcamera_buy_pc_fg_sessionid=smartcamera_buy_pc_fg_sessionid_74966347_034e0099-f3c2-4a66-8c88-cdfd5184af38 for .study-perf.qa.netease.com/&gt;, &lt;Cookie smartcamera_buy_pc_fg_short_sessonid=smartcamera_buy_pc_fg_short_sessonid_74966347_c43963d8-c97c-463a-a653-e91d222bbd48 for .study-perf.qa.netease.com/&gt;]&gt;
+{
+  "code": 200,
+  "message": "success",
+  "result": {
+    "accessDevice": 0,
+    "accessSource": "noSource",
+    "addressDetail": "新校区",
+    "area": "裕华区",
+    "cancel": 0,
+    "cellPhone": "15226541128",
+    "city": "石家庄市",
+    "createTime": 1545696123982,
+    "fgUserId": 74966347,
+    "finish": 0,
+    "id": 82320417,
+    "invoiceHead": "",
+    "logisticsCompanyId": 1,
+    "needInvoice": 0,
+    "province": "河北省",
+    "receiverName": "小飞龙",
+    "status": 0,
+    "totalFee": 199.0,
+    "transportFee": 0.0
+  }
+}
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt1.3' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_scene3</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.3')" >
+        pass</a>
+
+    <div id='div_pt1.3' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.3').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.3: {
+  "code": 200,
+  "message": "success"
+}
+{
+  "code": 200,
+  "message": "success",
+  "result": [
+    {
+      "colour": 1,
+      "goods": {
+        "goodsName": "青果",
+        "id": 2,
+        "searchParamList": [],
+        "sellChannel": 2
+      },
+      "goodsId": 2,
+      "id": 5,
+      "picUrl": "https://nos.163.com/yixinpublic/pr_fqizpyyj3qoi7czau3yiig==_1439967375_16285",
+      "price": 199.0,
+      "searchParamList": [],
+      "skuName": "夜空黑",
+      "totalNumber": 200000
+    },
+    {
+      "colour": 0,
+      "goods": {
+        "goodsName": "青果",
+        "id": 2,
+        "searchParamList": [],
+        "sellChannel": 2
+      },
+      "goodsId": 2,
+      "id": 4,
+      "picUrl": "https://nos.163.com/yixinpublic/pr_lvlslq5untnm-kymzfhaea==_1439967379_16286",
+      "price": 199.0,
+      "searchParamList": [],
+      "skuName": "青果绿",
+      "totalNumber": 200000
+    },
+    {
+      "colour": 1,
+      "goods": {
+        "goodsName": "青果",
+        "id": 1,
+        "searchParamList": [],
+        "sellChannel": 1
+      },
+      "goodsId": 1,
+      "id": 3,
+      "picUrl": "https://nos.163.com/yixinpublic/pr_fqizpyyj3qoi7czau3yiig==_1439967375_16285",
+      "price": 199.0,
+      "searchParamList": [],
+      "skuName": "夜空黑",
+      "stockId": 74966313,
+      "totalNumber": 200000
+    },
+    {
+      "colour": 0,
+      "goods": {
+        "goodsName": "青果",
+        "id": 1,
+        "searchParamList": [],
+        "sellChannel": 1
+      },
+      "goodsId": 1,
+      "id": 2,
+      "picUrl": "https://nos.163.com/yixinpublic/pr_lvlslq5untnm-\n\nkymzfhaea==_1439967379_16286",
+      "price": 199.0,
+      "searchParamList": [],
+      "skuName": "青果绿",
+      "stockId": 74966312,
+      "totalNumber": 200000
+    }
+  ]
+}
+{
+  "code": 200,
+  "message": "success"
+}
+&lt;RequestsCookieJar[&lt;Cookie smartcamera_buy_pc_fg_sessionid=smartcamera_buy_pc_fg_sessionid_74966347_906fb44a-fc20-44ff-88a9-a354b821d0b3 for .study-perf.qa.netease.com/&gt;, &lt;Cookie smartcamera_buy_pc_fg_short_sessonid=smartcamera_buy_pc_fg_short_sessonid_74966347_9b03897d-41f1-4727-8f37-7d03c78707e3 for .study-perf.qa.netease.com/&gt;]&gt;
+{
+  "code": 400,
+  "message": "请求失败"
+}
+{
+  "code": 200,
+  "message": "success"
+}
+&lt;RequestsCookieJar[&lt;Cookie smartcamera_buy_pc_fg_sessionid=smartcamera_buy_pc_fg_sessionid_74966347_f4c4c368-0c45-4993-b1fd-f79587d61bf5 for .study-perf.qa.netease.com/&gt;, &lt;Cookie smartcamera_buy_pc_fg_short_sessonid=smartcamera_buy_pc_fg_short_sessonid_74966347_603c92f1-1b22-4cd8-b59d-b80761284b8e for .study-perf.qa.netease.com/&gt;]&gt;
+{
+  "code": 200,
+  "message": "success"
+}
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt1.4' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_scene4</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.4')" >
+        pass</a>
+
+    <div id='div_pt1.4' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.4').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.4: {
+  "code": 200,
+  "message": "success"
+}
+{
+  "code": 200,
+  "message": "success",
+  "result": [
+    {
+      "colour": 1,
+      "goods": {
+        "goodsName": "青果",
+        "id": 1,
+        "searchParamList": [],
+        "sellChannel": 1
+      },
+      "goodsId": 1,
+      "id": 3,
+      "picUrl": "https://nos.163.com/yixinpublic/pr_fqizpyyj3qoi7czau3yiig==_1439967375_16285",
+      "price": 199.0,
+      "searchParamList": [],
+      "skuName": "夜空黑",
+      "stockId": 74966313,
+      "totalNumber": 200000
+    },
+    {
+      "colour": 0,
+      "goods": {
+        "goodsName": "青果",
+        "id": 1,
+        "searchParamList": [],
+        "sellChannel": 1
+      },
+      "goodsId": 1,
+      "id": 2,
+      "picUrl": "https://nos.163.com/yixinpublic/pr_lvlslq5untnm-\n\nkymzfhaea==_1439967379_16286",
+      "price": 199.0,
+      "searchParamList": [],
+      "skuName": "青果绿",
+      "stockId": 74966312,
+      "totalNumber": 200000
+    }
+  ]
+}
+{
+  "code": 200,
+  "message": "success"
+}
+&lt;RequestsCookieJar[&lt;Cookie smartcamera_buy_pc_fg_sessionid=smartcamera_buy_pc_fg_sessionid_74966347_c899a0b1-3266-4c3a-8537-f7538cd82e96 for .study-perf.qa.netease.com/&gt;, &lt;Cookie smartcamera_buy_pc_fg_short_sessonid=smartcamera_buy_pc_fg_short_sessonid_74966347_b05ce851-3526-4c56-bf87-9e0d28abe0f2 for .study-perf.qa.netease.com/&gt;]&gt;
+{
+  "code": 400,
+  "message": "请求失败"
+}
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt1.5' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_scene5</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.5')" >
+        pass</a>
+
+    <div id='div_pt1.5' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.5').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.5: {
+  "code": 200,
+  "message": "success"
+}
+{
+  "code": 200,
+  "message": "success",
+  "result": [
+    {
+      "colour": 1,
+      "goods": {
+        "goodsName": "青果",
+        "id": 1,
+        "searchParamList": [],
+        "sellChannel": 1
+      },
+      "goodsId": 1,
+      "id": 3,
+      "picUrl": "https://nos.163.com/yixinpublic/pr_fqizpyyj3qoi7czau3yiig==_1439967375_16285",
+      "price": 199.0,
+      "searchParamList": [],
+      "skuName": "夜空黑",
+      "stockId": 74966313,
+      "totalNumber": 200000
+    },
+    {
+      "colour": 0,
+      "goods": {
+        "goodsName": "青果",
+        "id": 1,
+        "searchParamList": [],
+        "sellChannel": 1
+      },
+      "goodsId": 1,
+      "id": 2,
+      "picUrl": "https://nos.163.com/yixinpublic/pr_lvlslq5untnm-\n\nkymzfhaea==_1439967379_16286",
+      "price": 199.0,
+      "searchParamList": [],
+      "skuName": "青果绿",
+      "stockId": 74966312,
+      "totalNumber": 200000
+    }
+  ]
+}
+{
+  "code": 200,
+  "message": "success",
+  "result": 6.0
+}
+{
+  "code": 200,
+  "message": "success"
+}
+&lt;RequestsCookieJar[&lt;Cookie smartcamera_buy_pc_fg_sessionid=smartcamera_buy_pc_fg_sessionid_74966347_dcc30fa7-50c3-402e-9863-9f9655b52f4f for .study-perf.qa.netease.com/&gt;, &lt;Cookie smartcamera_buy_pc_fg_short_sessonid=smartcamera_buy_pc_fg_short_sessonid_74966347_4d37202c-7b07-4d9d-8f1d-233551e4778e for .study-perf.qa.netease.com/&gt;]&gt;
+{
+  "code": 200,
+  "message": "success",
+  "result": {
+    "accessDevice": 0,
+    "accessSource": "noSource",
+    "addressDetail": "新校区",
+    "area": "裕华区",
+    "cancel": 0,
+    "cellPhone": "15226541128",
+    "city": "石家庄市",
+    "createTime": 1545696125456,
+    "fgUserId": 74966347,
+    "finish": 0,
+    "id": 82320420,
+    "invoiceHead": "",
+    "logisticsCompanyId": 1,
+    "needInvoice": 0,
+    "province": "河北省",
+    "receiverName": "小飞龙",
+    "status": 0,
+    "totalFee": 199.0,
+    "transportFee": 0.0
+  }
+}
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr class='passClass'>
+    <td>shengchunyue_test.qgSceneTest</td>
+    <td>4</td>
+    <td>4</td>
+    <td>0</td>
+    <td>0</td>
+    <td><a href="javascript:showClassDetail('c2',4)">Detail</a></td>
+</tr>
+
+<tr id='pt2.1' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_scene1</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt2.1')" >
+        pass</a>
+
+    <div id='div_pt2.1' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt2.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt2.1: {
+  "code": 200,
+  "message": "success"
+}
+{
+  "code": 200,
+  "message": "success"
+}
+&lt;RequestsCookieJar[&lt;Cookie smartcamera_buy_pc_fg_sessionid=smartcamera_buy_pc_fg_sessionid_74966358_ff7126f2-970a-46d1-a89d-8ff0e0ec514c for .study-perf.qa.netease.com/&gt;, &lt;Cookie smartcamera_buy_pc_fg_short_sessonid=smartcamera_buy_pc_fg_short_sessonid_74966358_a2c8b2e3-c194-480d-ae39-bb5d0ec9f8e3 for .study-perf.qa.netease.com/&gt;]&gt;
+{
+  "code": 200,
+  "message": "success",
+  "result": {
+    "fgUserId": 74966358,
+    "limit": 50,
+    "list": [
+      {
+        "addressDetail": "浙江大学",
+        "area": "滨江区",
+        "cellPhone": "12345678901",
+        "city": "杭州市",
+        "fgUser": {
+          "createTime": 1454057849599,
+          "createTimeStr": "2016-01-29 16:57:29",
+          "id": 74966358,
+          "next1": 0,
+          "next2": 0,
+          "phoneArea": "86",
+          "phoneNumber": "200000000044",
+          "platform": 0,
+          "platformDescribe": "手机",
+          "searchParamList": [],
+          "userAccount": "86/200000000044",
+          "userName": "测试用户44"
+        },
+        "fgUserId": 74966358,
+        "id": 82320297,
+        "province": "浙江省",
+        "receiverName": "张三",
+        "searchParamList": [],
+        "sort": 99
+      },
+      {
+        "addressDetail": "浙江大学",
+        "area": "滨江区",
+        "cellPhone": "12345678901",
+        "city": "杭州市",
+        "fgUser": {
+          "createTime": 1454057849599,
+          "createTimeStr": "2016-01-29 16:57:29",
+          "id": 74966358,
+          "next1": 0,
+          "next2": 0,
+          "phoneArea": "86",
+          "phoneNumber": "200000000044",
+          "platform": 0,
+          "platformDescribe": "手机",
+          "searchParamList": [],
+          "userAccount": "86/200000000044",
+          "userName": "测试用户44"
+        },
+        "fgUserId": 74966358,
+        "id": 82319662,
+        "province": "浙江省",
+        "receiverName": "张三",
+        "searchParamList": [],
+        "sort": 99
+      },
+      {
+        "addressDetail": "浙江大学",
+        "area": "滨江区",
+        "cellPhone": "12345678901",
+        "city": "杭州市",
+        "fgUser": {
+          "createTime": 1454057849599,
+          "createTimeStr": "2016-01-29 16:57:29",
+          "id": 74966358,
+          "next1": 0,
+          "next2": 0,
+          "phoneArea": "86",
+          "phoneNumber": "200000000044",
+          "platform": 0,
+          "platformDescribe": "手机",
+          "searchParamList": [],
+          "userAccount": "86/200000000044",
+          "userName": "测试用户44"
+        },
+        "fgUserId": 74966358,
+        "id": 82319625,
+        "province": "浙江省",
+        "receiverName": "张三",
+        "searchParamList": [],
+        "sort": 99
+      },
+      {
+        "addressDetail": "浙江大学",
+        "area": "滨江区",
+        "cellPhone": "12345678901",
+        "city": "杭州市",
+        "fgUser": {
+          "createTime": 1454057849599,
+          "createTimeStr": "2016-01-29 16:57:29",
+          "id": 74966358,
+          "next1": 0,
+          "next2": 0,
+          "phoneArea": "86",
+          "phoneNumber": "200000000044",
+          "platform": 0,
+          "platformDescribe": "手机",
+          "searchParamList": [],
+          "userAccount": "86/200000000044",
+          "userName": "测试用户44"
+        },
+        "fgUserId": 74966358,
+        "id": 82319621,
+        "province": "浙江省",
+        "receiverName": "张三",
+        "searchParamList": [],
+        "sort": 99
+      },
+      {
+        "addressDetail": "浙江大学",
+        "area": "滨江区",
+        "cellPhone": "12345678901",
+        "city": "杭州市",
+        "fgUser": {
+          "createTime": 1454057849599,
+          "createTimeStr": "2016-01-29 16:57:29",
+          "id": 74966358,
+          "next1": 0,
+          "next2": 0,
+          "phoneArea": "86",
+          "phoneNumber": "200000000044",
+          "platform": 0,
+          "platformDescribe": "手机",
+          "searchParamList": [],
+          "userAccount": "86/200000000044",
+          "userName": "测试用户44"
+        },
+        "fgUserId": 74966358,
+        "id": 82319609,
+        "province": "浙江省",
+        "receiverName": "张三",
+        "searchParamList": [],
+        "sort": 99
+      }
+    ],
+    "offset": 0,
+    "prefix": "A.",
+    "searchParamList": [
+      74966358,
+      50,
+      0
+    ],
+    "total": 5
+  }
+}
+&lt;built-in function id&gt;
+{
+  "code": 200,
+  "message": "success"
+}
+&lt;RequestsCookieJar[&lt;Cookie smartcamera_buy_pc_fg_sessionid=smartcamera_buy_pc_fg_sessionid_74966358_3caf09ed-83f2-41a5-a605-889216ee13d2 for .study-perf.qa.netease.com/&gt;, &lt;Cookie smartcamera_buy_pc_fg_short_sessonid=smartcamera_buy_pc_fg_short_sessonid_74966358_34accd3d-c93e-438c-bb8f-c76a4913a3ba for .study-perf.qa.netease.com/&gt;]&gt;
+{
+  "code": 200,
+  "message": "success"
+}
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt2.2' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_scene2</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt2.2')" >
+        pass</a>
+
+    <div id='div_pt2.2' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt2.2').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt2.2: {
+  "code": 200,
+  "message": "success"
+}
+{
+  "code": 200,
+  "message": "success"
+}
+&lt;RequestsCookieJar[&lt;Cookie smartcamera_buy_pc_fg_sessionid=smartcamera_buy_pc_fg_sessionid_74966325_88f24c44-9cc7-4d6a-8549-6dce768709c1 for .study-perf.qa.netease.com/&gt;, &lt;Cookie smartcamera_buy_pc_fg_short_sessonid=smartcamera_buy_pc_fg_short_sessonid_74966325_9686ec19-4b12-44c4-b100-8d583a1c995d for .study-perf.qa.netease.com/&gt;]&gt;
+{
+  "code": 200,
+  "message": "success",
+  "result": {
+    "fgUserId": 74966325,
+    "limit": 50,
+    "list": [
+      {
+        "addressDetail": "南京大学",
+        "area": "鼓楼区",
+        "cellPhone": "200000000011",
+        "city": "南京市",
+        "fgUser": {
+          "createTime": 1454057847397,
+          "createTimeStr": "2016-01-29 16:57:27",
+          "id": 74966325,
+          "next1": 0,
+          "next2": 0,
+          "phoneArea": "86",
+          "phoneNumber": "200000000011",
+          "platform": 0,
+          "platformDescribe": "手机",
+          "searchParamList": [],
+          "userAccount": "86/200000000011",
+          "userName": "测试用户11"
+        },
+        "fgUserId": 74966325,
+        "id": 82319837,
+        "province": "江苏省",
+        "receiverName": "李四",
+        "searchParamList": [],
+        "sort": 99
+      },
+      {
+        "addressDetail": "????",
+        "area": "???",
+        "cellPhone": "200000000011",
+        "city": "???",
+        "fgUser": {
+          "createTime": 1454057847397,
+          "createTimeStr": "2016-01-29 16:57:27",
+          "id": 74966325,
+          "next1": 0,
+          "next2": 0,
+          "phoneArea": "86",
+          "phoneNumber": "200000000011",
+          "platform": 0,
+          "platformDescribe": "手机",
+          "searchParamList": [],
+          "userAccount": "86/200000000011",
+          "userName": "测试用户11"
+        },
+        "fgUserId": 74966325,
+        "id": 82319680,
+        "province": "???",
+        "receiverName": "??",
+        "searchParamList": [],
+        "sort": 99
+      },
+      {
+        "addressDetail": "南京大学",
+        "area": "鼓楼区",
+        "cellPhone": "200000000011",
+        "city": "南京市",
+        "fgUser": {
+          "createTime": 1454057847397,
+          "createTimeStr": "2016-01-29 16:57:27",
+          "id": 74966325,
+          "next1": 0,
+          "next2": 0,
+          "phoneArea": "86",
+          "phoneNumber": "200000000011",
+          "platform": 0,
+          "platformDescribe": "手机",
+          "searchParamList": [],
+          "userAccount": "86/200000000011",
+          "userName": "测试用户11"
+        },
+        "fgUserId": 74966325,
+        "id": 82319661,
+        "province": "江苏省",
+        "receiverName": "李四",
+        "searchParamList": [],
+        "sort": 99
+      },
+      {
+        "addressDetail": "南京大学",
+        "area": "鼓楼区",
+        "cellPhone": "200000000011",
+        "city": "南京市",
+        "fgUser": {
+          "createTime": 1454057847397,
+          "createTimeStr": "2016-01-29 16:57:27",
+          "id": 74966325,
+          "next1": 0,
+          "next2": 0,
+          "phoneArea": "86",
+          "phoneNumber": "200000000011",
+          "platform": 0,
+          "platformDescribe": "手机",
+          "searchParamList": [],
+          "userAccount": "86/200000000011",
+          "userName": "测试用户11"
+        },
+        "fgUserId": 74966325,
+        "id": 82319660,
+        "province": "江苏省",
+        "receiverName": "李四",
+        "searchParamList": [],
+        "sort": 99
+      },
+      {
+        "addressDetail": "南京大学",
+        "area": "鼓楼区",
+        "cellPhone": "200000000011",
+        "city": "南京市",
+        "fgUser": {
+          "createTime": 1454057847397,
+          "createTimeStr": "2016-01-29 16:57:27",
+          "id": 74966325,
+          "next1": 0,
+          "next2": 0,
+          "phoneArea": "86",
+          "phoneNumber": "200000000011",
+          "platform": 0,
+          "platformDescribe": "手机",
+          "searchParamList": [],
+          "userAccount": "86/200000000011",
+          "userName": "测试用户11"
+        },
+        "fgUserId": 74966325,
+        "id": 82319659,
+        "province": "江苏省",
+        "receiverName": "李四",
+        "searchParamList": [],
+        "sort": 99
+      },
+      {
+        "addressDetail": "南二环东路20号",
+        "area": "滨江区",
+        "cellPhone": "15226565596",
+        "city": "杭州市",
+        "fgUser": {
+          "createTime": 1454057847397,
+          "createTimeStr": "2016-01-29 16:57:27",
+          "id": 74966325,
+          "next1": 0,
+          "next2": 0,
+          "phoneArea": "86",
+          "phoneNumber": "200000000011",
+          "platform": 0,
+          "platformDescribe": "手机",
+          "searchParamList": [],
+          "userAccount": "86/200000000011",
+          "userName": "测试用户11"
+        },
+        "fgUserId": 74966325,
+        "id": 82319658,
+        "province": "浙江省",
+        "receiverName": "张三",
+        "searchParamList": [],
+        "sort": 99
+      }
+    ],
+    "offset": 0,
+    "prefix": "A.",
+    "searchParamList": [
+      74966325,
+      50,
+      0
+    ],
+    "total": 6
+  }
+}
+{
+  "code": 200,
+  "message": "success"
+}
+&lt;RequestsCookieJar[&lt;Cookie smartcamera_buy_pc_fg_sessionid=smartcamera_buy_pc_fg_sessionid_74966325_911d6376-a986-466f-8199-b1f7972c07d8 for .study-perf.qa.netease.com/&gt;, &lt;Cookie smartcamera_buy_pc_fg_short_sessonid=smartcamera_buy_pc_fg_short_sessonid_74966325_8727cfeb-8605-4112-ba2a-a0eb14433d2d for .study-perf.qa.netease.com/&gt;]&gt;
+{
+  "code": 400,
+  "message": "最多只能添加6个地址"
+}
+{
+  "code": 200,
+  "message": "success"
+}
+&lt;RequestsCookieJar[&lt;Cookie smartcamera_buy_pc_fg_sessionid=smartcamera_buy_pc_fg_sessionid_74966325_c821a82a-836a-4fba-8e20-6427ede1f267 for .study-perf.qa.netease.com/&gt;, &lt;Cookie smartcamera_buy_pc_fg_short_sessonid=smartcamera_buy_pc_fg_short_sessonid_74966325_41bfe1f8-509d-45e9-8d2a-379e684d915d for .study-perf.qa.netease.com/&gt;]&gt;
+{
+  "code": 400,
+  "message": "请求失败"
+}
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt2.3' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_scene3</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt2.3')" >
+        pass</a>
+
+    <div id='div_pt2.3' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt2.3').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt2.3: {
+  "code": 200,
+  "message": "success"
+}
+{
+  "code": 200,
+  "message": "success",
+  "result": [
+    {
+      "colour": 1,
+      "goods": {
+        "goodsName": "青果",
+        "id": 1,
+        "searchParamList": [],
+        "sellChannel": 1
+      },
+      "goodsId": 1,
+      "id": 3,
+      "picUrl": "https://nos.163.com/yixinpublic/pr_fqizpyyj3qoi7czau3yiig==_1439967375_16285",
+      "price": 199.0,
+      "searchParamList": [],
+      "skuName": "夜空黑",
+      "stockId": 74966313,
+      "totalNumber": 200000
+    },
+    {
+      "colour": 0,
+      "goods": {
+        "goodsName": "青果",
+        "id": 1,
+        "searchParamList": [],
+        "sellChannel": 1
+      },
+      "goodsId": 1,
+      "id": 2,
+      "picUrl": "https://nos.163.com/yixinpublic/pr_lvlslq5untnm-\n\nkymzfhaea==_1439967379_16286",
+      "price": 199.0,
+      "searchParamList": [],
+      "skuName": "青果绿",
+      "stockId": 74966312,
+      "totalNumber": 200000
+    }
+  ]
+}
+{
+  "code": 200,
+  "message": "success"
+}
+&lt;RequestsCookieJar[&lt;Cookie smartcamera_buy_pc_fg_sessionid=smartcamera_buy_pc_fg_sessionid_74966325_f33efd1b-5216-45a7-b299-5b8695bfaf3d for .study-perf.qa.netease.com/&gt;, &lt;Cookie smartcamera_buy_pc_fg_short_sessonid=smartcamera_buy_pc_fg_short_sessonid_74966325_60d9c876-46fc-4b15-a02e-0a42adfb2af1 for .study-perf.qa.netease.com/&gt;]&gt;
+{
+  "code": 200,
+  "message": "success",
+  "result": {
+    "fgUserId": 74966325,
+    "limit": 50,
+    "list": [
+      {
+        "addressDetail": "南京大学",
+        "area": "鼓楼区",
+        "cellPhone": "200000000011",
+        "city": "南京市",
+        "fgUser": {
+          "createTime": 1454057847397,
+          "createTimeStr": "2016-01-29 16:57:27",
+          "id": 74966325,
+          "next1": 0,
+          "next2": 0,
+          "phoneArea": "86",
+          "phoneNumber": "200000000011",
+          "platform": 0,
+          "platformDescribe": "手机",
+          "searchParamList": [],
+          "userAccount": "86/200000000011",
+          "userName": "测试用户11"
+        },
+        "fgUserId": 74966325,
+        "id": 82319837,
+        "province": "江苏省",
+        "receiverName": "李四",
+        "searchParamList": [],
+        "sort": 99
+      },
+      {
+        "addressDetail": "????",
+        "area": "???",
+        "cellPhone": "200000000011",
+        "city": "???",
+        "fgUser": {
+          "createTime": 1454057847397,
+          "createTimeStr": "2016-01-29 16:57:27",
+          "id": 74966325,
+          "next1": 0,
+          "next2": 0,
+          "phoneArea": "86",
+          "phoneNumber": "200000000011",
+          "platform": 0,
+          "platformDescribe": "手机",
+          "searchParamList": [],
+          "userAccount": "86/200000000011",
+          "userName": "测试用户11"
+        },
+        "fgUserId": 74966325,
+        "id": 82319680,
+        "province": "???",
+        "receiverName": "??",
+        "searchParamList": [],
+        "sort": 99
+      },
+      {
+        "addressDetail": "南京大学",
+        "area": "鼓楼区",
+        "cellPhone": "200000000011",
+        "city": "南京市",
+        "fgUser": {
+          "createTime": 1454057847397,
+          "createTimeStr": "2016-01-29 16:57:27",
+          "id": 74966325,
+          "next1": 0,
+          "next2": 0,
+          "phoneArea": "86",
+          "phoneNumber": "200000000011",
+          "platform": 0,
+          "platformDescribe": "手机",
+          "searchParamList": [],
+          "userAccount": "86/200000000011",
+          "userName": "测试用户11"
+        },
+        "fgUserId": 74966325,
+        "id": 82319661,
+        "province": "江苏省",
+        "receiverName": "李四",
+        "searchParamList": [],
+        "sort": 99
+      },
+      {
+        "addressDetail": "南京大学",
+        "area": "鼓楼区",
+        "cellPhone": "200000000011",
+        "city": "南京市",
+        "fgUser": {
+          "createTime": 1454057847397,
+          "createTimeStr": "2016-01-29 16:57:27",
+          "id": 74966325,
+          "next1": 0,
+          "next2": 0,
+          "phoneArea": "86",
+          "phoneNumber": "200000000011",
+          "platform": 0,
+          "platformDescribe": "手机",
+          "searchParamList": [],
+          "userAccount": "86/200000000011",
+          "userName": "测试用户11"
+        },
+        "fgUserId": 74966325,
+        "id": 82319660,
+        "province": "江苏省",
+        "receiverName": "李四",
+        "searchParamList": [],
+        "sort": 99
+      },
+      {
+        "addressDetail": "南京大学",
+        "area": "鼓楼区",
+        "cellPhone": "200000000011",
+        "city": "南京市",
+        "fgUser": {
+          "createTime": 1454057847397,
+          "createTimeStr": "2016-01-29 16:57:27",
+          "id": 74966325,
+          "next1": 0,
+          "next2": 0,
+          "phoneArea": "86",
+          "phoneNumber": "200000000011",
+          "platform": 0,
+          "platformDescribe": "手机",
+          "searchParamList": [],
+          "userAccount": "86/200000000011",
+          "userName": "测试用户11"
+        },
+        "fgUserId": 74966325,
+        "id": 82319659,
+        "province": "江苏省",
+        "receiverName": "李四",
+        "searchParamList": [],
+        "sort": 99
+      },
+      {
+        "addressDetail": "南二环东路20号",
+        "area": "滨江区",
+        "cellPhone": "15226565596",
+        "city": "杭州市",
+        "fgUser": {
+          "createTime": 1454057847397,
+          "createTimeStr": "2016-01-29 16:57:27",
+          "id": 74966325,
+          "next1": 0,
+          "next2": 0,
+          "phoneArea": "86",
+          "phoneNumber": "200000000011",
+          "platform": 0,
+          "platformDescribe": "手机",
+          "searchParamList": [],
+          "userAccount": "86/200000000011",
+          "userName": "测试用户11"
+        },
+        "fgUserId": 74966325,
+        "id": 82319658,
+        "province": "浙江省",
+        "receiverName": "张三",
+        "searchParamList": [],
+        "sort": 99
+      }
+    ],
+    "offset": 0,
+    "prefix": "A.",
+    "searchParamList": [
+      74966325,
+      50,
+      0
+    ],
+    "total": 6
+  }
+}
+{
+  "code": 200,
+  "message": "success",
+  "result": 6.0
+}
+{
+  "code": 200,
+  "message": "success"
+}
+&lt;RequestsCookieJar[&lt;Cookie smartcamera_buy_pc_fg_sessionid=smartcamera_buy_pc_fg_sessionid_74966325_645431dd-2b9c-4e58-8980-19ec6c991092 for .study-perf.qa.netease.com/&gt;, &lt;Cookie smartcamera_buy_pc_fg_short_sessonid=smartcamera_buy_pc_fg_short_sessonid_74966325_d501bb20-9293-4d30-a80e-f9fde805caa6 for .study-perf.qa.netease.com/&gt;]&gt;
+{
+  "code": 200,
+  "message": "success",
+  "result": {
+    "addressDetail": "南京大学",
+    "area": "鼓楼区",
+    "cellPhone": "200000000011",
+    "city": "南京市",
+    "fgUserId": 74966325,
+    "limit": 50,
+    "offset": 0,
+    "prefix": "A.",
+    "province": "江苏省",
+    "receiverName": "张三",
+    "searchParamList": [
+      "%江苏省%",
+      "%南京市%",
+      "%鼓楼区%",
+      "%张三%",
+      "%200000000011%",
+      "%南京大学%",
+      74966325
+    ],
+    "total": 0
+  }
+}
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt2.4' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_scene4</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt2.4')" >
+        pass</a>
+
+    <div id='div_pt2.4' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt2.4').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt2.4: {
+  "code": 400,
+  "message": "用户名或者密码错误"
+}
+{
+  "code": 400,
+  "message": "\u7528\u6237\u540d\u6216\u8005\u5bc6\u7801\u9519\u8bef"
+}
+&lt;RequestsCookieJar[]&gt;
+{
+  "code": 403,
+  "message": "请重新登录"
+}
+获取运费失败
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr class='passClass'>
+    <td>sunliying_test.qgSenceTest</td>
+    <td>5</td>
+    <td>5</td>
+    <td>0</td>
+    <td>0</td>
+    <td><a href="javascript:showClassDetail('c3',5)">Detail</a></td>
+</tr>
+
+<tr id='pt3.1' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_scene1</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt3.1')" >
+        pass</a>
+
+    <div id='div_pt3.1' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt3.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt3.1: {
+  "code": 200,
+  "message": "success"
+}
+{
+  "code": 200,
+  "message": "success",
+  "result": [
+    {
+      "colour": 1,
+      "goods": {
+        "goodsName": "青果",
+        "id": 2,
+        "searchParamList": [],
+        "sellChannel": 2
+      },
+      "goodsId": 2,
+      "id": 5,
+      "picUrl": "https://nos.163.com/yixinpublic/pr_fqizpyyj3qoi7czau3yiig==_1439967375_16285",
+      "price": 199.0,
+      "searchParamList": [],
+      "skuName": "夜空黑",
+      "totalNumber": 200000
+    },
+    {
+      "colour": 0,
+      "goods": {
+        "goodsName": "青果",
+        "id": 2,
+        "searchParamList": [],
+        "sellChannel": 2
+      },
+      "goodsId": 2,
+      "id": 4,
+      "picUrl": "https://nos.163.com/yixinpublic/pr_lvlslq5untnm-kymzfhaea==_1439967379_16286",
+      "price": 199.0,
+      "searchParamList": [],
+      "skuName": "青果绿",
+      "totalNumber": 200000
+    },
+    {
+      "colour": 1,
+      "goods": {
+        "goodsName": "青果",
+        "id": 1,
+        "searchParamList": [],
+        "sellChannel": 1
+      },
+      "goodsId": 1,
+      "id": 3,
+      "picUrl": "https://nos.163.com/yixinpublic/pr_fqizpyyj3qoi7czau3yiig==_1439967375_16285",
+      "price": 199.0,
+      "searchParamList": [],
+      "skuName": "夜空黑",
+      "stockId": 74966313,
+      "totalNumber": 200000
+    },
+    {
+      "colour": 0,
+      "goods": {
+        "goodsName": "青果",
+        "id": 1,
+        "searchParamList": [],
+        "sellChannel": 1
+      },
+      "goodsId": 1,
+      "id": 2,
+      "picUrl": "https://nos.163.com/yixinpublic/pr_lvlslq5untnm-\n\nkymzfhaea==_1439967379_16286",
+      "price": 199.0,
+      "searchParamList": [],
+      "skuName": "青果绿",
+      "stockId": 74966312,
+      "totalNumber": 200000
+    }
+  ]
+}
+{
+  "code": 200,
+  "message": "success"
+}
+&lt;RequestsCookieJar[&lt;Cookie smartcamera_buy_pc_fg_sessionid=smartcamera_buy_pc_fg_sessionid_74966358_790e0b11-130b-4e22-bbbe-5713a6ac5ce4 for .study-perf.qa.netease.com/&gt;, &lt;Cookie smartcamera_buy_pc_fg_short_sessonid=smartcamera_buy_pc_fg_short_sessonid_74966358_4c932969-5511-41d8-a9b4-f4d5ea96b25d for .study-perf.qa.netease.com/&gt;]&gt;
+{
+  "code": 200,
+  "message": "success",
+  "result": {
+    "fgUserId": 74966358,
+    "limit": 50,
+    "list": [
+      {
+        "addressDetail": "浙江大学",
+        "area": "滨江区",
+        "cellPhone": "12345678901",
+        "city": "杭州市",
+        "fgUser": {
+          "createTime": 1454057849599,
+          "createTimeStr": "2016-01-29 16:57:29",
+          "id": 74966358,
+          "next1": 0,
+          "next2": 0,
+          "phoneArea": "86",
+          "phoneNumber": "200000000044",
+          "platform": 0,
+          "platformDescribe": "手机",
+          "searchParamList": [],
+          "userAccount": "86/200000000044",
+          "userName": "测试用户44"
+        },
+        "fgUserId": 74966358,
+        "id": 82319662,
+        "province": "浙江省",
+        "receiverName": "张三",
+        "searchParamList": [],
+        "sort": 99
+      },
+      {
+        "addressDetail": "浙江大学",
+        "area": "滨江区",
+        "cellPhone": "12345678901",
+        "city": "杭州市",
+        "fgUser": {
+          "createTime": 1454057849599,
+          "createTimeStr": "2016-01-29 16:57:29",
+          "id": 74966358,
+          "next1": 0,
+          "next2": 0,
+          "phoneArea": "86",
+          "phoneNumber": "200000000044",
+          "platform": 0,
+          "platformDescribe": "手机",
+          "searchParamList": [],
+          "userAccount": "86/200000000044",
+          "userName": "测试用户44"
+        },
+        "fgUserId": 74966358,
+        "id": 82319625,
+        "province": "浙江省",
+        "receiverName": "张三",
+        "searchParamList": [],
+        "sort": 99
+      },
+      {
+        "addressDetail": "浙江大学",
+        "area": "滨江区",
+        "cellPhone": "12345678901",
+        "city": "杭州市",
+        "fgUser": {
+          "createTime": 1454057849599,
+          "createTimeStr": "2016-01-29 16:57:29",
+          "id": 74966358,
+          "next1": 0,
+          "next2": 0,
+          "phoneArea": "86",
+          "phoneNumber": "200000000044",
+          "platform": 0,
+          "platformDescribe": "手机",
+          "searchParamList": [],
+          "userAccount": "86/200000000044",
+          "userName": "测试用户44"
+        },
+        "fgUserId": 74966358,
+        "id": 82319621,
+        "province": "浙江省",
+        "receiverName": "张三",
+        "searchParamList": [],
+        "sort": 99
+      },
+      {
+        "addressDetail": "浙江大学",
+        "area": "滨江区",
+        "cellPhone": "12345678901",
+        "city": "杭州市",
+        "fgUser": {
+          "createTime": 1454057849599,
+          "createTimeStr": "2016-01-29 16:57:29",
+          "id": 74966358,
+          "next1": 0,
+          "next2": 0,
+          "phoneArea": "86",
+          "phoneNumber": "200000000044",
+          "platform": 0,
+          "platformDescribe": "手机",
+          "searchParamList": [],
+          "userAccount": "86/200000000044",
+          "userName": "测试用户44"
+        },
+        "fgUserId": 74966358,
+        "id": 82319609,
+        "province": "浙江省",
+        "receiverName": "张三",
+        "searchParamList": [],
+        "sort": 99
+      }
+    ],
+    "offset": 0,
+    "prefix": "A.",
+    "searchParamList": [
+      74966358,
+      50,
+      0
+    ],
+    "total": 4
+  }
+}
+{
+  "code": 200,
+  "message": "success",
+  "result": 6.0
+}
+{
+  "code": 200,
+  "message": "success"
+}
+&lt;RequestsCookieJar[&lt;Cookie smartcamera_buy_pc_fg_sessionid=smartcamera_buy_pc_fg_sessionid_74966358_06134e79-804b-4917-bbf1-b6cf35b5d444 for .study-perf.qa.netease.com/&gt;, &lt;Cookie smartcamera_buy_pc_fg_short_sessonid=smartcamera_buy_pc_fg_short_sessonid_74966358_279a9533-d97a-47e1-8e38-0fca76e3c168 for .study-perf.qa.netease.com/&gt;]&gt;
+{
+  "code": 200,
+  "message": "success"
+}
+{
+  "code": 200,
+  "message": "success"
+}
+&lt;RequestsCookieJar[&lt;Cookie smartcamera_buy_pc_fg_sessionid=smartcamera_buy_pc_fg_sessionid_74966358_cb4256f1-d759-4ca9-9d5b-052759d229e7 for .study-perf.qa.netease.com/&gt;, &lt;Cookie smartcamera_buy_pc_fg_short_sessonid=smartcamera_buy_pc_fg_short_sessonid_74966358_10b82808-4989-439d-80f7-bdbe9b6c22b3 for .study-perf.qa.netease.com/&gt;]&gt;
+{
+  "code": 200,
+  "message": "success",
+  "result": {
+    "accessDevice": 0,
+    "accessSource": "noSource",
+    "addressDetail": "1 栋 3 单元",
+    "area": "滨江区",
+    "cancel": 0,
+    "cellPhone": "12615813537",
+    "city": "杭州市",
+    "createTime": 1545696128602,
+    "fgUserId": 74966358,
+    "finish": 0,
+    "id": 82320423,
+    "invoiceHead": "",
+    "logisticsCompanyId": 1,
+    "needInvoice": 0,
+    "province": "浙江省",
+    "receiverName": "张三",
+    "status": 0,
+    "totalFee": 398.0,
+    "transportFee": 0.0
+  }
+}
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt3.2' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_scene2</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt3.2')" >
+        pass</a>
+
+    <div id='div_pt3.2' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt3.2').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt3.2: {
+  "code": 200,
+  "message": "success"
+}
+{
+  "code": 200,
+  "message": "success"
+}
+&lt;RequestsCookieJar[&lt;Cookie smartcamera_buy_pc_fg_sessionid=smartcamera_buy_pc_fg_sessionid_74966358_e342a49f-ba76-40e9-8cc0-4939d0723167 for .study-perf.qa.netease.com/&gt;, &lt;Cookie smartcamera_buy_pc_fg_short_sessonid=smartcamera_buy_pc_fg_short_sessonid_74966358_37f97f15-a003-477b-a481-c4fd33dc4c0d for .study-perf.qa.netease.com/&gt;]&gt;
+{
+  "code": 200,
+  "message": "success"
+}
+{
+  "code": 200,
+  "message": "success"
+}
+&lt;RequestsCookieJar[&lt;Cookie smartcamera_buy_pc_fg_sessionid=smartcamera_buy_pc_fg_sessionid_74966358_687834c5-db9f-4721-8375-72f955666973 for .study-perf.qa.netease.com/&gt;, &lt;Cookie smartcamera_buy_pc_fg_short_sessonid=smartcamera_buy_pc_fg_short_sessonid_74966358_1120033b-a75f-44ef-80d1-af35a8b8ce79 for .study-perf.qa.netease.com/&gt;]&gt;
+{
+  "code": 200,
+  "message": "success",
+  "result": {
+    "fgUserId": 74966358,
+    "limit": 50,
+    "list": [
+      {
+        "addressDetail": "浙江大学",
+        "area": "滨江区",
+        "cellPhone": "12345678901",
+        "city": "杭州市",
+        "fgUser": {
+          "createTime": 1454057849599,
+          "createTimeStr": "2016-01-29 16:57:29",
+          "id": 74966358,
+          "next1": 0,
+          "next2": 0,
+          "phoneArea": "86",
+          "phoneNumber": "200000000044",
+          "platform": 0,
+          "platformDescribe": "手机",
+          "searchParamList": [],
+          "userAccount": "86/200000000044",
+          "userName": "测试用户44"
+        },
+        "fgUserId": 74966358,
+        "id": 82320426,
+        "province": "浙江省",
+        "receiverName": "张三",
+        "searchParamList": [],
+        "sort": 99
+      },
+      {
+        "addressDetail": "浙江大学",
+        "area": "滨江区",
+        "cellPhone": "12345678901",
+        "city": "杭州市",
+        "fgUser": {
+          "createTime": 1454057849599,
+          "createTimeStr": "2016-01-29 16:57:29",
+          "id": 74966358,
+          "next1": 0,
+          "next2": 0,
+          "phoneArea": "86",
+          "phoneNumber": "200000000044",
+          "platform": 0,
+          "platformDescribe": "手机",
+          "searchParamList": [],
+          "userAccount": "86/200000000044",
+          "userName": "测试用户44"
+        },
+        "fgUserId": 74966358,
+        "id": 82320422,
+        "province": "浙江省",
+        "receiverName": "张三",
+        "searchParamList": [],
+        "sort": 99
+      },
+      {
+        "addressDetail": "浙江大学",
+        "area": "滨江区",
+        "cellPhone": "12345678901",
+        "city": "杭州市",
+        "fgUser": {
+          "createTime": 1454057849599,
+          "createTimeStr": "2016-01-29 16:57:29",
+          "id": 74966358,
+          "next1": 0,
+          "next2": 0,
+          "phoneArea": "86",
+          "phoneNumber": "200000000044",
+          "platform": 0,
+          "platformDescribe": "手机",
+          "searchParamList": [],
+          "userAccount": "86/200000000044",
+          "userName": "测试用户44"
+        },
+        "fgUserId": 74966358,
+        "id": 82319662,
+        "province": "浙江省",
+        "receiverName": "张三",
+        "searchParamList": [],
+        "sort": 99
+      },
+      {
+        "addressDetail": "浙江大学",
+        "area": "滨江区",
+        "cellPhone": "12345678901",
+        "city": "杭州市",
+        "fgUser": {
+          "createTime": 1454057849599,
+          "createTimeStr": "2016-01-29 16:57:29",
+          "id": 74966358,
+          "next1": 0,
+          "next2": 0,
+          "phoneArea": "86",
+          "phoneNumber": "200000000044",
+          "platform": 0,
+          "platformDescribe": "手机",
+          "searchParamList": [],
+          "userAccount": "86/200000000044",
+          "userName": "测试用户44"
+        },
+        "fgUserId": 74966358,
+        "id": 82319625,
+        "province": "浙江省",
+        "receiverName": "张三",
+        "searchParamList": [],
+        "sort": 99
+      },
+      {
+        "addressDetail": "浙江大学",
+        "area": "滨江区",
+        "cellPhone": "12345678901",
+        "city": "杭州市",
+        "fgUser": {
+          "createTime": 1454057849599,
+          "createTimeStr": "2016-01-29 16:57:29",
+          "id": 74966358,
+          "next1": 0,
+          "next2": 0,
+          "phoneArea": "86",
+          "phoneNumber": "200000000044",
+          "platform": 0,
+          "platformDescribe": "手机",
+          "searchParamList": [],
+          "userAccount": "86/200000000044",
+          "userName": "测试用户44"
+        },
+        "fgUserId": 74966358,
+        "id": 82319621,
+        "province": "浙江省",
+        "receiverName": "张三",
+        "searchParamList": [],
+        "sort": 99
+      },
+      {
+        "addressDetail": "浙江大学",
+        "area": "滨江区",
+        "cellPhone": "12345678901",
+        "city": "杭州市",
+        "fgUser": {
+          "createTime": 1454057849599,
+          "createTimeStr": "2016-01-29 16:57:29",
+          "id": 74966358,
+          "next1": 0,
+          "next2": 0,
+          "phoneArea": "86",
+          "phoneNumber": "200000000044",
+          "platform": 0,
+          "platformDescribe": "手机",
+          "searchParamList": [],
+          "userAccount": "86/200000000044",
+          "userName": "测试用户44"
+        },
+        "fgUserId": 74966358,
+        "id": 82319609,
+        "province": "浙江省",
+        "receiverName": "张三",
+        "searchParamList": [],
+        "sort": 99
+      }
+    ],
+    "offset": 0,
+    "prefix": "A.",
+    "searchParamList": [
+      74966358,
+      50,
+      0
+    ],
+    "total": 6
+  }
+}
+{
+  "code": 200,
+  "message": "success"
+}
+&lt;RequestsCookieJar[&lt;Cookie smartcamera_buy_pc_fg_sessionid=smartcamera_buy_pc_fg_sessionid_74966358_777e8fab-7b65-48fa-b1c0-5107ffd83687 for .study-perf.qa.netease.com/&gt;, &lt;Cookie smartcamera_buy_pc_fg_short_sessonid=smartcamera_buy_pc_fg_short_sessonid_74966358_9bf1bae3-735f-4d03-a924-2e66ec36b73f for .study-perf.qa.netease.com/&gt;]&gt;
+{
+  "code": 200,
+  "message": "success"
+}
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt3.3' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_scene3</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt3.3')" >
+        pass</a>
+
+    <div id='div_pt3.3' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt3.3').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt3.3: {
+  "code": 200,
+  "message": "success"
+}
+{
+  "code": 200,
+  "message": "success"
+}
+&lt;RequestsCookieJar[&lt;Cookie smartcamera_buy_pc_fg_sessionid=smartcamera_buy_pc_fg_sessionid_74966358_68679b4e-321f-4c56-aba5-1f32b83064ca for .study-perf.qa.netease.com/&gt;, &lt;Cookie smartcamera_buy_pc_fg_short_sessonid=smartcamera_buy_pc_fg_short_sessonid_74966358_8b03d7d1-ba7c-48c9-9a15-e037fd29cb7c for .study-perf.qa.netease.com/&gt;]&gt;
+{
+  "code": 200,
+  "message": "success"
+}
+{
+  "code": 200,
+  "message": "success"
+}
+&lt;RequestsCookieJar[&lt;Cookie smartcamera_buy_pc_fg_sessionid=smartcamera_buy_pc_fg_sessionid_74966358_f7b1e133-fb0c-4262-b3d2-bd5b7db03402 for .study-perf.qa.netease.com/&gt;, &lt;Cookie smartcamera_buy_pc_fg_short_sessonid=smartcamera_buy_pc_fg_short_sessonid_74966358_4950064c-e81b-4198-84a2-1dc359698c8c for .study-perf.qa.netease.com/&gt;]&gt;
+{
+  "code": 200,
+  "message": "success",
+  "result": {
+    "accessDevice": 0,
+    "accessSource": "noSource",
+    "addressDetail": "1 栋 3 单元",
+    "area": "1",
+    "cancel": 0,
+    "cellPhone": "12615813537",
+    "city": "1",
+    "createTime": 1545696129837,
+    "fgUserId": 74966358,
+    "finish": 0,
+    "id": 82320428,
+    "invoiceHead": "",
+    "logisticsCompanyId": 1,
+    "needInvoice": 0,
+    "province": "1",
+    "receiverName": "张三",
+    "status": 0,
+    "totalFee": 398.0,
+    "transportFee": 0.0
+  }
+}
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt3.4' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_scene4</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt3.4')" >
+        pass</a>
+
+    <div id='div_pt3.4' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt3.4').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt3.4: {
+  "code": 400,
+  "message": "用户名或者密码错误"
+}
+{
+  "code": 400,
+  "message": "\u7528\u6237\u540d\u6216\u8005\u5bc6\u7801\u9519\u8bef"
+}
+&lt;RequestsCookieJar[]&gt;
+{
+  "code": 403,
+  "message": "请重新登录"
+}
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt3.5' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_scene5</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt3.5')" >
+        pass</a>
+
+    <div id='div_pt3.5' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt3.5').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt3.5: {
+  "code": 200,
+  "message": "success"
+}
+{
+  "code": 200,
+  "message": "success"
+}
+&lt;RequestsCookieJar[&lt;Cookie smartcamera_buy_pc_fg_sessionid=smartcamera_buy_pc_fg_sessionid_74966358_01b5ed6e-2415-4125-b9f9-ef94ce4288db for .study-perf.qa.netease.com/&gt;, &lt;Cookie smartcamera_buy_pc_fg_short_sessonid=smartcamera_buy_pc_fg_short_sessonid_74966358_a64022e1-bab3-48db-aba7-bdb7f4b0d190 for .study-perf.qa.netease.com/&gt;]&gt;
+{
+  "code": 200,
+  "message": "success",
+  "result": {
+    "fgUserId": 74966358,
+    "limit": 50,
+    "list": [
+      {
+        "addressDetail": "浙江大学",
+        "area": "滨江区",
+        "cellPhone": "12345678901",
+        "city": "杭州市",
+        "fgUser": {
+          "createTime": 1454057849599,
+          "createTimeStr": "2016-01-29 16:57:29",
+          "id": 74966358,
+          "next1": 0,
+          "next2": 0,
+          "phoneArea": "86",
+          "phoneNumber": "200000000044",
+          "platform": 0,
+          "platformDescribe": "手机",
+          "searchParamList": [],
+          "userAccount": "86/200000000044",
+          "userName": "测试用户44"
+        },
+        "fgUserId": 74966358,
+        "id": 82320427,
+        "province": "浙江省",
+        "receiverName": "张三",
+        "searchParamList": [],
+        "sort": 99
+      },
+      {
+        "addressDetail": "浙江大学",
+        "area": "滨江区",
+        "cellPhone": "12345678901",
+        "city": "杭州市",
+        "fgUser": {
+          "createTime": 1454057849599,
+          "createTimeStr": "2016-01-29 16:57:29",
+          "id": 74966358,
+          "next1": 0,
+          "next2": 0,
+          "phoneArea": "86",
+          "phoneNumber": "200000000044",
+          "platform": 0,
+          "platformDescribe": "手机",
+          "searchParamList": [],
+          "userAccount": "86/200000000044",
+          "userName": "测试用户44"
+        },
+        "fgUserId": 74966358,
+        "id": 82320422,
+        "province": "浙江省",
+        "receiverName": "张三",
+        "searchParamList": [],
+        "sort": 99
+      },
+      {
+        "addressDetail": "浙江大学",
+        "area": "滨江区",
+        "cellPhone": "12345678901",
+        "city": "杭州市",
+        "fgUser": {
+          "createTime": 1454057849599,
+          "createTimeStr": "2016-01-29 16:57:29",
+          "id": 74966358,
+          "next1": 0,
+          "next2": 0,
+          "phoneArea": "86",
+          "phoneNumber": "200000000044",
+          "platform": 0,
+          "platformDescribe": "手机",
+          "searchParamList": [],
+          "userAccount": "86/200000000044",
+          "userName": "测试用户44"
+        },
+        "fgUserId": 74966358,
+        "id": 82319662,
+        "province": "浙江省",
+        "receiverName": "张三",
+        "searchParamList": [],
+        "sort": 99
+      },
+      {
+        "addressDetail": "浙江大学",
+        "area": "滨江区",
+        "cellPhone": "12345678901",
+        "city": "杭州市",
+        "fgUser": {
+          "createTime": 1454057849599,
+          "createTimeStr": "2016-01-29 16:57:29",
+          "id": 74966358,
+          "next1": 0,
+          "next2": 0,
+          "phoneArea": "86",
+          "phoneNumber": "200000000044",
+          "platform": 0,
+          "platformDescribe": "手机",
+          "searchParamList": [],
+          "userAccount": "86/200000000044",
+          "userName": "测试用户44"
+        },
+        "fgUserId": 74966358,
+        "id": 82319625,
+        "province": "浙江省",
+        "receiverName": "张三",
+        "searchParamList": [],
+        "sort": 99
+      },
+      {
+        "addressDetail": "浙江大学",
+        "area": "滨江区",
+        "cellPhone": "12345678901",
+        "city": "杭州市",
+        "fgUser": {
+          "createTime": 1454057849599,
+          "createTimeStr": "2016-01-29 16:57:29",
+          "id": 74966358,
+          "next1": 0,
+          "next2": 0,
+          "phoneArea": "86",
+          "phoneNumber": "200000000044",
+          "platform": 0,
+          "platformDescribe": "手机",
+          "searchParamList": [],
+          "userAccount": "86/200000000044",
+          "userName": "测试用户44"
+        },
+        "fgUserId": 74966358,
+        "id": 82319621,
+        "province": "浙江省",
+        "receiverName": "张三",
+        "searchParamList": [],
+        "sort": 99
+      },
+      {
+        "addressDetail": "浙江大学",
+        "area": "滨江区",
+        "cellPhone": "12345678901",
+        "city": "杭州市",
+        "fgUser": {
+          "createTime": 1454057849599,
+          "createTimeStr": "2016-01-29 16:57:29",
+          "id": 74966358,
+          "next1": 0,
+          "next2": 0,
+          "phoneArea": "86",
+          "phoneNumber": "200000000044",
+          "platform": 0,
+          "platformDescribe": "手机",
+          "searchParamList": [],
+          "userAccount": "86/200000000044",
+          "userName": "测试用户44"
+        },
+        "fgUserId": 74966358,
+        "id": 82319609,
+        "province": "浙江省",
+        "receiverName": "张三",
+        "searchParamList": [],
+        "sort": 99
+      }
+    ],
+    "offset": 0,
+    "prefix": "A.",
+    "searchParamList": [
+      74966358,
+      50,
+      0
+    ],
+    "total": 6
+  }
+}
+{
+  "code": 200,
+  "message": "success",
+  "result": 6.0
+}
+{
+  "code": 200,
+  "message": "success"
+}
+&lt;RequestsCookieJar[&lt;Cookie smartcamera_buy_pc_fg_sessionid=smartcamera_buy_pc_fg_sessionid_74966358_5bda3ae4-ec4f-4c14-9d59-2e544efc34b8 for .study-perf.qa.netease.com/&gt;, &lt;Cookie smartcamera_buy_pc_fg_short_sessonid=smartcamera_buy_pc_fg_short_sessonid_74966358_afe4b271-b0de-4768-b21d-53efdb0edfba for .study-perf.qa.netease.com/&gt;]&gt;
+{
+  "code": 400,
+  "message": "最多只能添加6个地址"
+}
+{
+  "code": 200,
+  "message": "success"
+}
+&lt;RequestsCookieJar[&lt;Cookie smartcamera_buy_pc_fg_sessionid=smartcamera_buy_pc_fg_sessionid_74966358_be8a8145-a75e-4a29-b152-e9868a292764 for .study-perf.qa.netease.com/&gt;, &lt;Cookie smartcamera_buy_pc_fg_short_sessonid=smartcamera_buy_pc_fg_short_sessonid_74966358_194ac15e-e4e5-4b61-8987-fba2fa370d5c for .study-perf.qa.netease.com/&gt;]&gt;
+{
+  "code": 200,
+  "message": "success",
+  "result": {
+    "accessDevice": 0,
+    "accessSource": "noSource",
+    "addressDetail": "1 栋 3 单元",
+    "area": "滨江区",
+    "cancel": 0,
+    "cellPhone": "12615813537",
+    "city": "杭州市",
+    "createTime": 1545696130863,
+    "fgUserId": 74966358,
+    "finish": 0,
+    "id": 82320431,
+    "invoiceHead": "",
+    "logisticsCompanyId": 1,
+    "needInvoice": 0,
+    "province": "浙江省",
+    "receiverName": "张三",
+    "status": 0,
+    "totalFee": 398.0,
+    "transportFee": 0.0
+  }
+}
+{
+  "code": 200,
+  "message": "success"
+}
+&lt;RequestsCookieJar[&lt;Cookie smartcamera_buy_pc_fg_sessionid=smartcamera_buy_pc_fg_sessionid_74966358_3de8ead9-fe21-4d16-a121-4b066c22f8b8 for .study-perf.qa.netease.com/&gt;, &lt;Cookie smartcamera_buy_pc_fg_short_sessonid=smartcamera_buy_pc_fg_short_sessonid_74966358_60c3136b-1483-41e1-8fbb-67c509fcc90a for .study-perf.qa.netease.com/&gt;]&gt;
+{
+  "code": 200,
+  "message": "success",
+  "result": {
+    "fgUserId": 74966358,
+    "limit": 50,
+    "list": [
+      {
+        "addressDetail": "浙江大学",
+        "area": "滨江区",
+        "cellPhone": "12345678901",
+        "city": "杭州市",
+        "fgUser": {
+          "createTime": 1454057849599,
+          "createTimeStr": "2016-01-29 16:57:29",
+          "id": 74966358,
+          "next1": 0,
+          "next2": 0,
+          "phoneArea": "86",
+          "phoneNumber": "200000000044",
+          "platform": 0,
+          "platformDescribe": "手机",
+          "searchParamList": [],
+          "userAccount": "86/200000000044",
+          "userName": "测试用户44"
+        },
+        "fgUserId": 74966358,
+        "id": 82320427,
+        "province": "浙江省",
+        "receiverName": "张三",
+        "searchParamList": [],
+        "sort": 99
+      },
+      {
+        "addressDetail": "浙江大学",
+        "area": "滨江区",
+        "cellPhone": "12345678901",
+        "city": "杭州市",
+        "fgUser": {
+          "createTime": 1454057849599,
+          "createTimeStr": "2016-01-29 16:57:29",
+          "id": 74966358,
+          "next1": 0,
+          "next2": 0,
+          "phoneArea": "86",
+          "phoneNumber": "200000000044",
+          "platform": 0,
+          "platformDescribe": "手机",
+          "searchParamList": [],
+          "userAccount": "86/200000000044",
+          "userName": "测试用户44"
+        },
+        "fgUserId": 74966358,
+        "id": 82320422,
+        "province": "浙江省",
+        "receiverName": "张三",
+        "searchParamList": [],
+        "sort": 99
+      },
+      {
+        "addressDetail": "浙江大学",
+        "area": "滨江区",
+        "cellPhone": "12345678901",
+        "city": "杭州市",
+        "fgUser": {
+          "createTime": 1454057849599,
+          "createTimeStr": "2016-01-29 16:57:29",
+          "id": 74966358,
+          "next1": 0,
+          "next2": 0,
+          "phoneArea": "86",
+          "phoneNumber": "200000000044",
+          "platform": 0,
+          "platformDescribe": "手机",
+          "searchParamList": [],
+          "userAccount": "86/200000000044",
+          "userName": "测试用户44"
+        },
+        "fgUserId": 74966358,
+        "id": 82319662,
+        "province": "浙江省",
+        "receiverName": "张三",
+        "searchParamList": [],
+        "sort": 99
+      },
+      {
+        "addressDetail": "浙江大学",
+        "area": "滨江区",
+        "cellPhone": "12345678901",
+        "city": "杭州市",
+        "fgUser": {
+          "createTime": 1454057849599,
+          "createTimeStr": "2016-01-29 16:57:29",
+          "id": 74966358,
+          "next1": 0,
+          "next2": 0,
+          "phoneArea": "86",
+          "phoneNumber": "200000000044",
+          "platform": 0,
+          "platformDescribe": "手机",
+          "searchParamList": [],
+          "userAccount": "86/200000000044",
+          "userName": "测试用户44"
+        },
+        "fgUserId": 74966358,
+        "id": 82319625,
+        "province": "浙江省",
+        "receiverName": "张三",
+        "searchParamList": [],
+        "sort": 99
+      },
+      {
+        "addressDetail": "浙江大学",
+        "area": "滨江区",
+        "cellPhone": "12345678901",
+        "city": "杭州市",
+        "fgUser": {
+          "createTime": 1454057849599,
+          "createTimeStr": "2016-01-29 16:57:29",
+          "id": 74966358,
+          "next1": 0,
+          "next2": 0,
+          "phoneArea": "86",
+          "phoneNumber": "200000000044",
+          "platform": 0,
+          "platformDescribe": "手机",
+          "searchParamList": [],
+          "userAccount": "86/200000000044",
+          "userName": "测试用户44"
+        },
+        "fgUserId": 74966358,
+        "id": 82319621,
+        "province": "浙江省",
+        "receiverName": "张三",
+        "searchParamList": [],
+        "sort": 99
+      },
+      {
+        "addressDetail": "浙江大学",
+        "area": "滨江区",
+        "cellPhone": "12345678901",
+        "city": "杭州市",
+        "fgUser": {
+          "createTime": 1454057849599,
+          "createTimeStr": "2016-01-29 16:57:29",
+          "id": 74966358,
+          "next1": 0,
+          "next2": 0,
+          "phoneArea": "86",
+          "phoneNumber": "200000000044",
+          "platform": 0,
+          "platformDescribe": "手机",
+          "searchParamList": [],
+          "userAccount": "86/200000000044",
+          "userName": "测试用户44"
+        },
+        "fgUserId": 74966358,
+        "id": 82319609,
+        "province": "浙江省",
+        "receiverName": "张三",
+        "searchParamList": [],
+        "sort": 99
+      }
+    ],
+    "offset": 0,
+    "prefix": "A.",
+    "searchParamList": [
+      74966358,
+      50,
+      0
+    ],
+    "total": 6
+  }
+}
+{
+  "code": 200,
+  "message": "success"
+}
+&lt;RequestsCookieJar[&lt;Cookie smartcamera_buy_pc_fg_sessionid=smartcamera_buy_pc_fg_sessionid_74966358_63bc2868-c5f6-43f5-b73e-c8c39435d822 for .study-perf.qa.netease.com/&gt;, &lt;Cookie smartcamera_buy_pc_fg_short_sessonid=smartcamera_buy_pc_fg_short_sessonid_74966358_a1354bfc-29c9-4260-bdfd-c3c545c20d96 for .study-perf.qa.netease.com/&gt;]&gt;
+{
+  "code": 200,
+  "message": "success"
+}
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr class='passClass'>
+    <td>xushiwei_test.qgSenceTest</td>
+    <td>5</td>
+    <td>5</td>
+    <td>0</td>
+    <td>0</td>
+    <td><a href="javascript:showClassDetail('c4',5)">Detail</a></td>
+</tr>
+
+<tr id='pt4.1' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_fifth</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt4.1')" >
+        pass</a>
+
+    <div id='div_pt4.1' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt4.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt4.1: {
+  "code": 400,
+  "message": "用户名或者密码错误"
+}
+{
+  "code": 400,
+  "message": "请求失败"
+}
+{
+  "code": 400,
+  "message": "\u7528\u6237\u540d\u6216\u8005\u5bc6\u7801\u9519\u8bef"
+}
+&lt;RequestsCookieJar[]&gt;
+{
+  "code": 403,
+  "message": "请重新登录"
+}
+{
+  "code": 400,
+  "message": "\u7528\u6237\u540d\u6216\u8005\u5bc6\u7801\u9519\u8bef"
+}
+&lt;RequestsCookieJar[]&gt;
+{
+  "code": 403,
+  "message": "请重新登录"
+}
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt4.2' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_first</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt4.2')" >
+        pass</a>
+
+    <div id='div_pt4.2' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt4.2').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt4.2: {
+  "code": 200,
+  "message": "success"
+}
+{
+  "code": 200,
+  "message": "success",
+  "result": 6.0
+}
+{
+  "code": 200,
+  "message": "success"
+}
+&lt;RequestsCookieJar[&lt;Cookie smartcamera_buy_pc_fg_sessionid=smartcamera_buy_pc_fg_sessionid_74966369_6cd2f9e1-fc91-4721-b863-4081f7c8635f for .study-perf.qa.netease.com/&gt;, &lt;Cookie smartcamera_buy_pc_fg_short_sessonid=smartcamera_buy_pc_fg_short_sessonid_74966369_42356591-3d77-4486-86ee-96e3ea5dd4db for .study-perf.qa.netease.com/&gt;]&gt;
+{
+  "code": 200,
+  "message": "success",
+  "result": {
+    "fgUserId": 74966369,
+    "limit": 50,
+    "offset": 0,
+    "prefix": "A.",
+    "searchParamList": [
+      74966369
+    ],
+    "total": 0
+  }
+}
+{
+  "code": 200,
+  "message": "success"
+}
+&lt;RequestsCookieJar[&lt;Cookie smartcamera_buy_pc_fg_sessionid=smartcamera_buy_pc_fg_sessionid_74966369_6a4583ab-a39a-43aa-8142-bcca16988786 for .study-perf.qa.netease.com/&gt;, &lt;Cookie smartcamera_buy_pc_fg_short_sessonid=smartcamera_buy_pc_fg_short_sessonid_74966369_448d8c2c-da9e-4bbe-86fd-82b193ff5aae for .study-perf.qa.netease.com/&gt;]&gt;
+{
+  "code": 200,
+  "message": "success",
+  "result": {
+    "accessDevice": 0,
+    "accessSource": "noSource",
+    "addressDetail": "河北师范",
+    "area": "锦江区",
+    "cancel": 0,
+    "cellPhone": "12345678909",
+    "city": "成都市",
+    "createTime": 1545696132365,
+    "fgUserId": 74966369,
+    "finish": 0,
+    "id": 82320434,
+    "invoiceHead": "",
+    "logisticsCompanyId": 1,
+    "needInvoice": 0,
+    "province": "四川省",
+    "receiverName": "小飞龙",
+    "status": 0,
+    "totalFee": 199.0,
+    "transportFee": 0.0
+  }
+}
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt4.3' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_forth</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt4.3')" >
+        pass</a>
+
+    <div id='div_pt4.3' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt4.3').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt4.3: {
+  "code": 400,
+  "message": "用户名或者密码错误"
+}
+{
+  "code": 200,
+  "message": "success",
+  "result": 6.0
+}
+{
+  "code": 403,
+  "message": "请重新登录"
+}
+{
+  "code": 400,
+  "message": "\u7528\u6237\u540d\u6216\u8005\u5bc6\u7801\u9519\u8bef"
+}
+&lt;RequestsCookieJar[]&gt;
+{
+  "code": 403,
+  "message": "请重新登录"
+}
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt4.4' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_second</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt4.4')" >
+        pass</a>
+
+    <div id='div_pt4.4' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt4.4').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt4.4: {
+  "code": 200,
+  "message": "success"
+}
+{
+  "code": 400,
+  "message": "请求失败"
+}
+{
+  "code": 200,
+  "message": "success"
+}
+&lt;RequestsCookieJar[&lt;Cookie smartcamera_buy_pc_fg_sessionid=smartcamera_buy_pc_fg_sessionid_74966369_9099631b-daa3-43ba-8481-a6b7abcdcb5f for .study-perf.qa.netease.com/&gt;, &lt;Cookie smartcamera_buy_pc_fg_short_sessonid=smartcamera_buy_pc_fg_short_sessonid_74966369_dc004c15-6559-4f04-9ece-9105e457b743 for .study-perf.qa.netease.com/&gt;]&gt;
+{
+  "code": 200,
+  "message": "success",
+  "result": {
+    "fgUserId": 74966369,
+    "limit": 50,
+    "offset": 0,
+    "prefix": "A.",
+    "searchParamList": [
+      74966369
+    ],
+    "total": 0
+  }
+}
+{
+  "code": 200,
+  "message": "success"
+}
+&lt;RequestsCookieJar[&lt;Cookie smartcamera_buy_pc_fg_sessionid=smartcamera_buy_pc_fg_sessionid_74966369_febd28cd-a090-402d-a621-d2600b0a6484 for .study-perf.qa.netease.com/&gt;, &lt;Cookie smartcamera_buy_pc_fg_short_sessonid=smartcamera_buy_pc_fg_short_sessonid_74966369_508de8d2-2db1-4119-a848-c574b980000c for .study-perf.qa.netease.com/&gt;]&gt;
+{
+  "code": 200,
+  "message": "success",
+  "result": {
+    "accessDevice": 0,
+    "accessSource": "noSource",
+    "addressDetail": "河北师范",
+    "area": "锦江区",
+    "cancel": 0,
+    "cellPhone": "12345678909",
+    "city": "成都市",
+    "createTime": 1545696133435,
+    "fgUserId": 74966369,
+    "finish": 0,
+    "id": 82320436,
+    "invoiceHead": "",
+    "logisticsCompanyId": 1,
+    "needInvoice": 0,
+    "province": "四川省",
+    "receiverName": "小飞龙",
+    "status": 0,
+    "totalFee": 199.0,
+    "transportFee": 0.0
+  }
+}
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt4.5' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_third</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt4.5')" >
+        pass</a>
+
+    <div id='div_pt4.5' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt4.5').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt4.5: {
+  "code": 200,
+  "message": "success"
+}
+{
+  "code": 200,
+  "message": "success",
+  "result": 6.0
+}
+{
+  "code": 200,
+  "message": "success"
+}
+&lt;RequestsCookieJar[&lt;Cookie smartcamera_buy_pc_fg_sessionid=smartcamera_buy_pc_fg_sessionid_74966369_02a9abf2-8ecf-4a12-8df7-a955b26dc332 for .study-perf.qa.netease.com/&gt;, &lt;Cookie smartcamera_buy_pc_fg_short_sessonid=smartcamera_buy_pc_fg_short_sessonid_74966369_8dfe22a7-348a-4bf4-b25f-0c92e977c878 for .study-perf.qa.netease.com/&gt;]&gt;
+{
+  "code": 200,
+  "message": "success",
+  "result": {
+    "fgUserId": 74966369,
+    "limit": 50,
+    "offset": 0,
+    "prefix": "A.",
+    "searchParamList": [
+      74966369
+    ],
+    "total": 0
+  }
+}
+{
+  "code": 200,
+  "message": "success"
+}
+&lt;RequestsCookieJar[&lt;Cookie smartcamera_buy_pc_fg_sessionid=smartcamera_buy_pc_fg_sessionid_74966369_189414ed-774f-4361-becf-ad027c09b731 for .study-perf.qa.netease.com/&gt;, &lt;Cookie smartcamera_buy_pc_fg_short_sessonid=smartcamera_buy_pc_fg_short_sessonid_74966369_90c83815-9716-47cc-bb6d-7f52fde19e84 for .study-perf.qa.netease.com/&gt;]&gt;
+{
+  "code": 400,
+  "message": "请求失败"
+}
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr class='passClass'>
+    <td>yangkaijing_test.scene</td>
+    <td>2</td>
+    <td>2</td>
+    <td>0</td>
+    <td>0</td>
+    <td><a href="javascript:showClassDetail('c5',2)">Detail</a></td>
+</tr>
+
+<tr id='pt5.1' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_scene1</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt5.1')" >
+        pass</a>
+
+    <div id='div_pt5.1' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt5.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt5.1: {
+  "code": 200,
+  "message": "success",
+  "result": [
+    {
+      "colour": 1,
+      "goods": {
+        "goodsName": "青果",
+        "id": 2,
+        "searchParamList": [],
+        "sellChannel": 2
+      },
+      "goodsId": 2,
+      "id": 5,
+      "picUrl": "https://nos.163.com/yixinpublic/pr_fqizpyyj3qoi7czau3yiig==_1439967375_16285",
+      "price": 199.0,
+      "searchParamList": [],
+      "skuName": "夜空黑",
+      "totalNumber": 200000
+    },
+    {
+      "colour": 0,
+      "goods": {
+        "goodsName": "青果",
+        "id": 2,
+        "searchParamList": [],
+        "sellChannel": 2
+      },
+      "goodsId": 2,
+      "id": 4,
+      "picUrl": "https://nos.163.com/yixinpublic/pr_lvlslq5untnm-kymzfhaea==_1439967379_16286",
+      "price": 199.0,
+      "searchParamList": [],
+      "skuName": "青果绿",
+      "totalNumber": 200000
+    },
+    {
+      "colour": 1,
+      "goods": {
+        "goodsName": "青果",
+        "id": 1,
+        "searchParamList": [],
+        "sellChannel": 1
+      },
+      "goodsId": 1,
+      "id": 3,
+      "picUrl": "https://nos.163.com/yixinpublic/pr_fqizpyyj3qoi7czau3yiig==_1439967375_16285",
+      "price": 199.0,
+      "searchParamList": [],
+      "skuName": "夜空黑",
+      "stockId": 74966313,
+      "totalNumber": 200000
+    },
+    {
+      "colour": 0,
+      "goods": {
+        "goodsName": "青果",
+        "id": 1,
+        "searchParamList": [],
+        "sellChannel": 1
+      },
+      "goodsId": 1,
+      "id": 2,
+      "picUrl": "https://nos.163.com/yixinpublic/pr_lvlslq5untnm-\n\nkymzfhaea==_1439967379_16286",
+      "price": 199.0,
+      "searchParamList": [],
+      "skuName": "青果绿",
+      "stockId": 74966312,
+      "totalNumber": 200000
+    }
+  ]
+}
+{
+  "code": 200,
+  "message": "success",
+  "result": [
+    {
+      "colour": 1,
+      "goods": {
+        "goodsName": "青果",
+        "id": 1,
+        "searchParamList": [],
+        "sellChannel": 1
+      },
+      "goodsId": 1,
+      "id": 3,
+      "picUrl": "https://nos.163.com/yixinpublic/pr_fqizpyyj3qoi7czau3yiig==_1439967375_16285",
+      "price": 199.0,
+      "searchParamList": [],
+      "skuName": "夜空黑",
+      "stockId": 74966313,
+      "totalNumber": 200000
+    },
+    {
+      "colour": 0,
+      "goods": {
+        "goodsName": "青果",
+        "id": 1,
+        "searchParamList": [],
+        "sellChannel": 1
+      },
+      "goodsId": 1,
+      "id": 2,
+      "picUrl": "https://nos.163.com/yixinpublic/pr_lvlslq5untnm-\n\nkymzfhaea==_1439967379_16286",
+      "price": 199.0,
+      "searchParamList": [],
+      "skuName": "青果绿",
+      "stockId": 74966312,
+      "totalNumber": 200000
+    }
+  ]
+}
+{
+  "code": 200,
+  "message": "success",
+  "result": [
+    {
+      "colour": 1,
+      "goods": {
+        "goodsName": "青果",
+        "id": 2,
+        "searchParamList": [],
+        "sellChannel": 2
+      },
+      "goodsId": 2,
+      "id": 5,
+      "picUrl": "https://nos.163.com/yixinpublic/pr_fqizpyyj3qoi7czau3yiig==_1439967375_16285",
+      "price": 199.0,
+      "searchParamList": [],
+      "skuName": "夜空黑",
+      "totalNumber": 200000
+    },
+    {
+      "colour": 0,
+      "goods": {
+        "goodsName": "青果",
+        "id": 2,
+        "searchParamList": [],
+        "sellChannel": 2
+      },
+      "goodsId": 2,
+      "id": 4,
+      "picUrl": "https://nos.163.com/yixinpublic/pr_lvlslq5untnm-kymzfhaea==_1439967379_16286",
+      "price": 199.0,
+      "searchParamList": [],
+      "skuName": "青果绿",
+      "totalNumber": 200000
+    }
+  ]
+}
+{
+  "code": 200,
+  "message": "success",
+  "result": [
+    {
+      "colour": 1,
+      "goods": {
+        "goodsName": "青果",
+        "id": 1,
+        "searchParamList": [],
+        "sellChannel": 1
+      },
+      "goodsId": 1,
+      "id": 3,
+      "picUrl": "https://nos.163.com/yixinpublic/pr_fqizpyyj3qoi7czau3yiig==_1439967375_16285",
+      "price": 199.0,
+      "searchParamList": [],
+      "skuName": "夜空黑",
+      "stockId": 74966313,
+      "totalNumber": 200000
+    },
+    {
+      "colour": 0,
+      "goods": {
+        "goodsName": "青果",
+        "id": 1,
+        "searchParamList": [],
+        "sellChannel": 1
+      },
+      "goodsId": 1,
+      "id": 2,
+      "picUrl": "https://nos.163.com/yixinpublic/pr_lvlslq5untnm-\n\nkymzfhaea==_1439967379_16286",
+      "price": 199.0,
+      "searchParamList": [],
+      "skuName": "青果绿",
+      "stockId": 74966312,
+      "totalNumber": 200000
+    }
+  ]
+}
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt5.2' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_scene2</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt5.2')" >
+        pass</a>
+
+    <div id='div_pt5.2' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt5.2').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt5.2: {
+  "code": 200,
+  "message": "success"
+}
+{
+  "code": 200,
+  "message": "success"
+}
+&lt;RequestsCookieJar[&lt;Cookie smartcamera_buy_pc_fg_sessionid=smartcamera_buy_pc_fg_sessionid_74966380_36884b01-8917-4956-99f8-db24e87e051d for .study-perf.qa.netease.com/&gt;, &lt;Cookie smartcamera_buy_pc_fg_short_sessonid=smartcamera_buy_pc_fg_short_sessonid_74966380_a29ae1a5-1b3e-4f27-b024-87eae4ad5e46 for .study-perf.qa.netease.com/&gt;]&gt;
+{
+  "code": 200,
+  "message": "success",
+  "result": {
+    "fgUserId": 74966380,
+    "limit": 50,
+    "list": [
+      {
+        "addressDetail": "浙江大学",
+        "area": "滨江区",
+        "cellPhone": "12345678901",
+        "city": "杭州市",
+        "fgUser": {
+          "createTime": 1454057850993,
+          "createTimeStr": "2016-01-29 16:57:30",
+          "id": 74966380,
+          "next1": 0,
+          "next2": 0,
+          "phoneArea": "86",
+          "phoneNumber": "200000000066",
+          "platform": 0,
+          "platformDescribe": "手机",
+          "searchParamList": [],
+          "userAccount": "86/200000000066",
+          "userName": "测试用户66"
+        },
+        "fgUserId": 74966380,
+        "id": 82320351,
+        "province": "浙江省",
+        "receiverName": "张三",
+        "searchParamList": [],
+        "sort": 99
+      },
+      {
+        "addressDetail": "南二环东路20号",
+        "area": "裕华区",
+        "cellPhone": "15226542585",
+        "city": "石家庄市",
+        "fgUser": {
+          "createTime": 1454057850993,
+          "createTimeStr": "2016-01-29 16:57:30",
+          "id": 74966380,
+          "next1": 0,
+          "next2": 0,
+          "phoneArea": "86",
+          "phoneNumber": "200000000066",
+          "platform": 0,
+          "platformDescribe": "手机",
+          "searchParamList": [],
+          "userAccount": "86/200000000066",
+          "userName": "测试用户66"
+        },
+        "fgUserId": 74966380,
+        "id": 82320245,
+        "province": "河北省",
+        "receiverName": "张三",
+        "searchParamList": [],
+        "sort": 99
+      }
+    ],
+    "offset": 0,
+    "prefix": "A.",
+    "searchParamList": [
+      74966380,
+      50,
+      0
+    ],
+    "total": 2
+  }
+}
+{
+  "code": 200,
+  "message": "success",
+  "result": 0.0
+}
+运费为: 0.0
+{
+  "code": 200,
+  "message": "success",
+  "result": {
+    "accessDevice": 0,
+    "accessSource": "noSource",
+    "addressDetail": "浙江大学",
+    "area": "滨江区",
+    "cancel": 0,
+    "cellPhone": "12345678901",
+    "city": "杭州市",
+    "createTime": 1545696134879,
+    "fgUserId": 74966380,
+    "finish": 0,
+    "id": 82320438,
+    "invoiceHead": "",
+    "logisticsCompanyId": 1,
+    "needInvoice": 0,
+    "province": "浙江省",
+    "receiverName": "张三",
+    "status": 0,
+    "totalFee": 398.0,
+    "transportFee": 0.0
+  }
+}
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='total_row'>
+    <td>Total</td>
+    <td>21</td>
+    <td>21</td>
+    <td>0</td>
+    <td>0</td>
+    <td>&nbsp;</td>
+</tr>
+</table>
+
+<div id='ending'>&nbsp;</div>
+
+</body>
+</html>

@@ -1,0 +1,1632 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>测试报告</title>
+    <meta name="generator" content="HTMLTestReportCN 0.8.4"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <link href="http://libs.baidu.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
+    <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+    <script src="http://libs.baidu.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+    
+<style type="text/css" media="screen">
+body        { font-family: Microsoft YaHei,Tahoma,arial,helvetica,sans-serif;padding: 20px; font-size: 100%; }
+table       { font-size: 100%; }
+/* -- heading ---------------------------------------------------------------------- */
+.heading {
+    margin-top: 0ex;
+    margin-bottom: 1ex;
+    width: 50%;
+    height: 230px;
+    float: left;
+}
+.div_a {
+    height:250x;
+}
+.div_r {
+    width: 50%;
+    height:230px;
+    float: right;
+    margin-bottom: 1ex;
+    margin-top: 50px;
+}
+.heading .description {
+    margin-top: 4ex;
+    margin-bottom: 6ex;
+}
+/* -- report ------------------------------------------------------------------------ */
+#total_row  { font-weight: bold; }
+.passCase   { color: #5cb85c; }
+.failCase   { color: #d9534f; font-weight: bold; }
+.errorCase  { color: #f0ad4e; font-weight: bold; }
+.hiddenRow  { display: none; }
+.testcase   { margin-left: 2em; }
+</style>
+
+</head>
+<body >
+<div class='div_a'>
+<div class='heading'>
+<h1 style="font-family: Microsoft YaHei">测试报告</h1>
+<p class='attribute'><strong>测试人员 : </strong> SunLiying</p>
+<p class='attribute'><strong>开始时间 : </strong> 2018-12-25 08:43:13</p>
+<p class='attribute'><strong>合计耗时 : </strong> 0:00:05.965698</p>
+<p class='attribute'><strong>测试结果 : </strong> 共 41，通过 39，错误 2，通过率= 95.12%</p>
+
+<p class='description'>运行环境:firefox</p>
+</div>
+<div class="div_r">
+	<p>
+    <canvas id="canvas_circle"></canvas>
+</p>
+</div>
+</div>
+
+
+<p id='show_detail_line'>
+<a class="btn btn-primary" href='javascript:showCase(4)'>预览{ 95.12% }</a>
+<a class="btn btn-success" href='javascript:showCase(0)'>通过{ 39 }</a>
+<a class="btn btn-danger" href='javascript:showCase(1)'>失败{ 0 }</a>
+<a class="btn btn-warning" href='javascript:showCase(2)'>错误{ 2 }</a>
+<a class="btn btn-info" href='javascript:showCase(3)'>全览{ 41 }</a>
+</p>
+<table id='result_table' class="table table-condensed table-bordered table-hover">
+<colgroup>
+<col align='left' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+</colgroup>
+<tr id='header_row' class="text-center active" style="font-weight: bold;font-size: 14px;">
+    <td>用例集/测试用例</td>
+    <td>总计</td>
+    <td>通过</td>
+    <td>失败</td>
+    <td>错误</td>
+    <td>详细</td>
+</tr>
+
+<tr class='warning'>
+    <td>delete_test.deleteAddress</td>
+    <td class="text-center">4</td>
+    <td class="text-center">2</td>
+    <td class="text-center">0</td>
+    <td class="text-center">2</td>
+    <td class="text-center"><a href="javascript:showClassDetail('c1',4)" class="detail" id='c1'>详细</a></td>
+</tr>
+
+<tr id='pt1_1' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_fail_del01</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起output信息 -Findyou
+    <button id='btn_pt1_1' type="button"  class="btn-xs collapsed" data-toggle="collapse" data-target='#div_pt1_1'>通过</button>
+    <div id='div_pt1_1' class="collapse">  -->
+    <!-- 默认展开output信息 -Findyou -->
+    <button id='btn_pt1_1' type="button"  class="btn-xs" data-toggle="collapse" data-target='#div_pt1_1'>通过</button>
+    <div id='div_pt1_1' class="collapse in">
+    <pre style="text-align:left; ">
+    
+pt1_1: {
+  "code": 200,
+  "message": "success"
+}
+&lt;RequestsCookieJar[&lt;Cookie smartcamera_buy_pc_fg_sessionid=smartcamera_buy_pc_fg_sessionid_74966391_69b9fe4d-f38d-4e16-850d-93c9aa1dc909 for .study-perf.qa.netease.com/&gt;, &lt;Cookie smartcamera_buy_pc_fg_short_sessonid=smartcamera_buy_pc_fg_short_sessonid_74966391_9d7c9a4b-2dd5-4ef3-86f1-03dae360aca3 for .study-perf.qa.netease.com/&gt;]&gt;
+{
+  "code": 400,
+  "message": "请求失败"
+}
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='et1_2' class='none'>
+    <td class='errorCase'><div class='testcase'>test_fail_del02</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起output信息 -Findyou
+    <button id='btn_et1_2' type="button"  class="btn-xs collapsed" data-toggle="collapse" data-target='#div_et1_2'>错误</button>
+    <div id='div_et1_2' class="collapse">  -->
+    <!-- 默认展开output信息 -Findyou -->
+    <button id='btn_et1_2' type="button"  class="btn-xs" data-toggle="collapse" data-target='#div_et1_2'>错误</button>
+    <div id='div_et1_2' class="collapse in">
+    <pre style="text-align:left; ">
+    
+et1_2: {
+  "code": 200,
+  "message": "success"
+}
+&lt;RequestsCookieJar[&lt;Cookie smartcamera_buy_pc_fg_sessionid=smartcamera_buy_pc_fg_sessionid_74966391_fcc2bdc4-adde-4b20-af33-fdba5ed7653a for .study-perf.qa.netease.com/&gt;, &lt;Cookie smartcamera_buy_pc_fg_short_sessonid=smartcamera_buy_pc_fg_short_sessonid_74966391_24ff7df7-76d0-4254-8fa5-2a641923818a for .study-perf.qa.netease.com/&gt;]&gt;
+{
+  "code": 200,
+  "message": "success",
+  "result": {
+    "fgUserId": 74966391,
+    "limit": 50,
+    "offset": 0,
+    "prefix": "A.",
+    "searchParamList": [
+      74966391
+    ],
+    "total": 0
+  }
+}
+Traceback (most recent call last):
+  File "F:\PycharmProjects\Request\QingGuo\SingleAPI\delete_test.py", line 40, in test_fail_del02
+    para = {"id": ID_LIST[0]}
+IndexError: list index out of range
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt1_3' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_fail_del03</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起output信息 -Findyou
+    <button id='btn_pt1_3' type="button"  class="btn-xs collapsed" data-toggle="collapse" data-target='#div_pt1_3'>通过</button>
+    <div id='div_pt1_3' class="collapse">  -->
+    <!-- 默认展开output信息 -Findyou -->
+    <button id='btn_pt1_3' type="button"  class="btn-xs" data-toggle="collapse" data-target='#div_pt1_3'>通过</button>
+    <div id='div_pt1_3' class="collapse in">
+    <pre style="text-align:left; ">
+    
+pt1_3: {
+  "code": 200,
+  "message": "success"
+}
+&lt;RequestsCookieJar[&lt;Cookie smartcamera_buy_pc_fg_sessionid=smartcamera_buy_pc_fg_sessionid_74966391_9aa866b9-7aac-409b-9a41-9ff733e33acb for .study-perf.qa.netease.com/&gt;, &lt;Cookie smartcamera_buy_pc_fg_short_sessonid=smartcamera_buy_pc_fg_short_sessonid_74966391_9baf3560-2652-4643-8d5a-2b82b39df176 for .study-perf.qa.netease.com/&gt;]&gt;
+{
+  "code": 400,
+  "message": "may not be null"
+}
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='et1_4' class='none'>
+    <td class='errorCase'><div class='testcase'>test_success_del</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起output信息 -Findyou
+    <button id='btn_et1_4' type="button"  class="btn-xs collapsed" data-toggle="collapse" data-target='#div_et1_4'>错误</button>
+    <div id='div_et1_4' class="collapse">  -->
+    <!-- 默认展开output信息 -Findyou -->
+    <button id='btn_et1_4' type="button"  class="btn-xs" data-toggle="collapse" data-target='#div_et1_4'>错误</button>
+    <div id='div_et1_4' class="collapse in">
+    <pre style="text-align:left; ">
+    
+et1_4: {
+  "code": 200,
+  "message": "success"
+}
+&lt;RequestsCookieJar[&lt;Cookie smartcamera_buy_pc_fg_sessionid=smartcamera_buy_pc_fg_sessionid_74966391_0d224ac4-b976-4967-b1b1-c7c212d0d1cd for .study-perf.qa.netease.com/&gt;, &lt;Cookie smartcamera_buy_pc_fg_short_sessonid=smartcamera_buy_pc_fg_short_sessonid_74966391_8e28f87e-7a5d-48cf-a7fb-37b75e5ce386 for .study-perf.qa.netease.com/&gt;]&gt;
+{
+  "code": 200,
+  "message": "success",
+  "result": {
+    "fgUserId": 74966391,
+    "limit": 50,
+    "offset": 0,
+    "prefix": "A.",
+    "searchParamList": [
+      74966391
+    ],
+    "total": 0
+  }
+}
+{
+  "code": 200,
+  "message": "success"
+}
+&lt;RequestsCookieJar[&lt;Cookie smartcamera_buy_pc_fg_sessionid=smartcamera_buy_pc_fg_sessionid_74966391_0386a96c-c8ae-4d8d-8e3f-85edca180647 for .study-perf.qa.netease.com/&gt;, &lt;Cookie smartcamera_buy_pc_fg_short_sessonid=smartcamera_buy_pc_fg_short_sessonid_74966391_1012bb88-4ed6-4849-840a-c777a80ccb0e for .study-perf.qa.netease.com/&gt;]&gt;
+Traceback (most recent call last):
+  File "F:\PycharmProjects\Request\QingGuo\SingleAPI\delete_test.py", line 26, in test_success_del
+    para = {"id": ID_LIST[0]}
+IndexError: list index out of range
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr class='success'>
+    <td>getFee_test.getFee</td>
+    <td class="text-center">13</td>
+    <td class="text-center">13</td>
+    <td class="text-center">0</td>
+    <td class="text-center">0</td>
+    <td class="text-center"><a href="javascript:showClassDetail('c2',13)" class="detail" id='c2'>详细</a></td>
+</tr>
+
+<tr id='pt2_1' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_fee</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起output信息 -Findyou
+    <button id='btn_pt2_1' type="button"  class="btn-xs collapsed" data-toggle="collapse" data-target='#div_pt2_1'>通过</button>
+    <div id='div_pt2_1' class="collapse">  -->
+    <!-- 默认展开output信息 -Findyou -->
+    <button id='btn_pt2_1' type="button"  class="btn-xs" data-toggle="collapse" data-target='#div_pt2_1'>通过</button>
+    <div id='div_pt2_1' class="collapse in">
+    <pre style="text-align:left; ">
+    
+pt2_1: {
+  "code": 200,
+  "message": "success",
+  "result": 6.0
+}
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt2_2' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_fee1</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起output信息 -Findyou
+    <button id='btn_pt2_2' type="button"  class="btn-xs collapsed" data-toggle="collapse" data-target='#div_pt2_2'>通过</button>
+    <div id='div_pt2_2' class="collapse">  -->
+    <!-- 默认展开output信息 -Findyou -->
+    <button id='btn_pt2_2' type="button"  class="btn-xs" data-toggle="collapse" data-target='#div_pt2_2'>通过</button>
+    <div id='div_pt2_2' class="collapse in">
+    <pre style="text-align:left; ">
+    
+pt2_2: {
+  "code": 400,
+  "message": "请求失败"
+}
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt2_3' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_fee10</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起output信息 -Findyou
+    <button id='btn_pt2_3' type="button"  class="btn-xs collapsed" data-toggle="collapse" data-target='#div_pt2_3'>通过</button>
+    <div id='div_pt2_3' class="collapse">  -->
+    <!-- 默认展开output信息 -Findyou -->
+    <button id='btn_pt2_3' type="button"  class="btn-xs" data-toggle="collapse" data-target='#div_pt2_3'>通过</button>
+    <div id='div_pt2_3' class="collapse in">
+    <pre style="text-align:left; ">
+    
+pt2_3: {
+  "code": 200,
+  "message": "success",
+  "result": 6.0
+}
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt2_4' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_fee11</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起output信息 -Findyou
+    <button id='btn_pt2_4' type="button"  class="btn-xs collapsed" data-toggle="collapse" data-target='#div_pt2_4'>通过</button>
+    <div id='div_pt2_4' class="collapse">  -->
+    <!-- 默认展开output信息 -Findyou -->
+    <button id='btn_pt2_4' type="button"  class="btn-xs" data-toggle="collapse" data-target='#div_pt2_4'>通过</button>
+    <div id='div_pt2_4' class="collapse in">
+    <pre style="text-align:left; ">
+    
+pt2_4: {
+  "code": 400,
+  "message": "请求失败"
+}
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt2_5' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_fee12</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起output信息 -Findyou
+    <button id='btn_pt2_5' type="button"  class="btn-xs collapsed" data-toggle="collapse" data-target='#div_pt2_5'>通过</button>
+    <div id='div_pt2_5' class="collapse">  -->
+    <!-- 默认展开output信息 -Findyou -->
+    <button id='btn_pt2_5' type="button"  class="btn-xs" data-toggle="collapse" data-target='#div_pt2_5'>通过</button>
+    <div id='div_pt2_5' class="collapse in">
+    <pre style="text-align:left; ">
+    
+pt2_5: {
+  "code": 400,
+  "message": "请求失败"
+}
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt2_6' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_fee13</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起output信息 -Findyou
+    <button id='btn_pt2_6' type="button"  class="btn-xs collapsed" data-toggle="collapse" data-target='#div_pt2_6'>通过</button>
+    <div id='div_pt2_6' class="collapse">  -->
+    <!-- 默认展开output信息 -Findyou -->
+    <button id='btn_pt2_6' type="button"  class="btn-xs" data-toggle="collapse" data-target='#div_pt2_6'>通过</button>
+    <div id='div_pt2_6' class="collapse in">
+    <pre style="text-align:left; ">
+    
+pt2_6: {
+  "code": 400,
+  "message": "请求失败"
+}
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt2_7' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_fee3</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起output信息 -Findyou
+    <button id='btn_pt2_7' type="button"  class="btn-xs collapsed" data-toggle="collapse" data-target='#div_pt2_7'>通过</button>
+    <div id='div_pt2_7' class="collapse">  -->
+    <!-- 默认展开output信息 -Findyou -->
+    <button id='btn_pt2_7' type="button"  class="btn-xs" data-toggle="collapse" data-target='#div_pt2_7'>通过</button>
+    <div id='div_pt2_7' class="collapse in">
+    <pre style="text-align:left; ">
+    
+pt2_7: {
+  "code": 200,
+  "message": "success",
+  "result": 0.0
+}
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt2_8' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_fee4</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起output信息 -Findyou
+    <button id='btn_pt2_8' type="button"  class="btn-xs collapsed" data-toggle="collapse" data-target='#div_pt2_8'>通过</button>
+    <div id='div_pt2_8' class="collapse">  -->
+    <!-- 默认展开output信息 -Findyou -->
+    <button id='btn_pt2_8' type="button"  class="btn-xs" data-toggle="collapse" data-target='#div_pt2_8'>通过</button>
+    <div id='div_pt2_8' class="collapse in">
+    <pre style="text-align:left; ">
+    
+pt2_8: {
+  "code": 400,
+  "message": "请求失败"
+}
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt2_9' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_fee5</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起output信息 -Findyou
+    <button id='btn_pt2_9' type="button"  class="btn-xs collapsed" data-toggle="collapse" data-target='#div_pt2_9'>通过</button>
+    <div id='div_pt2_9' class="collapse">  -->
+    <!-- 默认展开output信息 -Findyou -->
+    <button id='btn_pt2_9' type="button"  class="btn-xs" data-toggle="collapse" data-target='#div_pt2_9'>通过</button>
+    <div id='div_pt2_9' class="collapse in">
+    <pre style="text-align:left; ">
+    
+pt2_9: {
+  "code": 400,
+  "message": "请求失败"
+}
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt2_10' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_fee6</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起output信息 -Findyou
+    <button id='btn_pt2_10' type="button"  class="btn-xs collapsed" data-toggle="collapse" data-target='#div_pt2_10'>通过</button>
+    <div id='div_pt2_10' class="collapse">  -->
+    <!-- 默认展开output信息 -Findyou -->
+    <button id='btn_pt2_10' type="button"  class="btn-xs" data-toggle="collapse" data-target='#div_pt2_10'>通过</button>
+    <div id='div_pt2_10' class="collapse in">
+    <pre style="text-align:left; ">
+    
+pt2_10: {
+  "code": 400,
+  "message": "请求失败"
+}
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt2_11' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_fee7</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起output信息 -Findyou
+    <button id='btn_pt2_11' type="button"  class="btn-xs collapsed" data-toggle="collapse" data-target='#div_pt2_11'>通过</button>
+    <div id='div_pt2_11' class="collapse">  -->
+    <!-- 默认展开output信息 -Findyou -->
+    <button id='btn_pt2_11' type="button"  class="btn-xs" data-toggle="collapse" data-target='#div_pt2_11'>通过</button>
+    <div id='div_pt2_11' class="collapse in">
+    <pre style="text-align:left; ">
+    
+pt2_11: {
+  "code": 200,
+  "message": "success",
+  "result": 0.0
+}
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt2_12' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_fee8</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起output信息 -Findyou
+    <button id='btn_pt2_12' type="button"  class="btn-xs collapsed" data-toggle="collapse" data-target='#div_pt2_12'>通过</button>
+    <div id='div_pt2_12' class="collapse">  -->
+    <!-- 默认展开output信息 -Findyou -->
+    <button id='btn_pt2_12' type="button"  class="btn-xs" data-toggle="collapse" data-target='#div_pt2_12'>通过</button>
+    <div id='div_pt2_12' class="collapse in">
+    <pre style="text-align:left; ">
+    
+pt2_12: {
+  "code": 200,
+  "message": "success",
+  "result": 0.0
+}
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt2_13' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_fee9</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起output信息 -Findyou
+    <button id='btn_pt2_13' type="button"  class="btn-xs collapsed" data-toggle="collapse" data-target='#div_pt2_13'>通过</button>
+    <div id='div_pt2_13' class="collapse">  -->
+    <!-- 默认展开output信息 -Findyou -->
+    <button id='btn_pt2_13' type="button"  class="btn-xs" data-toggle="collapse" data-target='#div_pt2_13'>通过</button>
+    <div id='div_pt2_13' class="collapse in">
+    <pre style="text-align:left; ">
+    
+pt2_13: {
+  "code": 200,
+  "message": "success",
+  "result": 0.0
+}
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr class='success'>
+    <td>list_test.List</td>
+    <td class="text-center">4</td>
+    <td class="text-center">4</td>
+    <td class="text-center">0</td>
+    <td class="text-center">0</td>
+    <td class="text-center"><a href="javascript:showClassDetail('c3',4)" class="detail" id='c3'>详细</a></td>
+</tr>
+
+<tr id='pt3_1' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_address_by_Login</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起output信息 -Findyou
+    <button id='btn_pt3_1' type="button"  class="btn-xs collapsed" data-toggle="collapse" data-target='#div_pt3_1'>通过</button>
+    <div id='div_pt3_1' class="collapse">  -->
+    <!-- 默认展开output信息 -Findyou -->
+    <button id='btn_pt3_1' type="button"  class="btn-xs" data-toggle="collapse" data-target='#div_pt3_1'>通过</button>
+    <div id='div_pt3_1' class="collapse in">
+    <pre style="text-align:left; ">
+    
+pt3_1: {
+  "code": 200,
+  "message": "success"
+}
+&lt;RequestsCookieJar[&lt;Cookie smartcamera_buy_pc_fg_sessionid=smartcamera_buy_pc_fg_sessionid_74966314_0cc796e3-cbec-4333-8c0a-5f30e098053c for .study-perf.qa.netease.com/&gt;, &lt;Cookie smartcamera_buy_pc_fg_short_sessonid=smartcamera_buy_pc_fg_short_sessonid_74966314_55d6b303-8cff-47ed-bebe-8cd76889464f for .study-perf.qa.netease.com/&gt;]&gt;
+{
+  "code": 200,
+  "message": "success",
+  "result": {
+    "fgUserId": 74966314,
+    "limit": 50,
+    "list": [
+      {
+        "addressDetail": "1栋3单元",
+        "area": "滨江区",
+        "cellPhone": "12615813537",
+        "city": "杭州市",
+        "fgUser": {
+          "createTime": 1454057846653,
+          "createTimeStr": "2016-01-29 16:57:26",
+          "id": 74966314,
+          "next1": 0,
+          "next2": 0,
+          "phoneArea": "86",
+          "phoneNumber": "20000000000",
+          "platform": 0,
+          "platformDescribe": "手机",
+          "searchParamList": [],
+          "userAccount": "86/20000000000",
+          "userName": "测试用户20"
+        },
+        "fgUserId": 74966314,
+        "id": 82320340,
+        "province": "浙江省",
+        "receiverName": "张三",
+        "searchParamList": [],
+        "sort": 99
+      },
+      {
+        "addressDetail": "Hebei Normal University",
+        "area": "Yuhuaqu",
+        "cellPhone": "12345678901",
+        "city": "Shijiazhuang",
+        "fgUser": {
+          "createTime": 1454057846653,
+          "createTimeStr": "2016-01-29 16:57:26",
+          "id": 74966314,
+          "next1": 0,
+          "next2": 0,
+          "phoneArea": "86",
+          "phoneNumber": "20000000000",
+          "platform": 0,
+          "platformDescribe": "手机",
+          "searchParamList": [],
+          "userAccount": "86/20000000000",
+          "userName": "测试用户20"
+        },
+        "fgUserId": 74966314,
+        "id": 82320288,
+        "province": "Hebei",
+        "receiverName": "receiver",
+        "searchParamList": [],
+        "sort": 99
+      },
+      {
+        "addressDetail": "Hebei Normal University",
+        "area": "Yuhuaqu",
+        "cellPhone": "12345678901",
+        "city": "Shijiazhuang",
+        "fgUser": {
+          "createTime": 1454057846653,
+          "createTimeStr": "2016-01-29 16:57:26",
+          "id": 74966314,
+          "next1": 0,
+          "next2": 0,
+          "phoneArea": "86",
+          "phoneNumber": "20000000000",
+          "platform": 0,
+          "platformDescribe": "手机",
+          "searchParamList": [],
+          "userAccount": "86/20000000000",
+          "userName": "测试用户20"
+        },
+        "fgUserId": 74966314,
+        "id": 82320287,
+        "province": "Hebei",
+        "receiverName": "receiver",
+        "searchParamList": [],
+        "sort": 99
+      },
+      {
+        "addressDetail": "Hebei Normal University",
+        "area": "Yuhuaqu",
+        "cellPhone": "12345678901",
+        "city": "Shijiazhuang",
+        "fgUser": {
+          "createTime": 1454057846653,
+          "createTimeStr": "2016-01-29 16:57:26",
+          "id": 74966314,
+          "next1": 0,
+          "next2": 0,
+          "phoneArea": "86",
+          "phoneNumber": "20000000000",
+          "platform": 0,
+          "platformDescribe": "手机",
+          "searchParamList": [],
+          "userAccount": "86/20000000000",
+          "userName": "测试用户20"
+        },
+        "fgUserId": 74966314,
+        "id": 82320286,
+        "province": "Hebei",
+        "receiverName": "receiver",
+        "searchParamList": [],
+        "sort": 99
+      },
+      {
+        "addressDetail": "上午",
+        "area": "滨江区",
+        "cellPhone": "12345678909",
+        "city": "杭州市",
+        "fgUser": {
+          "createTime": 1454057846653,
+          "createTimeStr": "2016-01-29 16:57:26",
+          "id": 74966314,
+          "next1": 0,
+          "next2": 0,
+          "phoneArea": "86",
+          "phoneNumber": "20000000000",
+          "platform": 0,
+          "platformDescribe": "手机",
+          "searchParamList": [],
+          "userAccount": "86/20000000000",
+          "userName": "测试用户20"
+        },
+        "fgUserId": 74966314,
+        "id": 82320037,
+        "province": "浙江省",
+        "receiverName": "A好",
+        "searchParamList": [],
+        "sort": 99
+      },
+      {
+        "addressDetail": "????",
+        "area": "???",
+        "cellPhone": "12345678901",
+        "city": "???",
+        "fgUser": {
+          "createTime": 1454057846653,
+          "createTimeStr": "2016-01-29 16:57:26",
+          "id": 74966314,
+          "next1": 0,
+          "next2": 0,
+          "phoneArea": "86",
+          "phoneNumber": "20000000000",
+          "platform": 0,
+          "platformDescribe": "手机",
+          "searchParamList": [],
+          "userAccount": "86/20000000000",
+          "userName": "测试用户20"
+        },
+        "fgUserId": 74966314,
+        "id": 82319975,
+        "province": "???",
+        "receiverName": "??",
+        "searchParamList": [],
+        "sort": 99
+      }
+    ],
+    "offset": 0,
+    "prefix": "A.",
+    "searchParamList": [
+      74966314,
+      50,
+      0
+    ],
+    "total": 6
+  }
+}
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt3_2' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_listFail_by_NoLogin</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起output信息 -Findyou
+    <button id='btn_pt3_2' type="button"  class="btn-xs collapsed" data-toggle="collapse" data-target='#div_pt3_2'>通过</button>
+    <div id='div_pt3_2' class="collapse">  -->
+    <!-- 默认展开output信息 -Findyou -->
+    <button id='btn_pt3_2' type="button"  class="btn-xs" data-toggle="collapse" data-target='#div_pt3_2'>通过</button>
+    <div id='div_pt3_2' class="collapse in">
+    <pre style="text-align:left; ">
+    
+pt3_2: {
+  "code": 403,
+  "message": "请重新登录"
+}
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt3_3' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_listFail_by_WrongPwd</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起output信息 -Findyou
+    <button id='btn_pt3_3' type="button"  class="btn-xs collapsed" data-toggle="collapse" data-target='#div_pt3_3'>通过</button>
+    <div id='div_pt3_3' class="collapse">  -->
+    <!-- 默认展开output信息 -Findyou -->
+    <button id='btn_pt3_3' type="button"  class="btn-xs" data-toggle="collapse" data-target='#div_pt3_3'>通过</button>
+    <div id='div_pt3_3' class="collapse in">
+    <pre style="text-align:left; ">
+    
+pt3_3: {
+  "code": 400,
+  "message": "\u7528\u6237\u540d\u6216\u8005\u5bc6\u7801\u9519\u8bef"
+}
+&lt;RequestsCookieJar[]&gt;
+{
+  "code": 403,
+  "message": "请重新登录"
+}
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt3_4' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_listFail_by_WrongUser</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起output信息 -Findyou
+    <button id='btn_pt3_4' type="button"  class="btn-xs collapsed" data-toggle="collapse" data-target='#div_pt3_4'>通过</button>
+    <div id='div_pt3_4' class="collapse">  -->
+    <!-- 默认展开output信息 -Findyou -->
+    <button id='btn_pt3_4' type="button"  class="btn-xs" data-toggle="collapse" data-target='#div_pt3_4'>通过</button>
+    <div id='div_pt3_4' class="collapse in">
+    <pre style="text-align:left; ">
+    
+pt3_4: {
+  "code": 400,
+  "message": "\u7528\u6237\u540d\u6216\u8005\u5bc6\u7801\u9519\u8bef"
+}
+&lt;RequestsCookieJar[]&gt;
+{
+  "code": 403,
+  "message": "请重新登录"
+}
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr class='success'>
+    <td>new_test.addressNew</td>
+    <td class="text-center">2</td>
+    <td class="text-center">2</td>
+    <td class="text-center">0</td>
+    <td class="text-center">0</td>
+    <td class="text-center"><a href="javascript:showClassDetail('c4',2)" class="detail" id='c4'>详细</a></td>
+</tr>
+
+<tr id='pt4_1' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_addressnew1</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起output信息 -Findyou
+    <button id='btn_pt4_1' type="button"  class="btn-xs collapsed" data-toggle="collapse" data-target='#div_pt4_1'>通过</button>
+    <div id='div_pt4_1' class="collapse">  -->
+    <!-- 默认展开output信息 -Findyou -->
+    <button id='btn_pt4_1' type="button"  class="btn-xs" data-toggle="collapse" data-target='#div_pt4_1'>通过</button>
+    <div id='div_pt4_1' class="collapse in">
+    <pre style="text-align:left; ">
+    
+pt4_1: {
+  "code": 200,
+  "message": "success"
+}
+&lt;RequestsCookieJar[&lt;Cookie smartcamera_buy_pc_fg_sessionid=smartcamera_buy_pc_fg_sessionid_74966380_22fde87e-f492-4a11-965a-b973dc7ae764 for .study-perf.qa.netease.com/&gt;, &lt;Cookie smartcamera_buy_pc_fg_short_sessonid=smartcamera_buy_pc_fg_short_sessonid_74966380_ff7a8ea8-23bd-4f8b-bb78-8b5a8ea03af8 for .study-perf.qa.netease.com/&gt;]&gt;
+{
+  "code": 200,
+  "message": "success"
+}
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt4_2' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_addressnew21</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起output信息 -Findyou
+    <button id='btn_pt4_2' type="button"  class="btn-xs collapsed" data-toggle="collapse" data-target='#div_pt4_2'>通过</button>
+    <div id='div_pt4_2' class="collapse">  -->
+    <!-- 默认展开output信息 -Findyou -->
+    <button id='btn_pt4_2' type="button"  class="btn-xs" data-toggle="collapse" data-target='#div_pt4_2'>通过</button>
+    <div id='div_pt4_2' class="collapse in">
+    <pre style="text-align:left; ">
+    
+pt4_2: {
+  "code": 200,
+  "message": "success"
+}
+&lt;RequestsCookieJar[&lt;Cookie smartcamera_buy_pc_fg_sessionid=smartcamera_buy_pc_fg_sessionid_74966380_2e1a6518-e141-4087-a755-0d47886e2949 for .study-perf.qa.netease.com/&gt;, &lt;Cookie smartcamera_buy_pc_fg_short_sessonid=smartcamera_buy_pc_fg_short_sessonid_74966380_f1e5c9ab-1aec-48cd-8785-ede1bf911a41 for .study-perf.qa.netease.com/&gt;]&gt;
+{
+  "code": 200,
+  "message": "success"
+}
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr class='success'>
+    <td>skulist_test.skulist</td>
+    <td class="text-center">6</td>
+    <td class="text-center">6</td>
+    <td class="text-center">0</td>
+    <td class="text-center">0</td>
+    <td class="text-center"><a href="javascript:showClassDetail('c5',6)" class="detail" id='c5'>详细</a></td>
+</tr>
+
+<tr id='pt5_1' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_skulist</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起output信息 -Findyou
+    <button id='btn_pt5_1' type="button"  class="btn-xs collapsed" data-toggle="collapse" data-target='#div_pt5_1'>通过</button>
+    <div id='div_pt5_1' class="collapse">  -->
+    <!-- 默认展开output信息 -Findyou -->
+    <button id='btn_pt5_1' type="button"  class="btn-xs" data-toggle="collapse" data-target='#div_pt5_1'>通过</button>
+    <div id='div_pt5_1' class="collapse in">
+    <pre style="text-align:left; ">
+    
+pt5_1: {
+  "code": 200,
+  "message": "success",
+  "result": [
+    {
+      "colour": 1,
+      "goods": {
+        "goodsName": "青果",
+        "id": 2,
+        "searchParamList": [],
+        "sellChannel": 2
+      },
+      "goodsId": 2,
+      "id": 5,
+      "picUrl": "https://nos.163.com/yixinpublic/pr_fqizpyyj3qoi7czau3yiig==_1439967375_16285",
+      "price": 199.0,
+      "searchParamList": [],
+      "skuName": "夜空黑",
+      "totalNumber": 200000
+    },
+    {
+      "colour": 0,
+      "goods": {
+        "goodsName": "青果",
+        "id": 2,
+        "searchParamList": [],
+        "sellChannel": 2
+      },
+      "goodsId": 2,
+      "id": 4,
+      "picUrl": "https://nos.163.com/yixinpublic/pr_lvlslq5untnm-kymzfhaea==_1439967379_16286",
+      "price": 199.0,
+      "searchParamList": [],
+      "skuName": "青果绿",
+      "totalNumber": 200000
+    },
+    {
+      "colour": 1,
+      "goods": {
+        "goodsName": "青果",
+        "id": 1,
+        "searchParamList": [],
+        "sellChannel": 1
+      },
+      "goodsId": 1,
+      "id": 3,
+      "picUrl": "https://nos.163.com/yixinpublic/pr_fqizpyyj3qoi7czau3yiig==_1439967375_16285",
+      "price": 199.0,
+      "searchParamList": [],
+      "skuName": "夜空黑",
+      "stockId": 74966313,
+      "totalNumber": 200000
+    },
+    {
+      "colour": 0,
+      "goods": {
+        "goodsName": "青果",
+        "id": 1,
+        "searchParamList": [],
+        "sellChannel": 1
+      },
+      "goodsId": 1,
+      "id": 2,
+      "picUrl": "https://nos.163.com/yixinpublic/pr_lvlslq5untnm-\n\nkymzfhaea==_1439967379_16286",
+      "price": 199.0,
+      "searchParamList": [],
+      "skuName": "青果绿",
+      "stockId": 74966312,
+      "totalNumber": 200000
+    }
+  ]
+}
+{'message': 'success', 'result': [{'id': 5, 'searchParamList': [], 'totalNumber': 200000, 'colour': 1, 'skuName': '夜空黑', 'goods': {'id': 2, 'searchParamList': [], 'goodsName': '青果', 'sellChannel': 2}, 'goodsId': 2, 'price': 199.0, 'picUrl': 'https://nos.163.com/yixinpublic/pr_fqizpyyj3qoi7czau3yiig==_1439967375_16285'}, {'id': 4, 'searchParamList': [], 'totalNumber': 200000, 'colour': 0, 'skuName': '青果绿', 'goods': {'id': 2, 'searchParamList': [], 'goodsName': '青果', 'sellChannel': 2}, 'goodsId': 2, 'price': 199.0, 'picUrl': 'https://nos.163.com/yixinpublic/pr_lvlslq5untnm-kymzfhaea==_1439967379_16286'}, {'id': 3, 'searchParamList': [], 'stockId': 74966313, 'totalNumber': 200000, 'colour': 1, 'skuName': '夜空黑', 'goods': {'id': 1, 'searchParamList': [], 'goodsName': '青果', 'sellChannel': 1}, 'goodsId': 1, 'price': 199.0, 'picUrl': 'https://nos.163.com/yixinpublic/pr_fqizpyyj3qoi7czau3yiig==_1439967375_16285'}, {'id': 2, 'searchParamList': [], 'stockId': 74966312, 'totalNumber': 200000, 'colour': 0, 'skuName': '青果绿', 'goods': {'id': 1, 'searchParamList': [], 'goodsName': '青果', 'sellChannel': 1}, 'goodsId': 1, 'price': 199.0, 'picUrl': 'https://nos.163.com/yixinpublic/pr_lvlslq5untnm-\n\nkymzfhaea==_1439967379_16286'}], 'code': 200}
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt5_2' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_skulistById</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起output信息 -Findyou
+    <button id='btn_pt5_2' type="button"  class="btn-xs collapsed" data-toggle="collapse" data-target='#div_pt5_2'>通过</button>
+    <div id='div_pt5_2' class="collapse">  -->
+    <!-- 默认展开output信息 -Findyou -->
+    <button id='btn_pt5_2' type="button"  class="btn-xs" data-toggle="collapse" data-target='#div_pt5_2'>通过</button>
+    <div id='div_pt5_2' class="collapse in">
+    <pre style="text-align:left; ">
+    
+pt5_2: {
+  "code": 200,
+  "message": "success",
+  "result": [
+    {
+      "colour": 1,
+      "goods": {
+        "goodsName": "青果",
+        "id": 1,
+        "searchParamList": [],
+        "sellChannel": 1
+      },
+      "goodsId": 1,
+      "id": 3,
+      "picUrl": "https://nos.163.com/yixinpublic/pr_fqizpyyj3qoi7czau3yiig==_1439967375_16285",
+      "price": 199.0,
+      "searchParamList": [],
+      "skuName": "夜空黑",
+      "stockId": 74966313,
+      "totalNumber": 200000
+    },
+    {
+      "colour": 0,
+      "goods": {
+        "goodsName": "青果",
+        "id": 1,
+        "searchParamList": [],
+        "sellChannel": 1
+      },
+      "goodsId": 1,
+      "id": 2,
+      "picUrl": "https://nos.163.com/yixinpublic/pr_lvlslq5untnm-\n\nkymzfhaea==_1439967379_16286",
+      "price": 199.0,
+      "searchParamList": [],
+      "skuName": "青果绿",
+      "stockId": 74966312,
+      "totalNumber": 200000
+    }
+  ]
+}
+{'message': 'success', 'result': [{'id': 3, 'searchParamList': [], 'stockId': 74966313, 'totalNumber': 200000, 'colour': 1, 'skuName': '夜空黑', 'goods': {'id': 1, 'searchParamList': [], 'goodsName': '青果', 'sellChannel': 1}, 'goodsId': 1, 'price': 199.0, 'picUrl': 'https://nos.163.com/yixinpublic/pr_fqizpyyj3qoi7czau3yiig==_1439967375_16285'}, {'id': 2, 'searchParamList': [], 'stockId': 74966312, 'totalNumber': 200000, 'colour': 0, 'skuName': '青果绿', 'goods': {'id': 1, 'searchParamList': [], 'goodsName': '青果', 'sellChannel': 1}, 'goodsId': 1, 'price': 199.0, 'picUrl': 'https://nos.163.com/yixinpublic/pr_lvlslq5untnm-\n\nkymzfhaea==_1439967379_16286'}], 'code': 200}
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt5_3' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_skulistById1</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起output信息 -Findyou
+    <button id='btn_pt5_3' type="button"  class="btn-xs collapsed" data-toggle="collapse" data-target='#div_pt5_3'>通过</button>
+    <div id='div_pt5_3' class="collapse">  -->
+    <!-- 默认展开output信息 -Findyou -->
+    <button id='btn_pt5_3' type="button"  class="btn-xs" data-toggle="collapse" data-target='#div_pt5_3'>通过</button>
+    <div id='div_pt5_3' class="collapse in">
+    <pre style="text-align:left; ">
+    
+pt5_3: {
+  "code": 400,
+  "message": "Failed to convert property value of type 'java.lang.String' to required type 'java.lang.Long' for property 'goodsId'; nested exception is java.lang.NumberFormatException: For input string: \"\"1\"\""
+}
+{'message': 'Failed to convert property value of type \'java.lang.String\' to required type \'java.lang.Long\' for property \'goodsId\'; nested exception is java.lang.NumberFormatException: For input string: ""1""', 'code': 400}
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt5_4' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_skulistById2</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起output信息 -Findyou
+    <button id='btn_pt5_4' type="button"  class="btn-xs collapsed" data-toggle="collapse" data-target='#div_pt5_4'>通过</button>
+    <div id='div_pt5_4' class="collapse">  -->
+    <!-- 默认展开output信息 -Findyou -->
+    <button id='btn_pt5_4' type="button"  class="btn-xs" data-toggle="collapse" data-target='#div_pt5_4'>通过</button>
+    <div id='div_pt5_4' class="collapse in">
+    <pre style="text-align:left; ">
+    
+pt5_4: {
+  "code": 400,
+  "message": "Failed to convert property value of type 'java.lang.String' to required type 'java.lang.Long' for property 'goodsId'; nested exception is java.lang.NumberFormatException: For input string: \"\"1.0\"\""
+}
+{'message': 'Failed to convert property value of type \'java.lang.String\' to required type \'java.lang.Long\' for property \'goodsId\'; nested exception is java.lang.NumberFormatException: For input string: ""1.0""', 'code': 400}
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt5_5' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_skulistById3</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起output信息 -Findyou
+    <button id='btn_pt5_5' type="button"  class="btn-xs collapsed" data-toggle="collapse" data-target='#div_pt5_5'>通过</button>
+    <div id='div_pt5_5' class="collapse">  -->
+    <!-- 默认展开output信息 -Findyou -->
+    <button id='btn_pt5_5' type="button"  class="btn-xs" data-toggle="collapse" data-target='#div_pt5_5'>通过</button>
+    <div id='div_pt5_5' class="collapse in">
+    <pre style="text-align:left; ">
+    
+pt5_5: {
+  "code": 400,
+  "message": "Failed to convert property value of type 'java.lang.String' to required type 'java.lang.Long' for property 'goodsId'; nested exception is java.lang.NumberFormatException: For input string: \"\"null\"\""
+}
+{'message': 'Failed to convert property value of type \'java.lang.String\' to required type \'java.lang.Long\' for property \'goodsId\'; nested exception is java.lang.NumberFormatException: For input string: ""null""', 'code': 400}
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt5_6' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_skulistById4</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起output信息 -Findyou
+    <button id='btn_pt5_6' type="button"  class="btn-xs collapsed" data-toggle="collapse" data-target='#div_pt5_6'>通过</button>
+    <div id='div_pt5_6' class="collapse">  -->
+    <!-- 默认展开output信息 -Findyou -->
+    <button id='btn_pt5_6' type="button"  class="btn-xs" data-toggle="collapse" data-target='#div_pt5_6'>通过</button>
+    <div id='div_pt5_6' class="collapse in">
+    <pre style="text-align:left; ">
+    
+pt5_6: {
+  "code": 400,
+  "message": "Failed to convert property value of type 'java.lang.String' to required type 'java.lang.Long' for property 'goodsId'; nested exception is java.lang.NumberFormatException: For input string: \"1000000000000000000000000\""
+}
+{'message': 'Failed to convert property value of type \'java.lang.String\' to required type \'java.lang.Long\' for property \'goodsId\'; nested exception is java.lang.NumberFormatException: For input string: "1000000000000000000000000"', 'code': 400}
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr class='success'>
+    <td>submit_test.Submit</td>
+    <td class="text-center">12</td>
+    <td class="text-center">12</td>
+    <td class="text-center">0</td>
+    <td class="text-center">0</td>
+    <td class="text-center"><a href="javascript:showClassDetail('c6',12)" class="detail" id='c6'>详细</a></td>
+</tr>
+
+<tr id='pt6_1' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_submit_1</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起output信息 -Findyou
+    <button id='btn_pt6_1' type="button"  class="btn-xs collapsed" data-toggle="collapse" data-target='#div_pt6_1'>通过</button>
+    <div id='div_pt6_1' class="collapse">  -->
+    <!-- 默认展开output信息 -Findyou -->
+    <button id='btn_pt6_1' type="button"  class="btn-xs" data-toggle="collapse" data-target='#div_pt6_1'>通过</button>
+    <div id='div_pt6_1' class="collapse in">
+    <pre style="text-align:left; ">
+    
+pt6_1: {
+  "code": 200,
+  "message": "success"
+}
+&lt;RequestsCookieJar[&lt;Cookie smartcamera_buy_pc_fg_sessionid=smartcamera_buy_pc_fg_sessionid_74966325_a17e7d15-b61d-4145-a6d1-d2b316357143 for .study-perf.qa.netease.com/&gt;, &lt;Cookie smartcamera_buy_pc_fg_short_sessonid=smartcamera_buy_pc_fg_short_sessonid_74966325_a425cc18-cb3b-4d69-ae0d-0c5c85c8ff79 for .study-perf.qa.netease.com/&gt;]&gt;
+{
+  "code": 400,
+  "message": "请求失败"
+}
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt6_2' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_submit_2</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起output信息 -Findyou
+    <button id='btn_pt6_2' type="button"  class="btn-xs collapsed" data-toggle="collapse" data-target='#div_pt6_2'>通过</button>
+    <div id='div_pt6_2' class="collapse">  -->
+    <!-- 默认展开output信息 -Findyou -->
+    <button id='btn_pt6_2' type="button"  class="btn-xs" data-toggle="collapse" data-target='#div_pt6_2'>通过</button>
+    <div id='div_pt6_2' class="collapse in">
+    <pre style="text-align:left; ">
+    
+pt6_2: {
+  "code": 200,
+  "message": "success"
+}
+&lt;RequestsCookieJar[&lt;Cookie smartcamera_buy_pc_fg_sessionid=smartcamera_buy_pc_fg_sessionid_74966325_d857d5a4-be03-41fe-b166-9be6f11054f0 for .study-perf.qa.netease.com/&gt;, &lt;Cookie smartcamera_buy_pc_fg_short_sessonid=smartcamera_buy_pc_fg_short_sessonid_74966325_c8025376-2917-4598-8947-124576cd8cc1 for .study-perf.qa.netease.com/&gt;]&gt;
+{
+  "code": 400,
+  "message": "请求失败"
+}
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt6_3' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_submit_3</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起output信息 -Findyou
+    <button id='btn_pt6_3' type="button"  class="btn-xs collapsed" data-toggle="collapse" data-target='#div_pt6_3'>通过</button>
+    <div id='div_pt6_3' class="collapse">  -->
+    <!-- 默认展开output信息 -Findyou -->
+    <button id='btn_pt6_3' type="button"  class="btn-xs" data-toggle="collapse" data-target='#div_pt6_3'>通过</button>
+    <div id='div_pt6_3' class="collapse in">
+    <pre style="text-align:left; ">
+    
+pt6_3: {
+  "code": 200,
+  "message": "success"
+}
+&lt;RequestsCookieJar[&lt;Cookie smartcamera_buy_pc_fg_sessionid=smartcamera_buy_pc_fg_sessionid_74966325_cc15bdfc-489c-4e96-ad4d-ea51130646ed for .study-perf.qa.netease.com/&gt;, &lt;Cookie smartcamera_buy_pc_fg_short_sessonid=smartcamera_buy_pc_fg_short_sessonid_74966325_233ebbc2-0277-42af-b289-dede21c5ab98 for .study-perf.qa.netease.com/&gt;]&gt;
+{
+  "code": 400,
+  "message": "请求失败"
+}
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt6_4' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_submit_4</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起output信息 -Findyou
+    <button id='btn_pt6_4' type="button"  class="btn-xs collapsed" data-toggle="collapse" data-target='#div_pt6_4'>通过</button>
+    <div id='div_pt6_4' class="collapse">  -->
+    <!-- 默认展开output信息 -Findyou -->
+    <button id='btn_pt6_4' type="button"  class="btn-xs" data-toggle="collapse" data-target='#div_pt6_4'>通过</button>
+    <div id='div_pt6_4' class="collapse in">
+    <pre style="text-align:left; ">
+    
+pt6_4: {
+  "code": 200,
+  "message": "success"
+}
+&lt;RequestsCookieJar[&lt;Cookie smartcamera_buy_pc_fg_sessionid=smartcamera_buy_pc_fg_sessionid_74966325_5e612801-dc0e-4358-9013-c6dd4556b030 for .study-perf.qa.netease.com/&gt;, &lt;Cookie smartcamera_buy_pc_fg_short_sessonid=smartcamera_buy_pc_fg_short_sessonid_74966325_c5dcd30e-a4d7-4b12-8892-7c3e23e445af for .study-perf.qa.netease.com/&gt;]&gt;
+{
+  "code": 400,
+  "message": "请求失败"
+}
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt6_5' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_submit_5</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起output信息 -Findyou
+    <button id='btn_pt6_5' type="button"  class="btn-xs collapsed" data-toggle="collapse" data-target='#div_pt6_5'>通过</button>
+    <div id='div_pt6_5' class="collapse">  -->
+    <!-- 默认展开output信息 -Findyou -->
+    <button id='btn_pt6_5' type="button"  class="btn-xs" data-toggle="collapse" data-target='#div_pt6_5'>通过</button>
+    <div id='div_pt6_5' class="collapse in">
+    <pre style="text-align:left; ">
+    
+pt6_5: {
+  "code": 200,
+  "message": "success"
+}
+&lt;RequestsCookieJar[&lt;Cookie smartcamera_buy_pc_fg_sessionid=smartcamera_buy_pc_fg_sessionid_74966325_3976e274-4621-46ca-96dc-90c7112d4617 for .study-perf.qa.netease.com/&gt;, &lt;Cookie smartcamera_buy_pc_fg_short_sessonid=smartcamera_buy_pc_fg_short_sessonid_74966325_f69264cc-4fa0-4bc7-87b5-470216933afb for .study-perf.qa.netease.com/&gt;]&gt;
+{
+  "code": 400,
+  "message": "请求失败"
+}
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt6_6' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_submit_6</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起output信息 -Findyou
+    <button id='btn_pt6_6' type="button"  class="btn-xs collapsed" data-toggle="collapse" data-target='#div_pt6_6'>通过</button>
+    <div id='div_pt6_6' class="collapse">  -->
+    <!-- 默认展开output信息 -Findyou -->
+    <button id='btn_pt6_6' type="button"  class="btn-xs" data-toggle="collapse" data-target='#div_pt6_6'>通过</button>
+    <div id='div_pt6_6' class="collapse in">
+    <pre style="text-align:left; ">
+    
+pt6_6: {
+  "code": 200,
+  "message": "success"
+}
+&lt;RequestsCookieJar[&lt;Cookie smartcamera_buy_pc_fg_sessionid=smartcamera_buy_pc_fg_sessionid_74966325_b997a4bb-8a6f-4c1a-89bd-7a50613288f3 for .study-perf.qa.netease.com/&gt;, &lt;Cookie smartcamera_buy_pc_fg_short_sessonid=smartcamera_buy_pc_fg_short_sessonid_74966325_baa938f5-2bc3-43b3-8b6d-ff068b0a2f15 for .study-perf.qa.netease.com/&gt;]&gt;
+{
+  "code": 400,
+  "message": "请求失败"
+}
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt6_7' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_submit_7</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起output信息 -Findyou
+    <button id='btn_pt6_7' type="button"  class="btn-xs collapsed" data-toggle="collapse" data-target='#div_pt6_7'>通过</button>
+    <div id='div_pt6_7' class="collapse">  -->
+    <!-- 默认展开output信息 -Findyou -->
+    <button id='btn_pt6_7' type="button"  class="btn-xs" data-toggle="collapse" data-target='#div_pt6_7'>通过</button>
+    <div id='div_pt6_7' class="collapse in">
+    <pre style="text-align:left; ">
+    
+pt6_7: {
+  "code": 200,
+  "message": "success"
+}
+&lt;RequestsCookieJar[&lt;Cookie smartcamera_buy_pc_fg_sessionid=smartcamera_buy_pc_fg_sessionid_74966325_e3858e69-90f6-4d98-b4be-f04c455489bc for .study-perf.qa.netease.com/&gt;, &lt;Cookie smartcamera_buy_pc_fg_short_sessonid=smartcamera_buy_pc_fg_short_sessonid_74966325_5a5c6bc7-6688-42ea-9559-cb5f52fb2722 for .study-perf.qa.netease.com/&gt;]&gt;
+{
+  "code": 400,
+  "message": "请求失败"
+}
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt6_8' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_submit_8</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起output信息 -Findyou
+    <button id='btn_pt6_8' type="button"  class="btn-xs collapsed" data-toggle="collapse" data-target='#div_pt6_8'>通过</button>
+    <div id='div_pt6_8' class="collapse">  -->
+    <!-- 默认展开output信息 -Findyou -->
+    <button id='btn_pt6_8' type="button"  class="btn-xs" data-toggle="collapse" data-target='#div_pt6_8'>通过</button>
+    <div id='div_pt6_8' class="collapse in">
+    <pre style="text-align:left; ">
+    
+pt6_8: {
+  "code": 200,
+  "message": "success"
+}
+&lt;RequestsCookieJar[&lt;Cookie smartcamera_buy_pc_fg_sessionid=smartcamera_buy_pc_fg_sessionid_74966325_029c908e-aad3-4355-95e2-a28260248964 for .study-perf.qa.netease.com/&gt;, &lt;Cookie smartcamera_buy_pc_fg_short_sessonid=smartcamera_buy_pc_fg_short_sessonid_74966325_8b94ec82-c532-4581-8688-82e5eb29c3ee for .study-perf.qa.netease.com/&gt;]&gt;
+{
+  "code": 400,
+  "message": "请求失败"
+}
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt6_9' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_submit_9</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起output信息 -Findyou
+    <button id='btn_pt6_9' type="button"  class="btn-xs collapsed" data-toggle="collapse" data-target='#div_pt6_9'>通过</button>
+    <div id='div_pt6_9' class="collapse">  -->
+    <!-- 默认展开output信息 -Findyou -->
+    <button id='btn_pt6_9' type="button"  class="btn-xs" data-toggle="collapse" data-target='#div_pt6_9'>通过</button>
+    <div id='div_pt6_9' class="collapse in">
+    <pre style="text-align:left; ">
+    
+pt6_9: {
+  "code": 200,
+  "message": "success"
+}
+&lt;RequestsCookieJar[&lt;Cookie smartcamera_buy_pc_fg_sessionid=smartcamera_buy_pc_fg_sessionid_74966325_27b596a9-e775-4d47-aba5-74b9ee30b81c for .study-perf.qa.netease.com/&gt;, &lt;Cookie smartcamera_buy_pc_fg_short_sessonid=smartcamera_buy_pc_fg_short_sessonid_74966325_007f1025-3cd9-4d90-89aa-ecf9eb5f4822 for .study-perf.qa.netease.com/&gt;]&gt;
+{
+  "code": 400,
+  "message": "请求失败"
+}
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt6_10' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_submit_a</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起output信息 -Findyou
+    <button id='btn_pt6_10' type="button"  class="btn-xs collapsed" data-toggle="collapse" data-target='#div_pt6_10'>通过</button>
+    <div id='div_pt6_10' class="collapse">  -->
+    <!-- 默认展开output信息 -Findyou -->
+    <button id='btn_pt6_10' type="button"  class="btn-xs" data-toggle="collapse" data-target='#div_pt6_10'>通过</button>
+    <div id='div_pt6_10' class="collapse in">
+    <pre style="text-align:left; ">
+    
+pt6_10: {
+  "code": 200,
+  "message": "success"
+}
+&lt;RequestsCookieJar[&lt;Cookie smartcamera_buy_pc_fg_sessionid=smartcamera_buy_pc_fg_sessionid_74966325_41b28f53-e475-417a-8a15-778a2b827f95 for .study-perf.qa.netease.com/&gt;, &lt;Cookie smartcamera_buy_pc_fg_short_sessonid=smartcamera_buy_pc_fg_short_sessonid_74966325_c83d4dcf-1dd5-4a59-87c0-be603b9e248a for .study-perf.qa.netease.com/&gt;]&gt;
+{
+  "code": 400,
+  "message": "请求失败"
+}
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt6_11' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_submit_b</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起output信息 -Findyou
+    <button id='btn_pt6_11' type="button"  class="btn-xs collapsed" data-toggle="collapse" data-target='#div_pt6_11'>通过</button>
+    <div id='div_pt6_11' class="collapse">  -->
+    <!-- 默认展开output信息 -Findyou -->
+    <button id='btn_pt6_11' type="button"  class="btn-xs" data-toggle="collapse" data-target='#div_pt6_11'>通过</button>
+    <div id='div_pt6_11' class="collapse in">
+    <pre style="text-align:left; ">
+    
+pt6_11: {
+  "code": 200,
+  "message": "success"
+}
+&lt;RequestsCookieJar[&lt;Cookie smartcamera_buy_pc_fg_sessionid=smartcamera_buy_pc_fg_sessionid_74966325_9729fcd0-9f4a-4728-8318-e66445fed952 for .study-perf.qa.netease.com/&gt;, &lt;Cookie smartcamera_buy_pc_fg_short_sessonid=smartcamera_buy_pc_fg_short_sessonid_74966325_b6cb4c4e-2334-40f9-9e0f-202b456328ca for .study-perf.qa.netease.com/&gt;]&gt;
+{
+  "code": 400,
+  "message": "请求失败"
+}
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt6_12' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_submit_c</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起output信息 -Findyou
+    <button id='btn_pt6_12' type="button"  class="btn-xs collapsed" data-toggle="collapse" data-target='#div_pt6_12'>通过</button>
+    <div id='div_pt6_12' class="collapse">  -->
+    <!-- 默认展开output信息 -Findyou -->
+    <button id='btn_pt6_12' type="button"  class="btn-xs" data-toggle="collapse" data-target='#div_pt6_12'>通过</button>
+    <div id='div_pt6_12' class="collapse in">
+    <pre style="text-align:left; ">
+    
+pt6_12: {
+  "code": 200,
+  "message": "success"
+}
+&lt;RequestsCookieJar[&lt;Cookie smartcamera_buy_pc_fg_sessionid=smartcamera_buy_pc_fg_sessionid_74966325_fae3ad6b-abf7-4b9e-a456-040e5436a5c5 for .study-perf.qa.netease.com/&gt;, &lt;Cookie smartcamera_buy_pc_fg_short_sessonid=smartcamera_buy_pc_fg_short_sessonid_74966325_8fa70a08-80fa-4e49-9205-8da9d5f218da for .study-perf.qa.netease.com/&gt;]&gt;
+{
+  "code": 400,
+  "message": "请求失败"
+}
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='total_row' class="text-center info">
+    <td>总计</td>
+    <td>41</td>
+    <td>39</td>
+    <td>0</td>
+    <td>2</td>
+    <td>通过率：95.12%</td>
+</tr>
+</table>
+
+<div id='ending'>&nbsp;</div>
+    <div style=" position:fixed;right:50px; bottom:30px; width:20px; height:20px;cursor:pointer">
+    <a href="#"><span class="glyphicon glyphicon-eject" style = "font-size:30px;" aria-hidden="true">
+    </span></a></div>
+    
+<script language="javascript" type="text/javascript">
+output_list = Array();
+// 修改按钮颜色显示错误问题 --Findyou v0.8.2.3
+$("button[id^='btn_pt']").addClass("btn btn-success");
+$("button[id^='btn_ft']").addClass("btn btn-danger");
+$("button[id^='btn_et']").addClass("btn btn-warning");
+/*level
+增加分类并调整，增加error按钮事件 --Findyou v0.8.2.3
+0:Pass    //pt none, ft hiddenRow, et hiddenRow
+1:Failed  //pt hiddenRow, ft none, et hiddenRow
+2:Error    //pt hiddenRow, ft hiddenRow, et none
+3:All     //pt none, ft none, et none
+4:Summary //all hiddenRow
+*/
+//add Error button event --Findyou v0.8.2.3
+function showCase(level) {
+    trs = document.getElementsByTagName("tr");
+    for (var i = 0; i < trs.length; i++) {
+        tr = trs[i];
+        id = tr.id;
+        if (id.substr(0,2) == 'ft') {
+            if (level == 0 || level == 2 || level == 4 ) {
+                tr.className = 'hiddenRow';
+            }
+            else {
+                tr.className = '';
+            }
+        }
+        if (id.substr(0,2) == 'pt') {
+            if (level == 1 || level == 2 || level == 4) {
+                tr.className = 'hiddenRow';
+            }
+            else {
+                tr.className = '';
+            }
+        }
+        if (id.substr(0,2) == 'et') {
+            if (level == 0 || level == 1 || level == 4) {
+                tr.className = 'hiddenRow';
+            }
+            else {
+                tr.className = '';
+            }
+        }
+    }
+    //加入【详细】切换文字变化 --Findyou
+    detail_class=document.getElementsByClassName('detail');
+	//console.log(detail_class.length)
+	if (level == 3) {
+		for (var i = 0; i < detail_class.length; i++){
+			detail_class[i].innerHTML="收起"
+		}
+	}
+	else{
+			for (var i = 0; i < detail_class.length; i++){
+			detail_class[i].innerHTML="详细"
+		}
+	}
+}
+//add Error button event --Findyou v0.8.2.3
+function showClassDetail(cid, count) {
+    var id_list = Array(count);
+    var toHide = 1;
+    for (var i = 0; i < count; i++) {
+        tid0 = 't' + cid.substr(1) + '_' + (i+1);
+        tid = 'f' + tid0;
+        tr = document.getElementById(tid);
+        if (!tr) {
+            tid = 'p' + tid0;
+            tr = document.getElementById(tid);
+        }
+        if (!tr) {
+            tid = 'e' + tid0;
+            tr = document.getElementById(tid);
+        }
+        id_list[i] = tid;
+        if (tr.className) {
+            toHide = 0;
+        }
+    }
+    for (var i = 0; i < count; i++) {
+        tid = id_list[i];
+        //修改点击无法收起的BUG，加入【详细】切换文字变化 --Findyou
+        if (toHide) {
+            document.getElementById(tid).className = 'hiddenRow';
+            document.getElementById(cid).innerText = "详细"
+        }
+        else {
+            document.getElementById(tid).className = '';
+            document.getElementById(cid).innerText = "收起"
+        }
+    }
+}
+function html_escape(s) {
+    s = s.replace(/&/g,'&amp;');
+    s = s.replace(/</g,'&lt;');
+    s = s.replace(/>/g,'&gt;');
+    return s;
+}
+//添加圆饼图  zl    2018.7.23
+function drawCircle(canvasId, data_arr, color_arr, text_arr) {
+     var c = document.getElementById(canvasId);
+     var ctx = c.getContext("2d");
+     var radius = c.height / 2 - 20; //半径  
+     var ox = radius + 20,
+         oy = radius + 20; //圆心  
+     var width = 10,
+         height = 10; //图例宽和高  
+     var posX = ox * 2 + 20,
+         posY = 30; //  
+     var textX = posX + width + 5,
+         textY = posY + 10;
+     var startAngle = 0; //起始弧度  
+     var endAngle = 0; //结束弧度  
+     for (var i = 0; i < data_arr.length; i++) {
+         //绘制饼图  
+         endAngle = endAngle + data_arr[i] * Math.PI * 2; //结束弧度  
+         ctx.fillStyle = color_arr[i];
+         ctx.beginPath();
+         ctx.moveTo(ox, oy); //移动到到圆心  
+         ctx.arc(ox, oy, radius, startAngle, endAngle, false);
+         ctx.closePath();
+         ctx.fill();
+         startAngle = endAngle; //设置起始弧度  
+         //绘制比例图及文字  
+         ctx.fillStyle = color_arr[i];
+         ctx.fillRect(posX, posY + 30 * i, width, height);
+         ctx.moveTo(posX, posY + 30 * i);
+         ctx.font = 'bold 15px 微软雅黑'; //斜体 30像素 微软雅黑字体  
+         ctx.fillStyle = color_arr[i]; //"#000000";  
+         var percent = text_arr[i] + "：" + (100 * data_arr[i]).toFixed(2) + " %";
+         ctx.fillText(percent, textX, textY + 30 * i);
+     }
+ }
+
+function init() {
+     var text_arr = ["通过", "失败", "错误"];
+     var color_arr = ["#5CB85C","#D2322D", "#F0AD4E"];
+     var data_arr = [0.9512195121951219,0.0,0.04878048780487805];
+     drawCircle("canvas_circle", data_arr, color_arr, text_arr);
+ }
+
+ window.onload = init;
+
+</script>
+</body>
+</html>
