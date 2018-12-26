@@ -27,6 +27,9 @@ import com.edu.utils.Checker;
 
 import net.sf.json.JSONObject;
 
+/*
+* @author = 杨凯静
+*/
 public class YangKaijingTest {
 	CloseableHttpClient httpClient = null;
 	String loginUrl = "http://study-perf.qa.netease.com/common/fgadmin/login";
