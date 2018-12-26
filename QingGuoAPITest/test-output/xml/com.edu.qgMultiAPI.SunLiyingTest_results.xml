@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="testMulitAPI"
+           tests="5"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="2.896">
+  <properties />
+  
+  
+            <testcase name="test_scence2" time="0.450" classname="com.edu.qgMultiAPI.SunLiyingTest" />
+                <testcase name="test_scence1" time="1.019" classname="com.edu.qgMultiAPI.SunLiyingTest" />
+                <testcase name="test_scence4" time="0.249" classname="com.edu.qgMultiAPI.SunLiyingTest" />
+                <testcase name="test_scence3" time="0.461" classname="com.edu.qgMultiAPI.SunLiyingTest" />
+                <testcase name="test_scence5" time="0.717" classname="com.edu.qgMultiAPI.SunLiyingTest" />
+      
+</testsuite>

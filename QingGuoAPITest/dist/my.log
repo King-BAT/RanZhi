@@ -1,0 +1,83 @@
+[FATAL] 2018-12-25 10:10:58,792 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :success; expected Value is :用户名或者密码错误
+[FATAL] 2018-12-25 10:22:42,187 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :success; expected Value is :用户名或者密码错误
+[FATAL] 2018-12-25 10:23:04,431 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :success; expected Value is :用户名或者密码错误
+[FATAL] 2018-12-25 10:24:11,766 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :success; expected Value is :用户名或者密码错误
+[FATAL] 2018-12-25 14:01:52,215 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :最多只能添加6个地址; expected Value is :success
+[FATAL] 2018-12-25 14:01:52,515 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :最多只能添加6个地址; expected Value is :请求参数不正确
+[FATAL] 2018-12-25 14:01:52,695 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :最多只能添加6个地址; expected Value is :请求参数不正确
+[FATAL] 2018-12-25 14:01:52,877 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :最多只能添加6个地址; expected Value is :请求参数不正确
+[FATAL] 2018-12-25 14:01:53,319 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :最多只能添加6个地址; expected Value is :请求参数不正确
+[FATAL] 2018-12-25 14:01:53,543 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :success; expected Value is :最多只能添加6个地址
+[FATAL] 2018-12-25 14:01:53,924 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :success; expected Value is :请求参数不正确
+[FATAL] 2018-12-25 14:01:54,106 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :may not be null; expected Value is :请求参数不正确
+[FATAL] 2018-12-25 14:01:54,309 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :success; expected Value is :请求参数不正确
+[FATAL] 2018-12-25 14:01:54,495 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :may not be null; expected Value is :请求参数不正确
+[FATAL] 2018-12-25 14:01:54,712 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :success; expected Value is :receiverName参数类型不正确
+[FATAL] 2018-12-25 14:01:54,907 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :最多只能添加6个地址; expected Value is :cellPhone参数类型不正确
+[FATAL] 2018-12-25 14:01:55,109 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :最多只能添加6个地址; expected Value is :addressDetail参数类型不正确
+[FATAL] 2018-12-25 14:01:55,264 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :最多只能添加6个地址; expected Value is :province参数类型不正确
+[FATAL] 2018-12-25 14:01:55,438 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :最多只能添加6个地址; expected Value is :city参数类型不正确
+[FATAL] 2018-12-25 14:01:55,606 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :最多只能添加6个地址; expected Value is :area参数类型不正确
+[FATAL] 2018-12-25 14:02:58,295 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :最多只能添加6个地址; expected Value is :success
+[FATAL] 2018-12-25 14:02:58,496 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :最多只能添加6个地址; expected Value is :请求参数不正确
+[FATAL] 2018-12-25 14:02:58,680 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :最多只能添加6个地址; expected Value is :请求参数不正确
+[FATAL] 2018-12-25 14:02:58,886 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :最多只能添加6个地址; expected Value is :请求参数不正确
+[FATAL] 2018-12-25 14:02:59,271 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :最多只能添加6个地址; expected Value is :请求参数不正确
+[FATAL] 2018-12-25 14:02:59,475 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :success; expected Value is :最多只能添加6个地址
+[FATAL] 2018-12-25 14:02:59,759 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :success; expected Value is :请求参数不正确
+[FATAL] 2018-12-25 14:02:59,933 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :may not be null; expected Value is :请求参数不正确
+[FATAL] 2018-12-25 14:03:00,101 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :最多只能添加6个地址; expected Value is :请求参数不正确
+[FATAL] 2018-12-25 14:03:00,280 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :may not be null; expected Value is :请求参数不正确
+[FATAL] 2018-12-25 14:03:00,479 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :success; expected Value is :receiverName参数类型不正确
+[FATAL] 2018-12-25 14:03:00,654 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :success; expected Value is :cellPhone参数类型不正确
+[FATAL] 2018-12-25 14:03:00,839 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :success; expected Value is :addressDetail参数类型不正确
+[FATAL] 2018-12-25 14:03:01,007 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :success; expected Value is :province参数类型不正确
+[FATAL] 2018-12-25 14:03:01,165 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :最多只能添加6个地址; expected Value is :city参数类型不正确
+[FATAL] 2018-12-25 14:03:01,354 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :最多只能添加6个地址; expected Value is :area参数类型不正确
+[FATAL] 2018-12-25 14:05:51,887 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :success; expected Value is :请求参数不正确
+[FATAL] 2018-12-25 14:05:52,140 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :success; expected Value is :请求参数不正确
+[FATAL] 2018-12-25 14:05:52,349 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :success; expected Value is :请求参数不正确
+[FATAL] 2018-12-25 14:05:52,693 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :success; expected Value is :请求参数不正确
+[FATAL] 2018-12-25 14:05:52,900 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :success; expected Value is :最多只能添加6个地址
+[FATAL] 2018-12-25 14:05:53,241 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :success; expected Value is :请求参数不正确
+[FATAL] 2018-12-25 14:05:53,410 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :may not be null; expected Value is :请求参数不正确
+[FATAL] 2018-12-25 14:05:54,171 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :success; expected Value is :请求参数不正确
+[FATAL] 2018-12-25 14:05:54,372 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :may not be null; expected Value is :请求参数不正确
+[FATAL] 2018-12-25 14:06:03,563 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :success; expected Value is :receiverName参数类型不正确
+[FATAL] 2018-12-25 14:06:03,756 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :success; expected Value is :cellPhone参数类型不正确
+[FATAL] 2018-12-25 14:06:03,954 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :success; expected Value is :addressDetail参数类型不正确
+[FATAL] 2018-12-25 14:06:04,141 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :success; expected Value is :province参数类型不正确
+[FATAL] 2018-12-25 14:06:04,311 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :最多只能添加6个地址; expected Value is :city参数类型不正确
+[FATAL] 2018-12-25 14:06:04,514 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :success; expected Value is :area参数类型不正确
+[FATAL] 2018-12-25 14:18:27,699 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :success; expected Value is :请求参数不正确
+[FATAL] 2018-12-25 14:18:27,888 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :success; expected Value is :请求参数不正确
+[FATAL] 2018-12-25 14:18:28,099 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :success; expected Value is :请求参数不正确
+[FATAL] 2018-12-25 14:18:28,452 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :success; expected Value is :请求参数不正确
+[FATAL] 2018-12-25 14:18:28,632 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :success; expected Value is :最多只能添加6个地址
+[FATAL] 2018-12-25 14:18:28,995 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :success; expected Value is :请求参数不正确
+[FATAL] 2018-12-25 14:18:29,187 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :may not be null; expected Value is :请求参数不正确
+[FATAL] 2018-12-25 14:18:29,402 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :success; expected Value is :请求参数不正确
+[FATAL] 2018-12-25 14:18:29,588 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :may not be null; expected Value is :请求参数不正确
+[FATAL] 2018-12-25 14:18:29,793 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :success; expected Value is :receiverName参数类型不正确
+[FATAL] 2018-12-25 14:18:30,009 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :success; expected Value is :cellPhone参数类型不正确
+[FATAL] 2018-12-25 14:18:30,192 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :success; expected Value is :addressDetail参数类型不正确
+[FATAL] 2018-12-25 14:18:30,408 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :success; expected Value is :province参数类型不正确
+[FATAL] 2018-12-25 14:18:30,591 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :最多只能添加6个地址; expected Value is :city参数类型不正确
+[FATAL] 2018-12-25 14:18:30,782 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :success; expected Value is :area参数类型不正确
+[FATAL] 2018-12-25 14:25:18,675 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :success; expected Value is :最多只能添加6个地址
+[FATAL] 2018-12-25 14:25:20,133 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :success; expected Value is :cellPhone参数类型不正确
+[FATAL] 2018-12-25 14:25:20,357 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :success; expected Value is :addressDetail参数类型不正确
+[FATAL] 2018-12-25 14:25:20,556 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :success; expected Value is :province参数类型不正确
+[FATAL] 2018-12-25 14:25:20,763 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :最多只能添加6个地址; expected Value is :city参数类型不正确
+[FATAL] 2018-12-25 14:25:25,690 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :success; expected Value is :用户名或者密码错误
+[FATAL] 2018-12-25 14:25:26,336 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :用户名或者密码错误; expected Value is :用户名或密码错误
+[FATAL] 2018-12-25 14:27:58,511 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :success; expected Value is :用户名或者密码错误
+[FATAL] 2018-12-25 14:27:59,293 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :用户名或者密码错误; expected Value is :用户名或密码错误
+[FATAL] 2018-12-25 14:47:31,385 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :最多只能添加6个地址; expected Value is :success
+[FATAL] 2018-12-25 17:55:54,562 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :最多只能添加6个地址; expected Value is :success
+[FATAL] 2018-12-25 17:58:10,878 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :最多只能添加6个地址; expected Value is :success
+[FATAL] 2018-12-25 17:59:15,152 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :最多只能添加6个地址; expected Value is :success
+[FATAL] 2018-12-25 18:04:23,413 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :最多只能添加6个地址; expected Value is :success
+[FATAL] 2018-12-25 18:04:23,798 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :最多只能添加6个地址; expected Value is :success
+[FATAL] 2018-12-25 18:04:24,697 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :最多只能添加6个地址; expected Value is :success
+[FATAL] 2018-12-25 18:04:27,730 com.edu.utils.Checker - expectedValue doesn't match actualValue,actual Value is :最多只能添加6个地址; expected Value is :success

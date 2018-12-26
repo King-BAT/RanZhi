@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="testMulitAPI"
+           tests="5"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="2.303">
+  <properties />
+  
+  
+            <testcase name="forth" time="0.482" classname="com.edu.qgMultiAPI.XuShiweiTest" />
+                <testcase name="third" time="0.495" classname="com.edu.qgMultiAPI.XuShiweiTest" />
+                <testcase name="first" time="0.462" classname="com.edu.qgMultiAPI.XuShiweiTest" />
+                <testcase name="fifth" time="0.405" classname="com.edu.qgMultiAPI.XuShiweiTest" />
+                <testcase name="second" time="0.459" classname="com.edu.qgMultiAPI.XuShiweiTest" />
+      
+</testsuite>

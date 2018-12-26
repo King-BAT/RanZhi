@@ -1,0 +1,1180 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 5 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-qingguoAPI" class="navigator-link">
+              <span class="suite-name border-failed">qingguoAPI</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-qingguoAPI" class="navigator-link ">
+                    <span>F:\JavaEE-Program\QingGuoAPITest\src\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-qingguoAPI" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-qingguoAPI" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-qingguoAPI" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-qingguoAPI" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-qingguoAPI" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-qingguoAPI" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">30 methods, 5 failed,   25 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-qingguoAPI" class="hide-methods failed suite-qingguoAPI"> (hide)</a> <!-- hide-methods failed suite-qingguoAPI -->
+                      <a href="#" panel-name="suite-qingguoAPI" class="show-methods failed suite-qingguoAPI"> (show)</a> <!-- show-methods failed suite-qingguoAPI -->
+                    </span>
+                    <div class="method-list-content failed suite-qingguoAPI">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-qingguoAPI" title="com.edu.qgMultiAPI.ShengChunyueTest" class="method navigator-link" hash-for-method="scene3">scene3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-qingguoAPI" title="com.edu.qgMultiAPI.ShengChunyueTest" class="method navigator-link" hash-for-method="scene4">scene4</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-qingguoAPI" title="com.edu.qgMultiAPI.YangKaijingTest" class="method navigator-link" hash-for-method="sceneTest2">sceneTest2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-qingguoAPI" title="com.edu.qgMultiAPI.YangKaijingTest" class="method navigator-link" hash-for-method="sceneTest3">sceneTest3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-qingguoAPI" title="com.edu.qgMultiAPI.YangKaijingTest" class="method navigator-link" hash-for-method="sceneTest5">sceneTest5</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-qingguoAPI -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-qingguoAPI" class="hide-methods passed suite-qingguoAPI"> (hide)</a> <!-- hide-methods passed suite-qingguoAPI -->
+                      <a href="#" panel-name="suite-qingguoAPI" class="show-methods passed suite-qingguoAPI"> (show)</a> <!-- show-methods passed suite-qingguoAPI -->
+                    </span>
+                    <div class="method-list-content passed suite-qingguoAPI">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-qingguoAPI" title="sendMail.SendRecentReportMail" class="method navigator-link" hash-for-method="SendReport">SendReport</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-qingguoAPI" title="com.edu.qgMultiAPI.XuShiweiTest" class="method navigator-link" hash-for-method="fifth">fifth</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-qingguoAPI" title="com.edu.qgMultiAPI.XuShiweiTest" class="method navigator-link" hash-for-method="first">first</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-qingguoAPI" title="com.edu.qgMultiAPI.XuShiweiTest" class="method navigator-link" hash-for-method="forth">forth</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-qingguoAPI" title="com.edu.qgMultiAPI.ZhangFeiyuTest" class="method navigator-link" hash-for-method="scene01_login_success">scene01_login_success</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-qingguoAPI" title="com.edu.qgMultiAPI.ShengChunyueTest" class="method navigator-link" hash-for-method="scene1">scene1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-qingguoAPI" title="com.edu.qgMultiAPI.FengbinTest" class="method navigator-link" hash-for-method="scene1">scene1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-qingguoAPI" title="com.edu.qgMultiAPI.FengbinTest" class="method navigator-link" hash-for-method="scene2">scene2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-qingguoAPI" title="com.edu.qgMultiAPI.ShengChunyueTest" class="method navigator-link" hash-for-method="scene2">scene2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-qingguoAPI" title="com.edu.qgMultiAPI.FengbinTest" class="method navigator-link" hash-for-method="scene3">scene3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-qingguoAPI" title="com.edu.qgMultiAPI.FengbinTest" class="method navigator-link" hash-for-method="scene4">scene4</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-qingguoAPI" title="com.edu.qgMultiAPI.FengbinTest" class="method navigator-link" hash-for-method="scene5">scene5</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-qingguoAPI" title="com.edu.qgMultiAPI.YangKaijingTest" class="method navigator-link" hash-for-method="sceneTest1">sceneTest1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-qingguoAPI" title="com.edu.qgMultiAPI.YangKaijingTest" class="method navigator-link" hash-for-method="sceneTest4">sceneTest4</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-qingguoAPI" title="com.edu.qgMultiAPI.XuShiweiTest" class="method navigator-link" hash-for-method="second">second</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-qingguoAPI" title="com.edu.qgMultiAPI.DiaoLixiangTest" class="method navigator-link" hash-for-method="sence1">sence1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-qingguoAPI" title="com.edu.qgMultiAPI.DiaoLixiangTest" class="method navigator-link" hash-for-method="sence2">sence2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-qingguoAPI" title="com.edu.qgMultiAPI.DiaoLixiangTest" class="method navigator-link" hash-for-method="sence3">sence3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-qingguoAPI" title="com.edu.qgMultiAPI.DiaoLixiangTest" class="method navigator-link" hash-for-method="sence4">sence4</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-qingguoAPI" title="com.edu.qgMultiAPI.SunLiyingTest" class="method navigator-link" hash-for-method="test_scence1">test_scence1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-qingguoAPI" title="com.edu.qgMultiAPI.SunLiyingTest" class="method navigator-link" hash-for-method="test_scence2">test_scence2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-qingguoAPI" title="com.edu.qgMultiAPI.SunLiyingTest" class="method navigator-link" hash-for-method="test_scence3">test_scence3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-qingguoAPI" title="com.edu.qgMultiAPI.SunLiyingTest" class="method navigator-link" hash-for-method="test_scence4">test_scence4</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-qingguoAPI" title="com.edu.qgMultiAPI.SunLiyingTest" class="method navigator-link" hash-for-method="test_scence5">test_scence5</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-qingguoAPI" title="com.edu.qgMultiAPI.XuShiweiTest" class="method navigator-link" hash-for-method="third">third</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-qingguoAPI -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-qingguoAPI" class="panel qingguoAPI">
+          <div class="suite-qingguoAPI-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.edu.qgMultiAPI.ShengChunyueTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="scene3">
+                  </a> <!-- scene3 -->
+                  <span class="method-name">scene3</span>
+                  <div class="stack-trace">net.sf.json.JSONException: JSONObject[&quot;list&quot;] is not a JSONArray.
+	at net.sf.json.JSONObject.getJSONArray(JSONObject.java:2038)
+	at com.edu.qgMultiAPI.ShengChunyueTest.scene3(ShengChunyueTest.java:105)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(登录成功--获取所有商品的sku列表--查询收货地址--计算运费--提交订单)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="scene4">
+                  </a> <!-- scene4 -->
+                  <span class="method-name">scene4</span>
+                  <div class="stack-trace">net.sf.json.JSONException: JSONObject[&quot;list&quot;] is not a JSONArray.
+	at net.sf.json.JSONObject.getJSONArray(JSONObject.java:2038)
+	at com.edu.qgMultiAPI.ShengChunyueTest.scene4(ShengChunyueTest.java:149)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(登录失败--查询收获地址--计算运费)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-qingguoAPI-class-failed -->
+          <div class="suite-qingguoAPI-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.edu.qgMultiAPI.YangKaijingTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="sceneTest2">
+                  </a> <!-- sceneTest2 -->
+                  <span class="method-name">sceneTest2</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: Illegal character in query at index 85: http://study-perf.qa.netease.com/common/getTransportFee?id=82321270&amp;addressDetial=河北省_石家庄市_裕华区
+	at java.base/java.net.URI.create(URI.java:881)
+	at org.apache.http.client.methods.HttpGet.&lt;init&gt;(HttpGet.java:66)
+	at com.edu.qgMultiAPI.YangKaijingTest.getTransportFee(YangKaijingTest.java:140)
+	at com.edu.qgMultiAPI.YangKaijingTest.sceneTest2(YangKaijingTest.java:271)
+Caused by: java.net.URISyntaxException: Illegal character in query at index 85: http://study-perf.qa.netease.com/common/getTransportFee?id=82321270&amp;addressDetial=河北省_石家庄市_裕华区
+	at java.base/java.net.URI$Parser.fail(URI.java:2912)
+	at java.base/java.net.URI$Parser.checkChars(URI.java:3083)
+	at java.base/java.net.URI$Parser.parseHierarchical(URI.java:3171)
+	at java.base/java.net.URI$Parser.parse(URI.java:3113)
+	at java.base/java.net.URI.&lt;init&gt;(URI.java:598)
+	at java.base/java.net.URI.create(URI.java:879)
+	... 28 more
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sceneTest3">
+                  </a> <!-- sceneTest3 -->
+                  <span class="method-name">sceneTest3</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: Illegal character in query at index 85: http://study-perf.qa.netease.com/common/getTransportFee?id=82321270&amp;addressDetial=河北省_石家庄市_裕华区
+	at java.base/java.net.URI.create(URI.java:881)
+	at org.apache.http.client.methods.HttpGet.&lt;init&gt;(HttpGet.java:66)
+	at com.edu.qgMultiAPI.YangKaijingTest.getTransportFee(YangKaijingTest.java:140)
+	at com.edu.qgMultiAPI.YangKaijingTest.sceneTest3(YangKaijingTest.java:291)
+Caused by: java.net.URISyntaxException: Illegal character in query at index 85: http://study-perf.qa.netease.com/common/getTransportFee?id=82321270&amp;addressDetial=河北省_石家庄市_裕华区
+	at java.base/java.net.URI$Parser.fail(URI.java:2912)
+	at java.base/java.net.URI$Parser.checkChars(URI.java:3083)
+	at java.base/java.net.URI$Parser.parseHierarchical(URI.java:3171)
+	at java.base/java.net.URI$Parser.parse(URI.java:3113)
+	at java.base/java.net.URI.&lt;init&gt;(URI.java:598)
+	at java.base/java.net.URI.create(URI.java:879)
+	... 28 more
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sceneTest5">
+                  </a> <!-- sceneTest5 -->
+                  <span class="method-name">sceneTest5</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: Illegal character in query at index 85: http://study-perf.qa.netease.com/common/getTransportFee?id=82321270&amp;addressDetial=河北省_石家庄市_裕华区
+	at java.base/java.net.URI.create(URI.java:881)
+	at org.apache.http.client.methods.HttpGet.&lt;init&gt;(HttpGet.java:66)
+	at com.edu.qgMultiAPI.YangKaijingTest.getTransportFee(YangKaijingTest.java:140)
+	at com.edu.qgMultiAPI.YangKaijingTest.sceneTest5(YangKaijingTest.java:344)
+Caused by: java.net.URISyntaxException: Illegal character in query at index 85: http://study-perf.qa.netease.com/common/getTransportFee?id=82321270&amp;addressDetial=河北省_石家庄市_裕华区
+	at java.base/java.net.URI$Parser.fail(URI.java:2912)
+	at java.base/java.net.URI$Parser.checkChars(URI.java:3083)
+	at java.base/java.net.URI$Parser.parseHierarchical(URI.java:3171)
+	at java.base/java.net.URI$Parser.parse(URI.java:3113)
+	at java.base/java.net.URI.&lt;init&gt;(URI.java:598)
+	at java.base/java.net.URI.create(URI.java:879)
+	... 28 more
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-qingguoAPI-class-failed -->
+          <div class="suite-qingguoAPI-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.edu.qgMultiAPI.DiaoLixiangTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="sence1">
+                  </a> <!-- sence1 -->
+                  <span class="method-name">sence1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sence2">
+                  </a> <!-- sence2 -->
+                  <span class="method-name">sence2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sence3">
+                  </a> <!-- sence3 -->
+                  <span class="method-name">sence3</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sence4">
+                  </a> <!-- sence4 -->
+                  <span class="method-name">sence4</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-qingguoAPI-class-passed -->
+          <div class="suite-qingguoAPI-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">sendMail.SendRecentReportMail</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="SendReport">
+                  </a> <!-- SendReport -->
+                  <span class="method-name">SendReport</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-qingguoAPI-class-passed -->
+          <div class="suite-qingguoAPI-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.edu.qgMultiAPI.SunLiyingTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_scence1">
+                  </a> <!-- test_scence1 -->
+                  <span class="method-name">test_scence1</span>
+                  <em>
+(登录成功--获取skuList成功--获取list成功--计算运费--新建订单--提交订单--删除订单)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_scence2">
+                  </a> <!-- test_scence2 -->
+                  <span class="method-name">test_scence2</span>
+                  <em>
+(登录成功--新建地址--删除订单)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_scence3">
+                  </a> <!-- test_scence3 -->
+                  <span class="method-name">test_scence3</span>
+                  <em>
+(登录成功--新建订单--提交订单)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_scence4">
+                  </a> <!-- test_scence4 -->
+                  <span class="method-name">test_scence4</span>
+                  <em>
+(登录失败--查询收货地址失败)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_scence5">
+                  </a> <!-- test_scence5 -->
+                  <span class="method-name">test_scence5</span>
+                  <em>
+(登录成功--查询地址--计算运费--新建订单--提交订单--删除订单)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-qingguoAPI-class-passed -->
+          <div class="suite-qingguoAPI-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.edu.qgMultiAPI.ShengChunyueTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="scene1">
+                  </a> <!-- scene1 -->
+                  <span class="method-name">scene1</span>
+                  <em>
+(登录成功--查询收获地址--删除收获地址)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="scene2">
+                  </a> <!-- scene2 -->
+                  <span class="method-name">scene2</span>
+                  <em>
+(登录成功--查询收获地址--添加收获地址--删除收获地址)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-qingguoAPI-class-passed -->
+          <div class="suite-qingguoAPI-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.edu.qgMultiAPI.XuShiweiTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="fifth">
+                  </a> <!-- fifth -->
+                  <span class="method-name">fifth</span>
+                  <em>
+(登录失败-有查询收货地址-计算运费失败-提交订单)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="first">
+                  </a> <!-- first -->
+                  <span class="method-name">first</span>
+                  <em>
+(登录成功-查询收货地址成功-计算运费失败-提交订单成功)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="forth">
+                  </a> <!-- forth -->
+                  <span class="method-name">forth</span>
+                  <em>
+(登录失败-无查询收货地址-计算运费失败-提交订单)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="second">
+                  </a> <!-- second -->
+                  <span class="method-name">second</span>
+                  <em>
+(登录成功-有收获地址-计算运费失败-提交订单)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="third">
+                  </a> <!-- third -->
+                  <span class="method-name">third</span>
+                  <em>
+(登录成功-查询收货地址-计算运费失败-提交订单失败)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-qingguoAPI-class-passed -->
+          <div class="suite-qingguoAPI-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.edu.qgMultiAPI.ZhangFeiyuTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="scene01_login_success">
+                  </a> <!-- scene01_login_success -->
+                  <span class="method-name">scene01_login_success</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-qingguoAPI-class-passed -->
+          <div class="suite-qingguoAPI-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.edu.qgMultiAPI.YangKaijingTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="sceneTest1">
+                  </a> <!-- sceneTest1 -->
+                  <span class="method-name">sceneTest1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sceneTest4">
+                  </a> <!-- sceneTest4 -->
+                  <span class="method-name">sceneTest4</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-qingguoAPI-class-passed -->
+          <div class="suite-qingguoAPI-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.edu.qgMultiAPI.FengbinTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="scene1">
+                  </a> <!-- scene1 -->
+                  <span class="method-name">scene1</span>
+                  <em>
+(登录成功-获取商品列表-添加收货地址-提交订单)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="scene2">
+                  </a> <!-- scene2 -->
+                  <span class="method-name">scene2</span>
+                  <em>
+(查看商品信息-计算运费-提交订单)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="scene3">
+                  </a> <!-- scene3 -->
+                  <span class="method-name">scene3</span>
+                  <em>
+(登录成功-查看商品信息-删除指定收货地址)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="scene4">
+                  </a> <!-- scene4 -->
+                  <span class="method-name">scene4</span>
+                  <em>
+(登录成功-获取指定商品信息-删除指定收货地址（想要的地址不能再添加）)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="scene5">
+                  </a> <!-- scene5 -->
+                  <span class="method-name">scene5</span>
+                  <em>
+(登陆成功-获取指定商品信息-获取运费-提交订单)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-qingguoAPI-class-passed -->
+        </div> <!-- panel qingguoAPI -->
+        <div panel-name="test-xml-qingguoAPI" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">F:\JavaEE-Program\QingGuoAPITest\src\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;qingguoAPI&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.HTMLReporter&quot;/&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.JUnitXMLReporter&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;testMulitAPI&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.edu.qgMultiAPI.DiaoLixiangTest&quot;/&gt;
+      &lt;class name=&quot;com.edu.qgMultiAPI.FengbinTest&quot;/&gt;
+      &lt;class name=&quot;com.edu.qgMultiAPI.ShengChunyueTest&quot;/&gt;
+      &lt;class name=&quot;com.edu.qgMultiAPI.SunLiyingTest&quot;/&gt;
+      &lt;class name=&quot;com.edu.qgMultiAPI.XuShiweiTest&quot;/&gt;
+      &lt;class name=&quot;com.edu.qgMultiAPI.YangKaijingTest&quot;/&gt;
+      &lt;class name=&quot;com.edu.qgMultiAPI.ZhangFeiyuTest&quot;/&gt;
+      &lt;class name=&quot;sendMail.SendRecentReportMail&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- testMulitAPI --&gt;
+&lt;/suite&gt; &lt;!-- qingguoAPI --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-qingguoAPI" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for qingguoAPI</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">testMulitAPI (8 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-qingguoAPI" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for qingguoAPI</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-qingguoAPI" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for qingguoAPI</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_qingguoAPI');
+function tableData_qingguoAPI() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(30);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'SendReport')
+data.setCell(0, 2, 'sendMail.SendRecentReportMail')
+data.setCell(0, 3, 1590);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'test_scence1')
+data.setCell(1, 2, 'com.edu.qgMultiAPI.SunLiyingTest')
+data.setCell(1, 3, 1019);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'sence1')
+data.setCell(2, 2, 'com.edu.qgMultiAPI.DiaoLixiangTest')
+data.setCell(2, 3, 765);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'test_scence5')
+data.setCell(3, 2, 'com.edu.qgMultiAPI.SunLiyingTest')
+data.setCell(3, 3, 717);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'scene1')
+data.setCell(4, 2, 'com.edu.qgMultiAPI.FengbinTest')
+data.setCell(4, 3, 639);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'scene3')
+data.setCell(5, 2, 'com.edu.qgMultiAPI.FengbinTest')
+data.setCell(5, 3, 552);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'third')
+data.setCell(6, 2, 'com.edu.qgMultiAPI.XuShiweiTest')
+data.setCell(6, 3, 495);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'forth')
+data.setCell(7, 2, 'com.edu.qgMultiAPI.XuShiweiTest')
+data.setCell(7, 3, 482);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'scene5')
+data.setCell(8, 2, 'com.edu.qgMultiAPI.FengbinTest')
+data.setCell(8, 3, 470);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'scene2')
+data.setCell(9, 2, 'com.edu.qgMultiAPI.ShengChunyueTest')
+data.setCell(9, 3, 463);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'first')
+data.setCell(10, 2, 'com.edu.qgMultiAPI.XuShiweiTest')
+data.setCell(10, 3, 462);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'test_scence3')
+data.setCell(11, 2, 'com.edu.qgMultiAPI.SunLiyingTest')
+data.setCell(11, 3, 461);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'second')
+data.setCell(12, 2, 'com.edu.qgMultiAPI.XuShiweiTest')
+data.setCell(12, 3, 459);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'test_scence2')
+data.setCell(13, 2, 'com.edu.qgMultiAPI.SunLiyingTest')
+data.setCell(13, 3, 450);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'sence4')
+data.setCell(14, 2, 'com.edu.qgMultiAPI.DiaoLixiangTest')
+data.setCell(14, 3, 412);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'fifth')
+data.setCell(15, 2, 'com.edu.qgMultiAPI.XuShiweiTest')
+data.setCell(15, 3, 405);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'sceneTest4')
+data.setCell(16, 2, 'com.edu.qgMultiAPI.YangKaijingTest')
+data.setCell(16, 3, 399);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'scene2')
+data.setCell(17, 2, 'com.edu.qgMultiAPI.FengbinTest')
+data.setCell(17, 3, 378);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'scene4')
+data.setCell(18, 2, 'com.edu.qgMultiAPI.FengbinTest')
+data.setCell(18, 3, 371);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'sence2')
+data.setCell(19, 2, 'com.edu.qgMultiAPI.DiaoLixiangTest')
+data.setCell(19, 3, 369);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'scene3')
+data.setCell(20, 2, 'com.edu.qgMultiAPI.ShengChunyueTest')
+data.setCell(20, 3, 361);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'scene1')
+data.setCell(21, 2, 'com.edu.qgMultiAPI.ShengChunyueTest')
+data.setCell(21, 3, 352);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'sence3')
+data.setCell(22, 2, 'com.edu.qgMultiAPI.DiaoLixiangTest')
+data.setCell(22, 3, 334);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'sceneTest5')
+data.setCell(23, 2, 'com.edu.qgMultiAPI.YangKaijingTest')
+data.setCell(23, 3, 330);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'sceneTest3')
+data.setCell(24, 2, 'com.edu.qgMultiAPI.YangKaijingTest')
+data.setCell(24, 3, 275);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'sceneTest1')
+data.setCell(25, 2, 'com.edu.qgMultiAPI.YangKaijingTest')
+data.setCell(25, 3, 267);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'scene4')
+data.setCell(26, 2, 'com.edu.qgMultiAPI.ShengChunyueTest')
+data.setCell(26, 3, 252);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'test_scence4')
+data.setCell(27, 2, 'com.edu.qgMultiAPI.SunLiyingTest')
+data.setCell(27, 3, 249);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'sceneTest2')
+data.setCell(28, 2, 'com.edu.qgMultiAPI.YangKaijingTest')
+data.setCell(28, 3, 150);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'scene01_login_success')
+data.setCell(29, 2, 'com.edu.qgMultiAPI.ZhangFeiyuTest')
+data.setCell(29, 3, 95);
+window.suiteTableData['qingguoAPI']= { tableData: data, tableDiv: 'times-div-qingguoAPI'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 14 seconds</span>
+              <div id="times-div-qingguoAPI">
+              </div> <!-- times-div-qingguoAPI -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-qingguoAPI" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for qingguoAPI</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-qingguoAPI" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-qingguoAPI" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.edu.qgMultiAPI.DiaoLixiangTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">sence1</span>
+                <span class="method-start">1233 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">2003 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">2005 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">sence2</span>
+                <span class="method-start">2030 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">2400 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">2401 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">sence3</span>
+                <span class="method-start">2408 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">2743 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">2744 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">sence4</span>
+                <span class="method-start">2751 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">3164 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.edu.qgMultiAPI.FengbinTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">scene1</span>
+                <span class="method-start">3167 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">scene2</span>
+                <span class="method-start">3807 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">scene3</span>
+                <span class="method-start">4186 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">scene4</span>
+                <span class="method-start">4741 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">scene5</span>
+                <span class="method-start">5113 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.edu.qgMultiAPI.ShengChunyueTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">scene1</span>
+                <span class="method-start">5585 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">scene2</span>
+                <span class="method-start">5941 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">scene3</span>
+                <span class="method-start">6405 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">scene4</span>
+                <span class="method-start">6778 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.edu.qgMultiAPI.SunLiyingTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">7033 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test_scence1</span>
+                <span class="method-start">7040 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">8062 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">8064 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test_scence2</span>
+                <span class="method-start">8081 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">8534 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">8537 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test_scence3</span>
+                <span class="method-start">8553 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">9016 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">9018 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test_scence4</span>
+                <span class="method-start">9030 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">9280 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">9280 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test_scence5</span>
+                <span class="method-start">9286 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">10008 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.edu.qgMultiAPI.XuShiweiTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">10012 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">fifth</span>
+                <span class="method-start">10023 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">10430 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">10432 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">first</span>
+                <span class="method-start">10450 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">10914 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">10916 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">forth</span>
+                <span class="method-start">10939 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">11422 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">11425 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">second</span>
+                <span class="method-start">11454 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">11914 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">11915 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">third</span>
+                <span class="method-start">11928 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">12425 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.edu.qgMultiAPI.YangKaijingTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initHttpClient</span>
+                <span class="method-start">12429 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">sceneTest1</span>
+                <span class="method-start">12450 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeHttpClient</span>
+                <span class="method-start">12717 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initHttpClient</span>
+                <span class="method-start">12718 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">sceneTest2</span>
+                <span class="method-start">12719 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeHttpClient</span>
+                <span class="method-start">12873 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initHttpClient</span>
+                <span class="method-start">12875 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">sceneTest3</span>
+                <span class="method-start">12877 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeHttpClient</span>
+                <span class="method-start">13156 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initHttpClient</span>
+                <span class="method-start">13158 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">sceneTest4</span>
+                <span class="method-start">13161 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeHttpClient</span>
+                <span class="method-start">13561 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initHttpClient</span>
+                <span class="method-start">13561 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">sceneTest5</span>
+                <span class="method-start">13563 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeHttpClient</span>
+                <span class="method-start">13896 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.edu.qgMultiAPI.ZhangFeiyuTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">scene01_login_success</span>
+                <span class="method-start">13899 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">sendMail.SendRecentReportMail</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">SendReport</span>
+                <span class="method-start">13996 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

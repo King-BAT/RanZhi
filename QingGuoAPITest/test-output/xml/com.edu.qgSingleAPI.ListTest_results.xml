@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="testSingleAPI"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.887">
+  <properties />
+  
+  
+            <testcase name="testListFailDueToNoLogin" time="0.080" classname="com.edu.qgSingleAPI.ListTest" />
+                <testcase name="testListFailDueToWrongUser" time="0.161" classname="com.edu.qgSingleAPI.ListTest" />
+                <testcase name="testListSuccess" time="0.212" classname="com.edu.qgSingleAPI.ListTest" />
+                <testcase name="testListFailDueToWringPwd" time="0.434" classname="com.edu.qgSingleAPI.ListTest" />
+      
+</testsuite>

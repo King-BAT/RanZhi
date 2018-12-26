@@ -1,0 +1,1057 @@
+<html>
+<head>
+<title>TestNG:  testSingleAPI</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>testSingleAPI</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>57/17/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Dec 25 14:25:13 CST 2018</td>
+</tr>
+<tr><td>Total time:</td><td>22 seconds (22318 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.edu.qgSingleAPI.AddressNewTest.addressnew17Test()'><b>addressnew17Test</b><br>Test class: com.edu.qgSingleAPI.AddressNewTest</td>
+<td><div><pre>java.lang.AssertionError: expected [请求参数不正确] but found [success]
+	at com.edu.qgSingleAPI.AddressNewTest.addressnew17Test(AddressNewTest.java:465)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2000421523", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2000421523'><pre>java.lang.AssertionError: expected [请求参数不正确] but found [success]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.edu.qgSingleAPI.AddressNewTest.addressnew17Test(AddressNewTest.java:465)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.edu.qgSingleAPI.AddressNewTest@49b2a47d</td></tr>
+<tr>
+<td title='com.edu.qgSingleAPI.AddressNewTest.addressnew18Test()'><b>addressnew18Test</b><br>Test class: com.edu.qgSingleAPI.AddressNewTest</td>
+<td><div><pre>java.lang.AssertionError: expected [请求参数不正确] but found [success]
+	at com.edu.qgSingleAPI.AddressNewTest.addressnew18Test(AddressNewTest.java:486)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1529002352", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1529002352'><pre>java.lang.AssertionError: expected [请求参数不正确] but found [success]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.edu.qgSingleAPI.AddressNewTest.addressnew18Test(AddressNewTest.java:486)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.edu.qgSingleAPI.AddressNewTest@49b2a47d</td></tr>
+<tr>
+<td title='com.edu.qgSingleAPI.AddressNewTest.addressnew19Test()'><b>addressnew19Test</b><br>Test class: com.edu.qgSingleAPI.AddressNewTest</td>
+<td><div><pre>java.lang.AssertionError: expected [请求参数不正确] but found [success]
+	at com.edu.qgSingleAPI.AddressNewTest.addressnew19Test(AddressNewTest.java:507)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1095849663", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1095849663'><pre>java.lang.AssertionError: expected [请求参数不正确] but found [success]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.edu.qgSingleAPI.AddressNewTest.addressnew19Test(AddressNewTest.java:507)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.edu.qgSingleAPI.AddressNewTest@49b2a47d</td></tr>
+<tr>
+<td title='com.edu.qgSingleAPI.AddressNewTest.addressnew20Test()'><b>addressnew20Test</b><br>Test class: com.edu.qgSingleAPI.AddressNewTest</td>
+<td><div><pre>java.lang.AssertionError: expected [请求参数不正确] but found [success]
+	at com.edu.qgSingleAPI.AddressNewTest.addressnew20Test(AddressNewTest.java:528)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1747702724", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1747702724'><pre>java.lang.AssertionError: expected [请求参数不正确] but found [success]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.edu.qgSingleAPI.AddressNewTest.addressnew20Test(AddressNewTest.java:528)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.edu.qgSingleAPI.AddressNewTest@49b2a47d</td></tr>
+<tr>
+<td title='com.edu.qgSingleAPI.AddressNewTest.addressnew22Test()'><b>addressnew22Test</b><br>Test class: com.edu.qgSingleAPI.AddressNewTest</td>
+<td><div><pre>java.lang.Exception: expectedValue doesn&apos;t match actualValue,actual Value is :success; expected Value is :最多只能添加6个地址
+	at com.edu.utils.Checker.verify(Checker.java:59)
+	at com.edu.utils.Checker.verifyXpath(Checker.java:45)
+	at com.edu.qgSingleAPI.AddressNewTest.addressnew22Test(AddressNewTest.java:547)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2041263297", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2041263297'><pre>java.lang.Exception: expectedValue doesn&apos;t match actualValue,actual Value is :success; expected Value is :最多只能添加6个地址
+	at com.edu.utils.Checker.verify(Checker.java:59)
+	at com.edu.utils.Checker.verifyXpath(Checker.java:45)
+	at com.edu.qgSingleAPI.AddressNewTest.addressnew22Test(AddressNewTest.java:547)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.edu.qgSingleAPI.AddressNewTest@49b2a47d</td></tr>
+<tr>
+<td title='com.edu.qgSingleAPI.AddressNewTest.addressnew24Test()'><b>addressnew24Test</b><br>Test class: com.edu.qgSingleAPI.AddressNewTest</td>
+<td><div><pre>java.lang.AssertionError: expected [请求参数不正确] but found [success]
+	at com.edu.qgSingleAPI.AddressNewTest.addressnew24Test(AddressNewTest.java:584)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace631717345", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace631717345'><pre>java.lang.AssertionError: expected [请求参数不正确] but found [success]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.edu.qgSingleAPI.AddressNewTest.addressnew24Test(AddressNewTest.java:584)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.edu.qgSingleAPI.AddressNewTest@49b2a47d</td></tr>
+<tr>
+<td title='com.edu.qgSingleAPI.AddressNewTest.addressnew25Test()'><b>addressnew25Test</b><br>Test class: com.edu.qgSingleAPI.AddressNewTest</td>
+<td><div><pre>java.lang.AssertionError: expected [请求参数不正确] but found [may not be null]
+	at com.edu.qgSingleAPI.AddressNewTest.addressnew25Test(AddressNewTest.java:606)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace62803825", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace62803825'><pre>java.lang.AssertionError: expected [请求参数不正确] but found [may not be null]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.edu.qgSingleAPI.AddressNewTest.addressnew25Test(AddressNewTest.java:606)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.edu.qgSingleAPI.AddressNewTest@49b2a47d</td></tr>
+<tr>
+<td title='com.edu.qgSingleAPI.AddressNewTest.addressnew26Test()'><b>addressnew26Test</b><br>Test class: com.edu.qgSingleAPI.AddressNewTest</td>
+<td><div><pre>java.lang.AssertionError: expected [请求参数不正确] but found [success]
+	at com.edu.qgSingleAPI.AddressNewTest.addressnew26Test(AddressNewTest.java:627)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace394349340", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace394349340'><pre>java.lang.AssertionError: expected [请求参数不正确] but found [success]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.edu.qgSingleAPI.AddressNewTest.addressnew26Test(AddressNewTest.java:627)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.edu.qgSingleAPI.AddressNewTest@49b2a47d</td></tr>
+<tr>
+<td title='com.edu.qgSingleAPI.AddressNewTest.addressnew27Test()'><b>addressnew27Test</b><br>Test class: com.edu.qgSingleAPI.AddressNewTest</td>
+<td><div><pre>java.lang.AssertionError: expected [请求参数不正确] but found [may not be null]
+	at com.edu.qgSingleAPI.AddressNewTest.addressnew27Test(AddressNewTest.java:649)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace399699227", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace399699227'><pre>java.lang.AssertionError: expected [请求参数不正确] but found [may not be null]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.edu.qgSingleAPI.AddressNewTest.addressnew27Test(AddressNewTest.java:649)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.edu.qgSingleAPI.AddressNewTest@49b2a47d</td></tr>
+<tr>
+<td title='com.edu.qgSingleAPI.AddressNewTest.addressnew2Test()'><b>addressnew2Test</b><br>Test class: com.edu.qgSingleAPI.AddressNewTest</td>
+<td><div><pre>java.lang.AssertionError: expected [receiverName参数类型不正确] but found [success]
+	at com.edu.qgSingleAPI.AddressNewTest.addressnew2Test(AddressNewTest.java:93)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace822359325", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace822359325'><pre>java.lang.AssertionError: expected [receiverName参数类型不正确] but found [success]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.edu.qgSingleAPI.AddressNewTest.addressnew2Test(AddressNewTest.java:93)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.edu.qgSingleAPI.AddressNewTest@49b2a47d</td></tr>
+<tr>
+<td title='com.edu.qgSingleAPI.AddressNewTest.addressnew3Test()'><b>addressnew3Test</b><br>Test class: com.edu.qgSingleAPI.AddressNewTest</td>
+<td><div><pre>java.lang.Exception: expectedValue doesn&apos;t match actualValue,actual Value is :success; expected Value is :cellPhone参数类型不正确
+	at com.edu.utils.Checker.verify(Checker.java:59)
+	at com.edu.utils.Checker.verifyXpath(Checker.java:45)
+	at com.edu.qgSingleAPI.AddressNewTest.addressnew3Test(AddressNewTest.java:122)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace990442552", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace990442552'><pre>java.lang.Exception: expectedValue doesn&apos;t match actualValue,actual Value is :success; expected Value is :cellPhone参数类型不正确
+	at com.edu.utils.Checker.verify(Checker.java:59)
+	at com.edu.utils.Checker.verifyXpath(Checker.java:45)
+	at com.edu.qgSingleAPI.AddressNewTest.addressnew3Test(AddressNewTest.java:122)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.edu.qgSingleAPI.AddressNewTest@49b2a47d</td></tr>
+<tr>
+<td title='com.edu.qgSingleAPI.AddressNewTest.addressnew4Test()'><b>addressnew4Test</b><br>Test class: com.edu.qgSingleAPI.AddressNewTest</td>
+<td><div><pre>java.lang.Exception: expectedValue doesn&apos;t match actualValue,actual Value is :success; expected Value is :addressDetail参数类型不正确
+	at com.edu.utils.Checker.verify(Checker.java:59)
+	at com.edu.utils.Checker.verifyXpath(Checker.java:45)
+	at com.edu.qgSingleAPI.AddressNewTest.addressnew4Test(AddressNewTest.java:147)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace79706679", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace79706679'><pre>java.lang.Exception: expectedValue doesn&apos;t match actualValue,actual Value is :success; expected Value is :addressDetail参数类型不正确
+	at com.edu.utils.Checker.verify(Checker.java:59)
+	at com.edu.utils.Checker.verifyXpath(Checker.java:45)
+	at com.edu.qgSingleAPI.AddressNewTest.addressnew4Test(AddressNewTest.java:147)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.edu.qgSingleAPI.AddressNewTest@49b2a47d</td></tr>
+<tr>
+<td title='com.edu.qgSingleAPI.AddressNewTest.addressnew5Test()'><b>addressnew5Test</b><br>Test class: com.edu.qgSingleAPI.AddressNewTest</td>
+<td><div><pre>java.lang.Exception: expectedValue doesn&apos;t match actualValue,actual Value is :success; expected Value is :province参数类型不正确
+	at com.edu.utils.Checker.verify(Checker.java:59)
+	at com.edu.utils.Checker.verifyXpath(Checker.java:45)
+	at com.edu.qgSingleAPI.AddressNewTest.addressnew5Test(AddressNewTest.java:172)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace118504112", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace118504112'><pre>java.lang.Exception: expectedValue doesn&apos;t match actualValue,actual Value is :success; expected Value is :province参数类型不正确
+	at com.edu.utils.Checker.verify(Checker.java:59)
+	at com.edu.utils.Checker.verifyXpath(Checker.java:45)
+	at com.edu.qgSingleAPI.AddressNewTest.addressnew5Test(AddressNewTest.java:172)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.edu.qgSingleAPI.AddressNewTest@49b2a47d</td></tr>
+<tr>
+<td title='com.edu.qgSingleAPI.AddressNewTest.addressnew6Test()'><b>addressnew6Test</b><br>Test class: com.edu.qgSingleAPI.AddressNewTest</td>
+<td><div><pre>java.lang.Exception: expectedValue doesn&apos;t match actualValue,actual Value is :最多只能添加6个地址; expected Value is :city参数类型不正确
+	at com.edu.utils.Checker.verify(Checker.java:59)
+	at com.edu.utils.Checker.verifyXpath(Checker.java:45)
+	at com.edu.qgSingleAPI.AddressNewTest.addressnew6Test(AddressNewTest.java:197)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1809995046", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1809995046'><pre>java.lang.Exception: expectedValue doesn&apos;t match actualValue,actual Value is :最多只能添加6个地址; expected Value is :city参数类型不正确
+	at com.edu.utils.Checker.verify(Checker.java:59)
+	at com.edu.utils.Checker.verifyXpath(Checker.java:45)
+	at com.edu.qgSingleAPI.AddressNewTest.addressnew6Test(AddressNewTest.java:197)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.edu.qgSingleAPI.AddressNewTest@49b2a47d</td></tr>
+<tr>
+<td title='com.edu.qgSingleAPI.AddressNewTest.addressnew7Test()'><b>addressnew7Test</b><br>Test class: com.edu.qgSingleAPI.AddressNewTest</td>
+<td><div><pre>java.lang.AssertionError: expected [area参数类型不正确] but found [success]
+	at com.edu.qgSingleAPI.AddressNewTest.addressnew7Test(AddressNewTest.java:224)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace212924259", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace212924259'><pre>java.lang.AssertionError: expected [area参数类型不正确] but found [success]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.edu.qgSingleAPI.AddressNewTest.addressnew7Test(AddressNewTest.java:224)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.edu.qgSingleAPI.AddressNewTest@49b2a47d</td></tr>
+<tr>
+<td title='com.edu.qgSingleAPI.LoginTest.testLoginFault1()'><b>testLoginFault1</b><br>Test class: com.edu.qgSingleAPI.LoginTest</td>
+<td><div><pre>java.lang.Exception: expectedValue doesn&apos;t match actualValue,actual Value is :success; expected Value is :用户名或者密码错误
+	at com.edu.utils.Checker.verify(Checker.java:59)
+	at com.edu.utils.Checker.verifyXpath(Checker.java:45)
+	at com.edu.qgSingleAPI.LoginTest.testLoginFault1(LoginTest.java:55)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1269826537", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1269826537'><pre>java.lang.Exception: expectedValue doesn&apos;t match actualValue,actual Value is :success; expected Value is :用户名或者密码错误
+	at com.edu.utils.Checker.verify(Checker.java:59)
+	at com.edu.utils.Checker.verifyXpath(Checker.java:45)
+	at com.edu.qgSingleAPI.LoginTest.testLoginFault1(LoginTest.java:55)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.edu.qgSingleAPI.LoginTest@311bf055</td></tr>
+<tr>
+<td title='com.edu.qgSingleAPI.LoginTest.testLoginFault8()'><b>testLoginFault8</b><br>Test class: com.edu.qgSingleAPI.LoginTest</td>
+<td><div><pre>java.lang.Exception: expectedValue doesn&apos;t match actualValue,actual Value is :用户名或者密码错误; expected Value is :用户名或密码错误
+	at com.edu.utils.Checker.verify(Checker.java:59)
+	at com.edu.utils.Checker.verifyXpath(Checker.java:45)
+	at com.edu.qgSingleAPI.LoginTest.testLogin(LoginTest.java:31)
+	at com.edu.qgSingleAPI.LoginTest.testLoginFault8(LoginTest.java:127)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace681015501", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace681015501'><pre>java.lang.Exception: expectedValue doesn&apos;t match actualValue,actual Value is :用户名或者密码错误; expected Value is :用户名或密码错误
+	at com.edu.utils.Checker.verify(Checker.java:59)
+	at com.edu.utils.Checker.verifyXpath(Checker.java:45)
+	at com.edu.qgSingleAPI.LoginTest.testLogin(LoginTest.java:31)
+	at com.edu.qgSingleAPI.LoginTest.testLoginFault8(LoginTest.java:127)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.edu.qgSingleAPI.LoginTest@311bf055</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='sendMail.SendRecentReportMail.SendReport()'><b>SendReport</b><br>Test class: sendMail.SendRecentReportMail</td>
+<td></td>
+<td>3</td>
+<td>sendMail.SendRecentReportMail@21be3395</td></tr>
+<tr>
+<td title='com.edu.qgSingleAPI.SkuListTest.TestSkuList1()'><b>TestSkuList1</b><br>Test class: com.edu.qgSingleAPI.SkuListTest<br>Test method: 获取商品信息</td>
+<td></td>
+<td>0</td>
+<td>com.edu.qgSingleAPI.SkuListTest@642a7222</td></tr>
+<tr>
+<td title='com.edu.qgSingleAPI.SkuListTest.TestSkuList2()'><b>TestSkuList2</b><br>Test class: com.edu.qgSingleAPI.SkuListTest<br>Test method: 验证方法不同</td>
+<td></td>
+<td>0</td>
+<td>com.edu.qgSingleAPI.SkuListTest@642a7222</td></tr>
+<tr>
+<td title='com.edu.qgSingleAPI.SkuListTest.TestSkuListById()'><b>TestSkuListById</b><br>Test class: com.edu.qgSingleAPI.SkuListTest<br>Test method: 获取goodsID为1的商品</td>
+<td></td>
+<td>0</td>
+<td>com.edu.qgSingleAPI.SkuListTest@642a7222</td></tr>
+<tr>
+<td title='com.edu.qgSingleAPI.AddressNewTest.addressnew10Test()'><b>addressnew10Test</b><br>Test class: com.edu.qgSingleAPI.AddressNewTest</td>
+<td></td>
+<td>2</td>
+<td>com.edu.qgSingleAPI.AddressNewTest@49b2a47d</td></tr>
+<tr>
+<td title='com.edu.qgSingleAPI.AddressNewTest.addressnew11Test()'><b>addressnew11Test</b><br>Test class: com.edu.qgSingleAPI.AddressNewTest</td>
+<td></td>
+<td>0</td>
+<td>com.edu.qgSingleAPI.AddressNewTest@49b2a47d</td></tr>
+<tr>
+<td title='com.edu.qgSingleAPI.AddressNewTest.addressnew12Test()'><b>addressnew12Test</b><br>Test class: com.edu.qgSingleAPI.AddressNewTest</td>
+<td></td>
+<td>0</td>
+<td>com.edu.qgSingleAPI.AddressNewTest@49b2a47d</td></tr>
+<tr>
+<td title='com.edu.qgSingleAPI.AddressNewTest.addressnew13Test()'><b>addressnew13Test</b><br>Test class: com.edu.qgSingleAPI.AddressNewTest</td>
+<td></td>
+<td>0</td>
+<td>com.edu.qgSingleAPI.AddressNewTest@49b2a47d</td></tr>
+<tr>
+<td title='com.edu.qgSingleAPI.AddressNewTest.addressnew14Test()'><b>addressnew14Test</b><br>Test class: com.edu.qgSingleAPI.AddressNewTest</td>
+<td></td>
+<td>0</td>
+<td>com.edu.qgSingleAPI.AddressNewTest@49b2a47d</td></tr>
+<tr>
+<td title='com.edu.qgSingleAPI.AddressNewTest.addressnew15Test()'><b>addressnew15Test</b><br>Test class: com.edu.qgSingleAPI.AddressNewTest</td>
+<td></td>
+<td>0</td>
+<td>com.edu.qgSingleAPI.AddressNewTest@49b2a47d</td></tr>
+<tr>
+<td title='com.edu.qgSingleAPI.AddressNewTest.addressnew16Test()'><b>addressnew16Test</b><br>Test class: com.edu.qgSingleAPI.AddressNewTest</td>
+<td></td>
+<td>0</td>
+<td>com.edu.qgSingleAPI.AddressNewTest@49b2a47d</td></tr>
+<tr>
+<td title='com.edu.qgSingleAPI.AddressNewTest.addressnew1Test()'><b>addressnew1Test</b><br>Test class: com.edu.qgSingleAPI.AddressNewTest</td>
+<td></td>
+<td>0</td>
+<td>com.edu.qgSingleAPI.AddressNewTest@49b2a47d</td></tr>
+<tr>
+<td title='com.edu.qgSingleAPI.AddressNewTest.addressnew23Test()'><b>addressnew23Test</b><br>Test class: com.edu.qgSingleAPI.AddressNewTest</td>
+<td></td>
+<td>0</td>
+<td>com.edu.qgSingleAPI.AddressNewTest@49b2a47d</td></tr>
+<tr>
+<td title='com.edu.qgSingleAPI.AddressNewTest.addressnew8Test()'><b>addressnew8Test</b><br>Test class: com.edu.qgSingleAPI.AddressNewTest</td>
+<td></td>
+<td>0</td>
+<td>com.edu.qgSingleAPI.AddressNewTest@49b2a47d</td></tr>
+<tr>
+<td title='com.edu.qgSingleAPI.AddressNewTest.addressnew9Test()'><b>addressnew9Test</b><br>Test class: com.edu.qgSingleAPI.AddressNewTest</td>
+<td></td>
+<td>0</td>
+<td>com.edu.qgSingleAPI.AddressNewTest@49b2a47d</td></tr>
+<tr>
+<td title='com.edu.qgSingleAPI.DeleteTest.del_fail01_test()'><b>del_fail01_test</b><br>Test class: com.edu.qgSingleAPI.DeleteTest</td>
+<td></td>
+<td>0</td>
+<td>com.edu.qgSingleAPI.DeleteTest@5be1d0a4</td></tr>
+<tr>
+<td title='com.edu.qgSingleAPI.DeleteTest.del_fail02_test()'><b>del_fail02_test</b><br>Test class: com.edu.qgSingleAPI.DeleteTest</td>
+<td></td>
+<td>0</td>
+<td>com.edu.qgSingleAPI.DeleteTest@5be1d0a4</td></tr>
+<tr>
+<td title='com.edu.qgSingleAPI.DeleteTest.del_fail03_test()'><b>del_fail03_test</b><br>Test class: com.edu.qgSingleAPI.DeleteTest</td>
+<td></td>
+<td>0</td>
+<td>com.edu.qgSingleAPI.DeleteTest@5be1d0a4</td></tr>
+<tr>
+<td title='com.edu.qgSingleAPI.DeleteTest.del_fail04_test()'><b>del_fail04_test</b><br>Test class: com.edu.qgSingleAPI.DeleteTest</td>
+<td></td>
+<td>0</td>
+<td>com.edu.qgSingleAPI.DeleteTest@5be1d0a4</td></tr>
+<tr>
+<td title='com.edu.qgSingleAPI.DeleteTest.del_success_test()'><b>del_success_test</b><br>Test class: com.edu.qgSingleAPI.DeleteTest</td>
+<td></td>
+<td>0</td>
+<td>com.edu.qgSingleAPI.DeleteTest@5be1d0a4</td></tr>
+<tr>
+<td title='com.edu.qgSingleAPI.GetTransportFeeTest.getFee1()'><b>getFee1</b><br>Test class: com.edu.qgSingleAPI.GetTransportFeeTest</td>
+<td></td>
+<td>0</td>
+<td>com.edu.qgSingleAPI.GetTransportFeeTest@415b0b49</td></tr>
+<tr>
+<td title='com.edu.qgSingleAPI.GetTransportFeeTest.getFee10()'><b>getFee10</b><br>Test class: com.edu.qgSingleAPI.GetTransportFeeTest</td>
+<td></td>
+<td>0</td>
+<td>com.edu.qgSingleAPI.GetTransportFeeTest@415b0b49</td></tr>
+<tr>
+<td title='com.edu.qgSingleAPI.GetTransportFeeTest.getFee11()'><b>getFee11</b><br>Test class: com.edu.qgSingleAPI.GetTransportFeeTest</td>
+<td></td>
+<td>0</td>
+<td>com.edu.qgSingleAPI.GetTransportFeeTest@415b0b49</td></tr>
+<tr>
+<td title='com.edu.qgSingleAPI.GetTransportFeeTest.getFee12()'><b>getFee12</b><br>Test class: com.edu.qgSingleAPI.GetTransportFeeTest</td>
+<td></td>
+<td>0</td>
+<td>com.edu.qgSingleAPI.GetTransportFeeTest@415b0b49</td></tr>
+<tr>
+<td title='com.edu.qgSingleAPI.GetTransportFeeTest.getFee13()'><b>getFee13</b><br>Test class: com.edu.qgSingleAPI.GetTransportFeeTest</td>
+<td></td>
+<td>0</td>
+<td>com.edu.qgSingleAPI.GetTransportFeeTest@415b0b49</td></tr>
+<tr>
+<td title='com.edu.qgSingleAPI.GetTransportFeeTest.getFee14()'><b>getFee14</b><br>Test class: com.edu.qgSingleAPI.GetTransportFeeTest</td>
+<td></td>
+<td>0</td>
+<td>com.edu.qgSingleAPI.GetTransportFeeTest@415b0b49</td></tr>
+<tr>
+<td title='com.edu.qgSingleAPI.GetTransportFeeTest.getFee2()'><b>getFee2</b><br>Test class: com.edu.qgSingleAPI.GetTransportFeeTest</td>
+<td></td>
+<td>0</td>
+<td>com.edu.qgSingleAPI.GetTransportFeeTest@415b0b49</td></tr>
+<tr>
+<td title='com.edu.qgSingleAPI.GetTransportFeeTest.getFee3()'><b>getFee3</b><br>Test class: com.edu.qgSingleAPI.GetTransportFeeTest</td>
+<td></td>
+<td>0</td>
+<td>com.edu.qgSingleAPI.GetTransportFeeTest@415b0b49</td></tr>
+<tr>
+<td title='com.edu.qgSingleAPI.GetTransportFeeTest.getFee4()'><b>getFee4</b><br>Test class: com.edu.qgSingleAPI.GetTransportFeeTest</td>
+<td></td>
+<td>0</td>
+<td>com.edu.qgSingleAPI.GetTransportFeeTest@415b0b49</td></tr>
+<tr>
+<td title='com.edu.qgSingleAPI.GetTransportFeeTest.getFee5()'><b>getFee5</b><br>Test class: com.edu.qgSingleAPI.GetTransportFeeTest</td>
+<td></td>
+<td>0</td>
+<td>com.edu.qgSingleAPI.GetTransportFeeTest@415b0b49</td></tr>
+<tr>
+<td title='com.edu.qgSingleAPI.GetTransportFeeTest.getFee6()'><b>getFee6</b><br>Test class: com.edu.qgSingleAPI.GetTransportFeeTest</td>
+<td></td>
+<td>0</td>
+<td>com.edu.qgSingleAPI.GetTransportFeeTest@415b0b49</td></tr>
+<tr>
+<td title='com.edu.qgSingleAPI.GetTransportFeeTest.getFee7()'><b>getFee7</b><br>Test class: com.edu.qgSingleAPI.GetTransportFeeTest</td>
+<td></td>
+<td>0</td>
+<td>com.edu.qgSingleAPI.GetTransportFeeTest@415b0b49</td></tr>
+<tr>
+<td title='com.edu.qgSingleAPI.GetTransportFeeTest.getFee8()'><b>getFee8</b><br>Test class: com.edu.qgSingleAPI.GetTransportFeeTest</td>
+<td></td>
+<td>0</td>
+<td>com.edu.qgSingleAPI.GetTransportFeeTest@415b0b49</td></tr>
+<tr>
+<td title='com.edu.qgSingleAPI.GetTransportFeeTest.getFee9()'><b>getFee9</b><br>Test class: com.edu.qgSingleAPI.GetTransportFeeTest</td>
+<td></td>
+<td>0</td>
+<td>com.edu.qgSingleAPI.GetTransportFeeTest@415b0b49</td></tr>
+<tr>
+<td title='com.edu.qgSingleAPI.SubmitTest.submit1()'><b>submit1</b><br>Test class: com.edu.qgSingleAPI.SubmitTest<br>Test method: 提交成功</td>
+<td></td>
+<td>0</td>
+<td>com.edu.qgSingleAPI.SubmitTest@7d322cad</td></tr>
+<tr>
+<td title='com.edu.qgSingleAPI.SubmitTest.submit2()'><b>submit2</b><br>Test class: com.edu.qgSingleAPI.SubmitTest<br>Test method: 提交失败，缺少skuIds参数</td>
+<td></td>
+<td>0</td>
+<td>com.edu.qgSingleAPI.SubmitTest@7d322cad</td></tr>
+<tr>
+<td title='com.edu.qgSingleAPI.SubmitTest.submit3()'><b>submit3</b><br>Test class: com.edu.qgSingleAPI.SubmitTest<br>Test method: 提交失败，缺少skuNumbers参数</td>
+<td></td>
+<td>0</td>
+<td>com.edu.qgSingleAPI.SubmitTest@7d322cad</td></tr>
+<tr>
+<td title='com.edu.qgSingleAPI.SubmitTest.submit4()'><b>submit4</b><br>Test class: com.edu.qgSingleAPI.SubmitTest<br>Test method: 提交失败，缺少stockIds参数</td>
+<td></td>
+<td>0</td>
+<td>com.edu.qgSingleAPI.SubmitTest@7d322cad</td></tr>
+<tr>
+<td title='com.edu.qgSingleAPI.SubmitTest.submit5()'><b>submit5</b><br>Test class: com.edu.qgSingleAPI.SubmitTest<br>Test method: 提交失败，缺少addressDetail参数</td>
+<td></td>
+<td>0</td>
+<td>com.edu.qgSingleAPI.SubmitTest@7d322cad</td></tr>
+<tr>
+<td title='com.edu.qgSingleAPI.SubmitTest.submit6()'><b>submit6</b><br>Test class: com.edu.qgSingleAPI.SubmitTest<br>Test method: 提交失败，缺少province参数</td>
+<td></td>
+<td>0</td>
+<td>com.edu.qgSingleAPI.SubmitTest@7d322cad</td></tr>
+<tr>
+<td title='com.edu.qgSingleAPI.SubmitTest.submit7()'><b>submit7</b><br>Test class: com.edu.qgSingleAPI.SubmitTest<br>Test method: 提交失败，province和city不匹配</td>
+<td></td>
+<td>0</td>
+<td>com.edu.qgSingleAPI.SubmitTest@7d322cad</td></tr>
+<tr>
+<td title='com.edu.qgSingleAPI.SubmitTest.submit8()'><b>submit8</b><br>Test class: com.edu.qgSingleAPI.SubmitTest<br>Test method: 提交失败，缺少skuIds和skunumbers两个参数</td>
+<td></td>
+<td>0</td>
+<td>com.edu.qgSingleAPI.SubmitTest@7d322cad</td></tr>
+<tr>
+<td title='com.edu.qgSingleAPI.SubmitTest.submit9()'><b>submit9</b><br>Test class: com.edu.qgSingleAPI.SubmitTest<br>Test method: 提交失败，缺少skuIds、skunumbers和stockIds参数</td>
+<td></td>
+<td>0</td>
+<td>com.edu.qgSingleAPI.SubmitTest@7d322cad</td></tr>
+<tr>
+<td title='com.edu.qgSingleAPI.SubmitTest.submita()'><b>submita</b><br>Test class: com.edu.qgSingleAPI.SubmitTest<br>Test method: 提交失败，skuIds为int类型</td>
+<td></td>
+<td>0</td>
+<td>com.edu.qgSingleAPI.SubmitTest@7d322cad</td></tr>
+<tr>
+<td title='com.edu.qgSingleAPI.SubmitTest.submitb()'><b>submitb</b><br>Test class: com.edu.qgSingleAPI.SubmitTest<br>Test method: 提交失败，skunumbers参数类型为int类型</td>
+<td></td>
+<td>0</td>
+<td>com.edu.qgSingleAPI.SubmitTest@7d322cad</td></tr>
+<tr>
+<td title='com.edu.qgSingleAPI.SubmitTest.submitc()'><b>submitc</b><br>Test class: com.edu.qgSingleAPI.SubmitTest<br>Test method: 提交失败，stockIds参数为int类型</td>
+<td></td>
+<td>0</td>
+<td>com.edu.qgSingleAPI.SubmitTest@7d322cad</td></tr>
+<tr>
+<td title='com.edu.qgSingleAPI.ListTest.testListFailDueToNoLogin()'><b>testListFailDueToNoLogin</b><br>Test class: com.edu.qgSingleAPI.ListTest</td>
+<td></td>
+<td>0</td>
+<td>com.edu.qgSingleAPI.ListTest@6d5620ce</td></tr>
+<tr>
+<td title='com.edu.qgSingleAPI.ListTest.testListFailDueToWringPwd()'><b>testListFailDueToWringPwd</b><br>Test class: com.edu.qgSingleAPI.ListTest</td>
+<td></td>
+<td>0</td>
+<td>com.edu.qgSingleAPI.ListTest@6d5620ce</td></tr>
+<tr>
+<td title='com.edu.qgSingleAPI.ListTest.testListFailDueToWrongUser()'><b>testListFailDueToWrongUser</b><br>Test class: com.edu.qgSingleAPI.ListTest</td>
+<td></td>
+<td>0</td>
+<td>com.edu.qgSingleAPI.ListTest@6d5620ce</td></tr>
+<tr>
+<td title='com.edu.qgSingleAPI.ListTest.testListSuccess()'><b>testListSuccess</b><br>Test class: com.edu.qgSingleAPI.ListTest</td>
+<td></td>
+<td>0</td>
+<td>com.edu.qgSingleAPI.ListTest@6d5620ce</td></tr>
+<tr>
+<td title='com.edu.qgSingleAPI.LoginTest.testLoginFault2()'><b>testLoginFault2</b><br>Test class: com.edu.qgSingleAPI.LoginTest</td>
+<td></td>
+<td>0</td>
+<td>com.edu.qgSingleAPI.LoginTest@311bf055</td></tr>
+<tr>
+<td title='com.edu.qgSingleAPI.LoginTest.testLoginFault3()'><b>testLoginFault3</b><br>Test class: com.edu.qgSingleAPI.LoginTest</td>
+<td></td>
+<td>0</td>
+<td>com.edu.qgSingleAPI.LoginTest@311bf055</td></tr>
+<tr>
+<td title='com.edu.qgSingleAPI.LoginTest.testLoginFault4()'><b>testLoginFault4</b><br>Test class: com.edu.qgSingleAPI.LoginTest</td>
+<td></td>
+<td>0</td>
+<td>com.edu.qgSingleAPI.LoginTest@311bf055</td></tr>
+<tr>
+<td title='com.edu.qgSingleAPI.LoginTest.testLoginFault5()'><b>testLoginFault5</b><br>Test class: com.edu.qgSingleAPI.LoginTest</td>
+<td></td>
+<td>0</td>
+<td>com.edu.qgSingleAPI.LoginTest@311bf055</td></tr>
+<tr>
+<td title='com.edu.qgSingleAPI.LoginTest.testLoginFault6()'><b>testLoginFault6</b><br>Test class: com.edu.qgSingleAPI.LoginTest</td>
+<td></td>
+<td>0</td>
+<td>com.edu.qgSingleAPI.LoginTest@311bf055</td></tr>
+<tr>
+<td title='com.edu.qgSingleAPI.LoginTest.testLoginFault7()'><b>testLoginFault7</b><br>Test class: com.edu.qgSingleAPI.LoginTest</td>
+<td></td>
+<td>0</td>
+<td>com.edu.qgSingleAPI.LoginTest@311bf055</td></tr>
+<tr>
+<td title='com.edu.qgSingleAPI.LoginTest.testLoginSuccess()'><b>testLoginSuccess</b><br>Test class: com.edu.qgSingleAPI.LoginTest</td>
+<td></td>
+<td>0</td>
+<td>com.edu.qgSingleAPI.LoginTest@311bf055</td></tr>
+</table><p>
+</body>
+</html>

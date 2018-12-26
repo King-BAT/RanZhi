@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="30" passed="25" failed="5" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2018-12-25T10:06:37Z" name="qingguoAPI" finished-at="2018-12-25T10:06:53Z" duration-ms="15621">
+    <groups>
+    </groups>
+    <test started-at="2018-12-25T10:06:37Z" name="testMulitAPI" finished-at="2018-12-25T10:06:53Z" duration-ms="15621">
+      <class name="com.edu.qgMultiAPI.ShengChunyueTest">
+        <test-method signature="scene1()[pri:0, instance:com.edu.qgMultiAPI.ShengChunyueTest@13d73f29]" started-at="2018-12-25T10:06:43Z" name="scene1" description="登录成功--查询收获地址--删除收获地址" finished-at="2018-12-25T10:06:43Z" duration-ms="352" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scene1 -->
+        <test-method signature="scene2()[pri:0, instance:com.edu.qgMultiAPI.ShengChunyueTest@13d73f29]" started-at="2018-12-25T10:06:43Z" name="scene2" description="登录成功--查询收获地址--添加收获地址--删除收获地址" finished-at="2018-12-25T10:06:43Z" duration-ms="463" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scene2 -->
+        <test-method signature="scene3()[pri:0, instance:com.edu.qgMultiAPI.ShengChunyueTest@13d73f29]" started-at="2018-12-25T10:06:43Z" name="scene3" description="登录成功--获取所有商品的sku列表--查询收货地址--计算运费--提交订单" finished-at="2018-12-25T10:06:44Z" duration-ms="361" status="FAIL">
+          <exception class="net.sf.json.JSONException">
+            <message>
+              <![CDATA[JSONObject["list"] is not a JSONArray.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[net.sf.json.JSONException: JSONObject["list"] is not a JSONArray.
+at net.sf.json.JSONObject.getJSONArray(JSONObject.java:2038)
+at com.edu.qgMultiAPI.ShengChunyueTest.scene3(ShengChunyueTest.java:105)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- net.sf.json.JSONException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scene3 -->
+        <test-method signature="scene4()[pri:0, instance:com.edu.qgMultiAPI.ShengChunyueTest@13d73f29]" started-at="2018-12-25T10:06:44Z" name="scene4" description="登录失败--查询收获地址--计算运费" finished-at="2018-12-25T10:06:44Z" duration-ms="252" status="FAIL">
+          <exception class="net.sf.json.JSONException">
+            <message>
+              <![CDATA[JSONObject["list"] is not a JSONArray.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[net.sf.json.JSONException: JSONObject["list"] is not a JSONArray.
+at net.sf.json.JSONObject.getJSONArray(JSONObject.java:2038)
+at com.edu.qgMultiAPI.ShengChunyueTest.scene4(ShengChunyueTest.java:149)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- net.sf.json.JSONException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scene4 -->
+      </class> <!-- com.edu.qgMultiAPI.ShengChunyueTest -->
+      <class name="com.edu.qgMultiAPI.YangKaijingTest">
+        <test-method is-config="true" signature="initHttpClient()[pri:0, instance:com.edu.qgMultiAPI.YangKaijingTest@2f67a4d3]" started-at="2018-12-25T10:06:50Z" name="initHttpClient" finished-at="2018-12-25T10:06:50Z" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initHttpClient -->
+        <test-method signature="sceneTest1()[pri:0, instance:com.edu.qgMultiAPI.YangKaijingTest@2f67a4d3]" started-at="2018-12-25T10:06:50Z" name="sceneTest1" finished-at="2018-12-25T10:06:50Z" duration-ms="267" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sceneTest1 -->
+        <test-method is-config="true" signature="closeHttpClient()[pri:0, instance:com.edu.qgMultiAPI.YangKaijingTest@2f67a4d3]" started-at="2018-12-25T10:06:50Z" name="closeHttpClient" finished-at="2018-12-25T10:06:50Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeHttpClient -->
+        <test-method is-config="true" signature="initHttpClient()[pri:0, instance:com.edu.qgMultiAPI.YangKaijingTest@2f67a4d3]" started-at="2018-12-25T10:06:50Z" name="initHttpClient" finished-at="2018-12-25T10:06:50Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initHttpClient -->
+        <test-method signature="sceneTest2()[pri:0, instance:com.edu.qgMultiAPI.YangKaijingTest@2f67a4d3]" started-at="2018-12-25T10:06:50Z" name="sceneTest2" finished-at="2018-12-25T10:06:50Z" duration-ms="150" status="FAIL">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Illegal character in query at index 85: http://study-perf.qa.netease.com/common/getTransportFee?id=82321270&addressDetial=河北省_石家庄市_裕华区]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Illegal character in query at index 85: http://study-perf.qa.netease.com/common/getTransportFee?id=82321270&addressDetial=河北省_石家庄市_裕华区
+at java.base/java.net.URI.create(URI.java:881)
+at org.apache.http.client.methods.HttpGet.<init>(HttpGet.java:66)
+at com.edu.qgMultiAPI.YangKaijingTest.getTransportFee(YangKaijingTest.java:140)
+at com.edu.qgMultiAPI.YangKaijingTest.sceneTest2(YangKaijingTest.java:271)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.net.URISyntaxException: Illegal character in query at index 85: http://study-perf.qa.netease.com/common/getTransportFee?id=82321270&addressDetial=河北省_石家庄市_裕华区
+at java.base/java.net.URI$Parser.fail(URI.java:2912)
+at java.base/java.net.URI$Parser.checkChars(URI.java:3083)
+at java.base/java.net.URI$Parser.parseHierarchical(URI.java:3171)
+at java.base/java.net.URI$Parser.parse(URI.java:3113)
+at java.base/java.net.URI.<init>(URI.java:598)
+at java.base/java.net.URI.create(URI.java:879)
+... 28 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sceneTest2 -->
+        <test-method is-config="true" signature="closeHttpClient()[pri:0, instance:com.edu.qgMultiAPI.YangKaijingTest@2f67a4d3]" started-at="2018-12-25T10:06:50Z" name="closeHttpClient" finished-at="2018-12-25T10:06:50Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeHttpClient -->
+        <test-method is-config="true" signature="initHttpClient()[pri:0, instance:com.edu.qgMultiAPI.YangKaijingTest@2f67a4d3]" started-at="2018-12-25T10:06:50Z" name="initHttpClient" finished-at="2018-12-25T10:06:50Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initHttpClient -->
+        <test-method signature="sceneTest3()[pri:0, instance:com.edu.qgMultiAPI.YangKaijingTest@2f67a4d3]" started-at="2018-12-25T10:06:50Z" name="sceneTest3" finished-at="2018-12-25T10:06:50Z" duration-ms="275" status="FAIL">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Illegal character in query at index 85: http://study-perf.qa.netease.com/common/getTransportFee?id=82321270&addressDetial=河北省_石家庄市_裕华区]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Illegal character in query at index 85: http://study-perf.qa.netease.com/common/getTransportFee?id=82321270&addressDetial=河北省_石家庄市_裕华区
+at java.base/java.net.URI.create(URI.java:881)
+at org.apache.http.client.methods.HttpGet.<init>(HttpGet.java:66)
+at com.edu.qgMultiAPI.YangKaijingTest.getTransportFee(YangKaijingTest.java:140)
+at com.edu.qgMultiAPI.YangKaijingTest.sceneTest3(YangKaijingTest.java:291)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.net.URISyntaxException: Illegal character in query at index 85: http://study-perf.qa.netease.com/common/getTransportFee?id=82321270&addressDetial=河北省_石家庄市_裕华区
+at java.base/java.net.URI$Parser.fail(URI.java:2912)
+at java.base/java.net.URI$Parser.checkChars(URI.java:3083)
+at java.base/java.net.URI$Parser.parseHierarchical(URI.java:3171)
+at java.base/java.net.URI$Parser.parse(URI.java:3113)
+at java.base/java.net.URI.<init>(URI.java:598)
+at java.base/java.net.URI.create(URI.java:879)
+... 28 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sceneTest3 -->
+        <test-method is-config="true" signature="closeHttpClient()[pri:0, instance:com.edu.qgMultiAPI.YangKaijingTest@2f67a4d3]" started-at="2018-12-25T10:06:50Z" name="closeHttpClient" finished-at="2018-12-25T10:06:50Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeHttpClient -->
+        <test-method is-config="true" signature="initHttpClient()[pri:0, instance:com.edu.qgMultiAPI.YangKaijingTest@2f67a4d3]" started-at="2018-12-25T10:06:50Z" name="initHttpClient" finished-at="2018-12-25T10:06:50Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initHttpClient -->
+        <test-method signature="sceneTest4()[pri:0, instance:com.edu.qgMultiAPI.YangKaijingTest@2f67a4d3]" started-at="2018-12-25T10:06:50Z" name="sceneTest4" finished-at="2018-12-25T10:06:51Z" duration-ms="399" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sceneTest4 -->
+        <test-method is-config="true" signature="closeHttpClient()[pri:0, instance:com.edu.qgMultiAPI.YangKaijingTest@2f67a4d3]" started-at="2018-12-25T10:06:51Z" name="closeHttpClient" finished-at="2018-12-25T10:06:51Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeHttpClient -->
+        <test-method is-config="true" signature="initHttpClient()[pri:0, instance:com.edu.qgMultiAPI.YangKaijingTest@2f67a4d3]" started-at="2018-12-25T10:06:51Z" name="initHttpClient" finished-at="2018-12-25T10:06:51Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initHttpClient -->
+        <test-method signature="sceneTest5()[pri:0, instance:com.edu.qgMultiAPI.YangKaijingTest@2f67a4d3]" started-at="2018-12-25T10:06:51Z" name="sceneTest5" finished-at="2018-12-25T10:06:51Z" duration-ms="330" status="FAIL">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Illegal character in query at index 85: http://study-perf.qa.netease.com/common/getTransportFee?id=82321270&addressDetial=河北省_石家庄市_裕华区]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Illegal character in query at index 85: http://study-perf.qa.netease.com/common/getTransportFee?id=82321270&addressDetial=河北省_石家庄市_裕华区
+at java.base/java.net.URI.create(URI.java:881)
+at org.apache.http.client.methods.HttpGet.<init>(HttpGet.java:66)
+at com.edu.qgMultiAPI.YangKaijingTest.getTransportFee(YangKaijingTest.java:140)
+at com.edu.qgMultiAPI.YangKaijingTest.sceneTest5(YangKaijingTest.java:344)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.net.URISyntaxException: Illegal character in query at index 85: http://study-perf.qa.netease.com/common/getTransportFee?id=82321270&addressDetial=河北省_石家庄市_裕华区
+at java.base/java.net.URI$Parser.fail(URI.java:2912)
+at java.base/java.net.URI$Parser.checkChars(URI.java:3083)
+at java.base/java.net.URI$Parser.parseHierarchical(URI.java:3171)
+at java.base/java.net.URI$Parser.parse(URI.java:3113)
+at java.base/java.net.URI.<init>(URI.java:598)
+at java.base/java.net.URI.create(URI.java:879)
+... 28 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sceneTest5 -->
+        <test-method is-config="true" signature="closeHttpClient()[pri:0, instance:com.edu.qgMultiAPI.YangKaijingTest@2f67a4d3]" started-at="2018-12-25T10:06:51Z" name="closeHttpClient" finished-at="2018-12-25T10:06:51Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeHttpClient -->
+      </class> <!-- com.edu.qgMultiAPI.YangKaijingTest -->
+      <class name="com.edu.qgMultiAPI.DiaoLixiangTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.edu.qgMultiAPI.DiaoLixiangTest@9816741]" started-at="2018-12-25T10:06:37Z" name="setUp" finished-at="2018-12-25T10:06:38Z" duration-ms="1233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="sence1()[pri:0, instance:com.edu.qgMultiAPI.DiaoLixiangTest@9816741]" started-at="2018-12-25T10:06:38Z" name="sence1" finished-at="2018-12-25T10:06:39Z" duration-ms="765" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sence1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.edu.qgMultiAPI.DiaoLixiangTest@9816741]" started-at="2018-12-25T10:06:39Z" name="tearDown" finished-at="2018-12-25T10:06:39Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.edu.qgMultiAPI.DiaoLixiangTest@9816741]" started-at="2018-12-25T10:06:39Z" name="setUp" finished-at="2018-12-25T10:06:39Z" duration-ms="25" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="sence2()[pri:0, instance:com.edu.qgMultiAPI.DiaoLixiangTest@9816741]" started-at="2018-12-25T10:06:39Z" name="sence2" finished-at="2018-12-25T10:06:39Z" duration-ms="369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sence2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.edu.qgMultiAPI.DiaoLixiangTest@9816741]" started-at="2018-12-25T10:06:39Z" name="tearDown" finished-at="2018-12-25T10:06:39Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.edu.qgMultiAPI.DiaoLixiangTest@9816741]" started-at="2018-12-25T10:06:39Z" name="setUp" finished-at="2018-12-25T10:06:39Z" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="sence3()[pri:0, instance:com.edu.qgMultiAPI.DiaoLixiangTest@9816741]" started-at="2018-12-25T10:06:39Z" name="sence3" finished-at="2018-12-25T10:06:40Z" duration-ms="334" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sence3 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.edu.qgMultiAPI.DiaoLixiangTest@9816741]" started-at="2018-12-25T10:06:40Z" name="tearDown" finished-at="2018-12-25T10:06:40Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.edu.qgMultiAPI.DiaoLixiangTest@9816741]" started-at="2018-12-25T10:06:40Z" name="setUp" finished-at="2018-12-25T10:06:40Z" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="sence4()[pri:0, instance:com.edu.qgMultiAPI.DiaoLixiangTest@9816741]" started-at="2018-12-25T10:06:40Z" name="sence4" finished-at="2018-12-25T10:06:40Z" duration-ms="412" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sence4 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.edu.qgMultiAPI.DiaoLixiangTest@9816741]" started-at="2018-12-25T10:06:40Z" name="tearDown" finished-at="2018-12-25T10:06:40Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.edu.qgMultiAPI.DiaoLixiangTest -->
+      <class name="com.edu.qgMultiAPI.SunLiyingTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.edu.qgMultiAPI.SunLiyingTest@565f390]" started-at="2018-12-25T10:06:44Z" name="setUp" finished-at="2018-12-25T10:06:44Z" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test_scence1()[pri:0, instance:com.edu.qgMultiAPI.SunLiyingTest@565f390]" started-at="2018-12-25T10:06:44Z" name="test_scence1" description="登录成功--获取skuList成功--获取list成功--计算运费--新建订单--提交订单--删除订单" finished-at="2018-12-25T10:06:45Z" duration-ms="1019" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_scence1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.edu.qgMultiAPI.SunLiyingTest@565f390]" started-at="2018-12-25T10:06:45Z" name="tearDown" finished-at="2018-12-25T10:06:45Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.edu.qgMultiAPI.SunLiyingTest@565f390]" started-at="2018-12-25T10:06:45Z" name="setUp" finished-at="2018-12-25T10:06:45Z" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test_scence2()[pri:0, instance:com.edu.qgMultiAPI.SunLiyingTest@565f390]" started-at="2018-12-25T10:06:45Z" name="test_scence2" description="登录成功--新建地址--删除订单" finished-at="2018-12-25T10:06:46Z" duration-ms="450" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_scence2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.edu.qgMultiAPI.SunLiyingTest@565f390]" started-at="2018-12-25T10:06:46Z" name="tearDown" finished-at="2018-12-25T10:06:46Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.edu.qgMultiAPI.SunLiyingTest@565f390]" started-at="2018-12-25T10:06:46Z" name="setUp" finished-at="2018-12-25T10:06:46Z" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test_scence3()[pri:0, instance:com.edu.qgMultiAPI.SunLiyingTest@565f390]" started-at="2018-12-25T10:06:46Z" name="test_scence3" description="登录成功--新建订单--提交订单" finished-at="2018-12-25T10:06:46Z" duration-ms="461" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_scence3 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.edu.qgMultiAPI.SunLiyingTest@565f390]" started-at="2018-12-25T10:06:46Z" name="tearDown" finished-at="2018-12-25T10:06:46Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.edu.qgMultiAPI.SunLiyingTest@565f390]" started-at="2018-12-25T10:06:46Z" name="setUp" finished-at="2018-12-25T10:06:46Z" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test_scence4()[pri:0, instance:com.edu.qgMultiAPI.SunLiyingTest@565f390]" started-at="2018-12-25T10:06:46Z" name="test_scence4" description="登录失败--查询收货地址失败" finished-at="2018-12-25T10:06:46Z" duration-ms="249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_scence4 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.edu.qgMultiAPI.SunLiyingTest@565f390]" started-at="2018-12-25T10:06:46Z" name="tearDown" finished-at="2018-12-25T10:06:46Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.edu.qgMultiAPI.SunLiyingTest@565f390]" started-at="2018-12-25T10:06:46Z" name="setUp" finished-at="2018-12-25T10:06:46Z" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test_scence5()[pri:0, instance:com.edu.qgMultiAPI.SunLiyingTest@565f390]" started-at="2018-12-25T10:06:46Z" name="test_scence5" description="登录成功--查询地址--计算运费--新建订单--提交订单--删除订单" finished-at="2018-12-25T10:06:47Z" duration-ms="717" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_scence5 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.edu.qgMultiAPI.SunLiyingTest@565f390]" started-at="2018-12-25T10:06:47Z" name="tearDown" finished-at="2018-12-25T10:06:47Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.edu.qgMultiAPI.SunLiyingTest -->
+      <class name="com.edu.qgMultiAPI.ZhangFeiyuTest">
+        <test-method signature="scene01_login_success()[pri:0, instance:com.edu.qgMultiAPI.ZhangFeiyuTest@5e3f861]" started-at="2018-12-25T10:06:51Z" name="scene01_login_success" finished-at="2018-12-25T10:06:51Z" duration-ms="95" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scene01_login_success -->
+      </class> <!-- com.edu.qgMultiAPI.ZhangFeiyuTest -->
+      <class name="com.edu.qgMultiAPI.FengbinTest">
+        <test-method signature="scene1()[pri:0, instance:com.edu.qgMultiAPI.FengbinTest@1e16c0aa]" started-at="2018-12-25T10:06:40Z" name="scene1" description="登录成功-获取商品列表-添加收货地址-提交订单" finished-at="2018-12-25T10:06:41Z" duration-ms="639" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scene1 -->
+        <test-method signature="scene2()[pri:0, instance:com.edu.qgMultiAPI.FengbinTest@1e16c0aa]" started-at="2018-12-25T10:06:41Z" name="scene2" description="查看商品信息-计算运费-提交订单" finished-at="2018-12-25T10:06:41Z" duration-ms="378" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scene2 -->
+        <test-method signature="scene3()[pri:0, instance:com.edu.qgMultiAPI.FengbinTest@1e16c0aa]" started-at="2018-12-25T10:06:41Z" name="scene3" description="登录成功-查看商品信息-删除指定收货地址" finished-at="2018-12-25T10:06:42Z" duration-ms="552" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scene3 -->
+        <test-method signature="scene4()[pri:0, instance:com.edu.qgMultiAPI.FengbinTest@1e16c0aa]" started-at="2018-12-25T10:06:42Z" name="scene4" description="登录成功-获取指定商品信息-删除指定收货地址（想要的地址不能再添加）" finished-at="2018-12-25T10:06:42Z" duration-ms="371" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scene4 -->
+        <test-method signature="scene5()[pri:0, instance:com.edu.qgMultiAPI.FengbinTest@1e16c0aa]" started-at="2018-12-25T10:06:42Z" name="scene5" description="登陆成功-获取指定商品信息-获取运费-提交订单" finished-at="2018-12-25T10:06:43Z" duration-ms="470" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scene5 -->
+      </class> <!-- com.edu.qgMultiAPI.FengbinTest -->
+      <class name="sendMail.SendRecentReportMail">
+        <test-method signature="SendReport()[pri:0, instance:sendMail.SendRecentReportMail@2fb0623e]" started-at="2018-12-25T10:06:51Z" name="SendReport" finished-at="2018-12-25T10:06:53Z" duration-ms="1590" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SendReport -->
+      </class> <!-- sendMail.SendRecentReportMail -->
+      <class name="com.edu.qgMultiAPI.XuShiweiTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.edu.qgMultiAPI.XuShiweiTest@7dc3712]" started-at="2018-12-25T10:06:47Z" name="setUp" finished-at="2018-12-25T10:06:47Z" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="fifth()[pri:0, instance:com.edu.qgMultiAPI.XuShiweiTest@7dc3712]" started-at="2018-12-25T10:06:47Z" name="fifth" description="登录失败-有查询收货地址-计算运费失败-提交订单" finished-at="2018-12-25T10:06:48Z" duration-ms="405" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fifth -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.edu.qgMultiAPI.XuShiweiTest@7dc3712]" started-at="2018-12-25T10:06:48Z" name="tearDown" finished-at="2018-12-25T10:06:48Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.edu.qgMultiAPI.XuShiweiTest@7dc3712]" started-at="2018-12-25T10:06:48Z" name="setUp" finished-at="2018-12-25T10:06:48Z" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="first()[pri:0, instance:com.edu.qgMultiAPI.XuShiweiTest@7dc3712]" started-at="2018-12-25T10:06:48Z" name="first" description="登录成功-查询收货地址成功-计算运费失败-提交订单成功" finished-at="2018-12-25T10:06:48Z" duration-ms="462" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- first -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.edu.qgMultiAPI.XuShiweiTest@7dc3712]" started-at="2018-12-25T10:06:48Z" name="tearDown" finished-at="2018-12-25T10:06:48Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.edu.qgMultiAPI.XuShiweiTest@7dc3712]" started-at="2018-12-25T10:06:48Z" name="setUp" finished-at="2018-12-25T10:06:48Z" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="forth()[pri:0, instance:com.edu.qgMultiAPI.XuShiweiTest@7dc3712]" started-at="2018-12-25T10:06:48Z" name="forth" description="登录失败-无查询收货地址-计算运费失败-提交订单" finished-at="2018-12-25T10:06:48Z" duration-ms="482" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forth -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.edu.qgMultiAPI.XuShiweiTest@7dc3712]" started-at="2018-12-25T10:06:48Z" name="tearDown" finished-at="2018-12-25T10:06:48Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.edu.qgMultiAPI.XuShiweiTest@7dc3712]" started-at="2018-12-25T10:06:48Z" name="setUp" finished-at="2018-12-25T10:06:49Z" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="second()[pri:0, instance:com.edu.qgMultiAPI.XuShiweiTest@7dc3712]" started-at="2018-12-25T10:06:49Z" name="second" description="登录成功-有收获地址-计算运费失败-提交订单" finished-at="2018-12-25T10:06:49Z" duration-ms="459" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- second -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.edu.qgMultiAPI.XuShiweiTest@7dc3712]" started-at="2018-12-25T10:06:49Z" name="tearDown" finished-at="2018-12-25T10:06:49Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.edu.qgMultiAPI.XuShiweiTest@7dc3712]" started-at="2018-12-25T10:06:49Z" name="setUp" finished-at="2018-12-25T10:06:49Z" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="third()[pri:0, instance:com.edu.qgMultiAPI.XuShiweiTest@7dc3712]" started-at="2018-12-25T10:06:49Z" name="third" description="登录成功-查询收货地址-计算运费失败-提交订单失败" finished-at="2018-12-25T10:06:49Z" duration-ms="495" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- third -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.edu.qgMultiAPI.XuShiweiTest@7dc3712]" started-at="2018-12-25T10:06:49Z" name="tearDown" finished-at="2018-12-25T10:06:49Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.edu.qgMultiAPI.XuShiweiTest -->
+    </test> <!-- testMulitAPI -->
+  </suite> <!-- qingguoAPI -->
+</testng-results>

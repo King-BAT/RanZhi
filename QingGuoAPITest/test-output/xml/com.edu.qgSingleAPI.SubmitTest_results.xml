@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="testSingleAPI"
+           tests="12"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.148">
+  <properties />
+  
+  
+            <testcase name="submit5" time="0.002" classname="com.edu.qgSingleAPI.SubmitTest" />
+                <testcase name="submita" time="0.002" classname="com.edu.qgSingleAPI.SubmitTest" />
+                <testcase name="submit1" time="0.001" classname="com.edu.qgSingleAPI.SubmitTest" />
+                <testcase name="submit6" time="0.022" classname="com.edu.qgSingleAPI.SubmitTest" />
+                <testcase name="submit9" time="0.001" classname="com.edu.qgSingleAPI.SubmitTest" />
+                <testcase name="submitb" time="0.001" classname="com.edu.qgSingleAPI.SubmitTest" />
+                <testcase name="submit4" time="0.001" classname="com.edu.qgSingleAPI.SubmitTest" />
+                <testcase name="submit7" time="0.001" classname="com.edu.qgSingleAPI.SubmitTest" />
+                <testcase name="submit8" time="0.001" classname="com.edu.qgSingleAPI.SubmitTest" />
+                <testcase name="submitc" time="0.113" classname="com.edu.qgSingleAPI.SubmitTest" />
+                <testcase name="submit3" time="0.001" classname="com.edu.qgSingleAPI.SubmitTest" />
+                <testcase name="submit2" time="0.002" classname="com.edu.qgSingleAPI.SubmitTest" />
+      
+</testsuite>

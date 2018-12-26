@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ranzhi]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test thread-count="5" name="testSingleAPI(failed)">
+    <classes>
+      <class name="com.edu.qgSingleAPI.AddressNewTest">
+        <methods>
+          <include name="addressnew22Test"/>
+          <include name="addressnew3Test"/>
+          <include name="addressnew5Test"/>
+          <include name="addressnew20Test"/>
+          <include name="addressnew4Test"/>
+          <include name="addressnew26Test"/>
+          <include name="addressnew17Test"/>
+          <include name="addressnew6Test"/>
+          <include name="addressnew19Test"/>
+          <include name="addressnew2Test"/>
+          <include name="addressnew25Test"/>
+          <include name="addressnew27Test"/>
+          <include name="addressnew18Test"/>
+          <include name="addressnew7Test"/>
+          <include name="addressnew24Test"/>
+        </methods>
+      </class> <!-- com.edu.qgSingleAPI.AddressNewTest -->
+      <class name="com.edu.qgSingleAPI.LoginTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="testLoginFault1"/>
+          <include name="testLoginFault8"/>
+        </methods>
+      </class> <!-- com.edu.qgSingleAPI.LoginTest -->
+    </classes>
+  </test> <!-- testSingleAPI(failed) -->
+</suite> <!-- Failed suite [ranzhi] -->

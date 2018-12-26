@@ -1,0 +1,34 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="qingguoAPI" verbose="1">
+	<listeners>
+		<!-- testng的XML配置文件中添加这些内容 -->
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener
+			class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+	<!-- <test name="testSingleAPI">
+		<classes>
+			<class name="com.edu.qgSingleAPI.AddressNewTest"></class>
+			<class name="com.edu.qgSingleAPI.DeleteTest"></class>
+			<class name="com.edu.qgSingleAPI.GetTransportFeeTest"></class>
+			<class name="com.edu.qgSingleAPI.ListTest"></class>
+			<class name="com.edu.qgSingleAPI.LoginTest"></class>
+			<class name="com.edu.qgSingleAPI.SkuListTest"></class>
+			<class name="com.edu.qgSingleAPI.SubmitTest"></class>
+			<class name="sendMail.SendRecentReportMail"></class>
+		</classes>
+	</test> -->
+	<test name="testMulitAPI">
+		<classes>
+			<class name="com.edu.qgMultiAPI.DiaoLixiangTest"></class>
+			<class name="com.edu.qgMultiAPI.FengbinTest"></class>
+			<class name="com.edu.qgMultiAPI.ShengChunyueTest"></class>
+			<class name="com.edu.qgMultiAPI.SunLiyingTest"></class>
+			<class name="com.edu.qgMultiAPI.XuShiweiTest"></class>
+			<class name="com.edu.qgMultiAPI.YangKaijingTest"></class>
+			<class name="com.edu.qgMultiAPI.ZhangFeiyuTest"></class>
+			<class name="sendMail.SendRecentReportMail"></class>
+		</classes>
+	</test>
+</suite>

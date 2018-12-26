@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="testSingleAPI"
+           tests="5"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="1.183">
+  <properties />
+  
+  
+            <testcase name="del_fail01_test" time="0.176" classname="com.edu.qgSingleAPI.DeleteTest" />
+                <testcase name="del_fail02_test" time="0.313" classname="com.edu.qgSingleAPI.DeleteTest" />
+                <testcase name="del_fail04_test" time="0.163" classname="com.edu.qgSingleAPI.DeleteTest" />
+                <testcase name="del_fail03_test" time="0.169" classname="com.edu.qgSingleAPI.DeleteTest" />
+                <testcase name="del_success_test" time="0.362" classname="com.edu.qgSingleAPI.DeleteTest" />
+      
+</testsuite>

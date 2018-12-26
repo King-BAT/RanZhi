@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="testSingleAPI"
+           tests="14"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="1.118">
+  <properties />
+  
+  
+            <testcase name="getFee1" time="0.122" classname="com.edu.qgSingleAPI.GetTransportFeeTest" />
+                <testcase name="getFee4" time="0.002" classname="com.edu.qgSingleAPI.GetTransportFeeTest" />
+                <testcase name="getFee14" time="0.071" classname="com.edu.qgSingleAPI.GetTransportFeeTest" />
+                <testcase name="getFee10" time="0.085" classname="com.edu.qgSingleAPI.GetTransportFeeTest" />
+                <testcase name="getFee3" time="0.082" classname="com.edu.qgSingleAPI.GetTransportFeeTest" />
+                <testcase name="getFee12" time="0.089" classname="com.edu.qgSingleAPI.GetTransportFeeTest" />
+                <testcase name="getFee5" time="0.084" classname="com.edu.qgSingleAPI.GetTransportFeeTest" />
+                <testcase name="getFee13" time="0.096" classname="com.edu.qgSingleAPI.GetTransportFeeTest" />
+                <testcase name="getFee7" time="0.078" classname="com.edu.qgSingleAPI.GetTransportFeeTest" />
+                <testcase name="getFee6" time="0.070" classname="com.edu.qgSingleAPI.GetTransportFeeTest" />
+                <testcase name="getFee8" time="0.088" classname="com.edu.qgSingleAPI.GetTransportFeeTest" />
+                <testcase name="getFee2" time="0.079" classname="com.edu.qgSingleAPI.GetTransportFeeTest" />
+                <testcase name="getFee9" time="0.091" classname="com.edu.qgSingleAPI.GetTransportFeeTest" />
+                <testcase name="getFee11" time="0.081" classname="com.edu.qgSingleAPI.GetTransportFeeTest" />
+      
+</testsuite>

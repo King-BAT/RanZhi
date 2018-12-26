@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="testSingleAPI"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.296">
+  <properties />
+  
+  
+            <testcase name="TestSkuListById" time="0.095" classname="com.edu.qgSingleAPI.SkuListTest" />
+                <testcase name="TestSkuList2" time="0.103" classname="com.edu.qgSingleAPI.SkuListTest" />
+                <testcase name="TestSkuList1" time="0.098" classname="com.edu.qgSingleAPI.SkuListTest" />
+      
+</testsuite>

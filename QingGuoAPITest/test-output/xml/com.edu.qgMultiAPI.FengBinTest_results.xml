@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="testMulitAPI"
+           tests="5"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="2.410">
+  <properties />
+  
+  
+            <testcase name="scene2" time="0.378" classname="com.edu.qgMultiAPI.FengbinTest" />
+                <testcase name="scene4" time="0.371" classname="com.edu.qgMultiAPI.FengbinTest" />
+                <testcase name="scene1" time="0.639" classname="com.edu.qgMultiAPI.FengbinTest" />
+                <testcase name="scene3" time="0.552" classname="com.edu.qgMultiAPI.FengbinTest" />
+                <testcase name="scene5" time="0.470" classname="com.edu.qgMultiAPI.FengbinTest" />
+      
+</testsuite>

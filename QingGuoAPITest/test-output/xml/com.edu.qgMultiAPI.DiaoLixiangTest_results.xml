@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="testMulitAPI"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="1.880">
+  <properties />
+  
+  
+            <testcase name="sence3" time="0.334" classname="com.edu.qgMultiAPI.DiaoLixiangTest" />
+                <testcase name="sence4" time="0.412" classname="com.edu.qgMultiAPI.DiaoLixiangTest" />
+                <testcase name="sence2" time="0.369" classname="com.edu.qgMultiAPI.DiaoLixiangTest" />
+                <testcase name="sence1" time="0.765" classname="com.edu.qgMultiAPI.DiaoLixiangTest" />
+      
+</testsuite>
