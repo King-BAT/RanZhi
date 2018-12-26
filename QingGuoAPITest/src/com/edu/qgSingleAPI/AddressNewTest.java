@@ -12,6 +12,9 @@ import com.edu.utils.Checker;
 
 import net.sf.json.JSONObject;
 
+/*
+* @author = 杨凯静
+*/
 public class AddressNewTest {
 	String newUrl = "http://study-perf.qa.netease.com/fgadmin/address/new";
 	CookieStore cookie = null;
