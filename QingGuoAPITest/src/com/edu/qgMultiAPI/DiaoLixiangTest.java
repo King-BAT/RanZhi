@@ -18,7 +18,9 @@ import com.edu.core.HttpDriver;
 import com.edu.utils.Checker;
 
 import net.sf.json.JSONObject;
-
+/*
+* @author=刁立翔
+*/
 public class DiaoLixiangTest extends BaseTest{
 	String result = null;
 	Checker check = null;
