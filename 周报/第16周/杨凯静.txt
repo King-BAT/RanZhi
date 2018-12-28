@@ -1,0 +1,23 @@
+复习接口测试：
+	回顾了一下基本概念（GET、POST、Cookie、Session）
+	用例设计方法
+	单接口测试用例设计
+	面向场景测试用例设计（画流程图-确定场景-确定接口-生成用例）
+	Fiddler的使用（代理服务器的设置）
+	PostMan的使用
+	接口自动化概述
+	HttpClient（Get请求、Post请求）
+	复习了HttpClient的代码（实例）
+	引入测试框架（testng、框架思想）
+	JSON的解析
+	面向场景测试的自动化测试总结
+	Htmlunit复习：get、post、cookie
+	Django
+	request库:get、post
+	基于Python的接口框架思想
+接口测试以正文或附件发送邮件（Java）基于第二阶段的测试框架，将美化的测试报告使用邮件（正文freemarker、附件reportng）发送
+编写青果商城delete单接口测试用例
+编写青果商城接口面向场景测试用例
+执行青果商城接口测试用例：
+Java--使用httpclient的框架实现了添加地址new的单接口测试和场景法测试
+Python--使用request框架实现了添加地址new的单接口测试和场景法测试

@@ -1,0 +1,4 @@
+1、设计单接口和面向场景的测试用例并执行
+2、python借助Unittest+Requests实现青果的单个接口测试自动化和基于场景的自动化测试
+3、Java借助httpunit/httpclient+testng实现青果的单个接口测试和面向场景的自动化测试
+4、使用selenium+TestNG+ReportNG美化测试报告
